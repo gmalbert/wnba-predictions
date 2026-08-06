@@ -60,7 +60,7 @@ else:
             with c1:
                 st.markdown(f"**{away}** @ **{home}**")
                 st.markdown(_prob_bar(hp, home, away), unsafe_allow_html=True)
-                if spread is not None:
+                if spread is not None and pd.notna(spread):
                     try:
                         sv = float(spread)
                         fav = home if sv < 0 else away
@@ -69,10 +69,14 @@ else:
                         pass
             with c2:
                 st.markdown(f"**Confidence:** {conf}")
-                if market_prob is not None:
+                if market_prob is not None and pd.notna(market_prob):
                     st.caption(f"Market home prob: {market_prob:.1%}")
-                if edge is not None:
+                else:
+                    st.caption("Market home prob: —")
+                if edge is not None and pd.notna(edge):
                     st.caption(f"Edge vs market: {edge:+.1%}")
+                else:
+                    st.caption("Edge vs market: —")
 
 st.markdown("---")
 st.caption("Predictions are for informational purposes only. Past performance does not guarantee future results.")

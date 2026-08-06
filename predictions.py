@@ -108,7 +108,7 @@ def home_page():
             spread = g.get("predicted_spread", None)
 
             spread_str = ""
-            if spread is not None:
+            if spread is not None and pd.notna(spread):
                 try:
                     spread_val = float(spread)
                     fav = home if spread_val < 0 else away
