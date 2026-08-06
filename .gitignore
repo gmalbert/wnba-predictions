@@ -33,3 +33,5 @@ scratchpad/
 # OS
 .DS_Store
 Thumbs.db
+
+*.code-workspace
