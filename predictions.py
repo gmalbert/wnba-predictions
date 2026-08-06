@@ -152,35 +152,7 @@ def home_page():
 
 
 # ── Theme selector (sidebar, on every page) ───────────────────────────────────
-def add_theme_selector():
-    """Sidebar dropdown of daytime + nighttime themes; applies on selection."""
-    import streamlit as st
-
-    from config.themes import DAYTIME, NIGHTTIME, slug_from_option, theme_options
-    from utils.theme_utils import apply_theme, current_theme_slug
-
-    with st.sidebar:
-        st.markdown("#### 🎨 Theme")
-        period = st.radio("Mode", ["Daytime", "Nighttime"], horizontal=True, key="theme_period")
-        options = theme_options("daytime" if period == "Daytime" else "nighttime")
-        current = current_theme_slug()
-        # Find the matching option label
-        default_idx = next(
-            (i for i, opt in enumerate(options) if slug_from_option(opt) == current),
-            0,
-        )
-        choice = st.selectbox(
-            "Theme",
-            options,
-            index=default_idx,
-            key="theme_choice",
-            help="Applies immediately across the whole app.",
-        )
-        chosen_slug = slug_from_option(choice)
-        if chosen_slug != current:
-            apply_theme(chosen_slug)
-            st.rerun()
-
+from footer import add_theme_selector
 
 add_theme_selector()
 

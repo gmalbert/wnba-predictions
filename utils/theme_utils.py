@@ -56,9 +56,27 @@ def apply_theme(slug: str) -> None:
 
 
 def current_theme_slug() -> str:
-    """Read the current primaryColor from config.toml to detect the active theme."""
+    """Read the theme colors from config.toml to detect the active theme.
+
+    Compares the full color set (primary + background + secondary + text) since
+    multiple themes share the same primaryColor (e.g. #D6286A is used by
+    Graphite Ice, Peach Fizz, Buttercream, and Wine Violet).
+    """
     text = CONFIG_PATH.read_text(encoding="utf-8")
+    # Extract the [theme] section values present in the config
+    import re
+
+    def _val(key: str) -> str:
+        m = re.search(rf'^{key}\s*=\s*"([^"]+)"', text, flags=re.MULTILINE)
+        return m.group(1) if m else ""
+
+    active = {
+        "primaryColor": _val("primaryColor"),
+        "backgroundColor": _val("backgroundColor"),
+        "secondaryBackgroundColor": _val("secondaryBackgroundColor"),
+        "textColor": _val("textColor"),
+    }
     for slug, theme in ALL_THEMES.items():
-        if f'primaryColor = "{theme["primaryColor"]}"' in text:
+        if all(theme[k] == active.get(k) for k in active):
             return slug
     return "brand"
