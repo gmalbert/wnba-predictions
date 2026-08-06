@@ -157,6 +157,7 @@ PREDICTION_COLUMNS = [
     "game_id",
     "season",
     "game_date",
+    "scheduled_start",
     "home_team",
     "away_team",
     "home_team_id",

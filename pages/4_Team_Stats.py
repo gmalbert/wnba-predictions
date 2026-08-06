@@ -11,7 +11,7 @@ from utils.data_fetcher import get_team_game_stats, get_player_game_stats
 from utils.feature_engine import engineer_team_features
 from utils.league_config import get_league_config
 from utils.identity import load_teams
-from footer import add_sidebar_logo
+from footer import add_sidebar_logo, add_betting_oracle_footer
 
 st.set_page_config(page_title="Team Stats", page_icon="📊", layout="wide")
 add_sidebar_logo()
@@ -71,3 +71,5 @@ if {"points_L10", "points"}.issubset(feats.columns):
     chart = feats[["game_date", "points", "points_L10"]].copy()
     chart = chart.rename(columns={"points": "Game", "points_L10": "Rolling L10"})
     st.line_chart(chart.set_index("game_date"))
+
+add_betting_oracle_footer()

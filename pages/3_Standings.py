@@ -5,7 +5,7 @@ import pandas as pd
 
 from utils.data_fetcher import get_standings
 from utils.league_config import get_league_config
-from footer import add_sidebar_logo
+from footer import add_sidebar_logo, add_betting_oracle_footer
 
 st.set_page_config(page_title="Standings", page_icon="🏆", layout="wide")
 add_sidebar_logo()
@@ -20,38 +20,61 @@ try:
 except Exception:
     standings = pd.DataFrame()
 
+# Display-friendly column mapping (source column -> (label, formatter))
+COLUMN_SPECS = {
+    "TeamName": ("Team", None),
+    "WINS": ("Wins", None),
+    "LOSSES": ("Losses", None),
+    "WinPCT": ("Win %", lambda v: f"{v:.3f}"),
+    "strCurrentStreak": ("Streak", None),
+    "PlayoffRank": ("Playoff Rank", None),
+    "Conference": ("Conference", None),
+    "HOME": ("Home Record", None),
+    "ROAD": ("Road Record", None),
+    "L10": ("Last 10", None),
+    "PointsPG": ("Points/Game", None),
+    "OppPointsPG": ("Opp Points/Game", None),
+    "DiffPointsPG": ("Point Diff", None),
+}
+
+
+def _build_display(df: pd.DataFrame) -> pd.DataFrame:
+    """Build a display frame with title-case, underscore-free headers."""
+    out = pd.DataFrame()
+    for col, (label, fmt) in COLUMN_SPECS.items():
+        if col in df.columns:
+            series = df[col]
+            if fmt:
+                series = series.apply(fmt)
+            out[label] = series
+    return out
+
+
 if standings.empty:
     st.info("No standings data available. Run `python scripts/daily_update.py` to fetch.")
 else:
-    # Normalize WNBA Stats columns (LeagueStandingsV3) to display-friendly names
-    rename_map = {
-        "TeamName": "team_name",
-        "TeamCity": "team_city",
-        "WINS": "wins",
-        "LOSSES": "losses",
-        "WIN_PCT": "win_pct",
-        "Conference": "conference",
-        "HomeRecord": "home_record",
-        "RoadRecord": "road_record",
-        "strCurrentStreak": "streak",
-        "PlayoffRank": "playoff_rank",
-    }
-    standings = standings.rename(columns={k: v for k, v in rename_map.items() if k in standings.columns})
-    if "team_name" not in standings.columns and "TeamName" in standings.columns:
-        standings["team_name"] = standings["TeamName"]
-    if "team_name" not in standings.columns and "team_city" in standings.columns:
-        standings["team_name"] = standings["team_city"]
-
-    conf_col = "conference" if "conference" in standings.columns else None
+    conf_col = "Conference" if "Conference" in standings.columns else None
     if conf_col and standings[conf_col].notna().any():
         for conf, grp in standings.groupby(conf_col):
             st.subheader(conf)
-            display_cols = [c for c in ["team_name", "wins", "losses", "win_pct", "streak", "playoff_rank"] if c in grp.columns]
-            if display_cols:
-                st.dataframe(grp[display_cols].sort_values("wins", ascending=False).reset_index(drop=True), width="stretch")
+            display = _build_display(grp)
+            if not display.empty:
+                sort_col = "Wins" if "Wins" in display.columns else display.columns[0]
+                st.dataframe(
+                    display.sort_values(sort_col, ascending=False).reset_index(drop=True),
+                    width="stretch",
+                    hide_index=True,
+                )
     else:
-        display_cols = [c for c in ["team_name", "wins", "losses", "win_pct", "streak"] if c in standings.columns]
-        if display_cols:
-            st.dataframe(standings[display_cols].sort_values("wins", ascending=False).reset_index(drop=True), width="stretch")
+        display = _build_display(standings)
+        if not display.empty:
+            sort_col = "Wins" if "Wins" in display.columns else display.columns[0]
+            st.dataframe(
+                display.sort_values(sort_col, ascending=False).reset_index(drop=True),
+                width="stretch",
+                hide_index=True,
+            )
         else:
-            st.dataframe(standings, width="stretch")
+            st.dataframe(standings, width="stretch", hide_index=True)
+
+add_betting_oracle_footer()

@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 
 from utils.data_fetcher import load_predictions, get_odds, load_health
-from footer import add_sidebar_logo
+from footer import add_sidebar_logo, add_betting_oracle_footer
 
 st.set_page_config(page_title="Game Predictions", page_icon="🏀", layout="wide")
 add_sidebar_logo()
@@ -30,18 +30,26 @@ def _prob_bar(home_prob: float, home: str, away: str) -> str:
     )
 
 
+def _format_game_time(g: pd.Series) -> str:
+    """Format the scheduled start into a readable date + time string."""
+    start = g.get("scheduled_start")
+    if start is None or pd.isna(start):
+        return ""
+    try:
+        ts = pd.to_datetime(start)
+        # Convert to US/Eastern for display
+        ts = ts.tz_convert("America/New_York") if ts.tzinfo else ts.tz_localize("UTC").tz_convert("America/New_York")
+        return ts.strftime("%a, %b %d · %I:%M %p ET")
+    except Exception:
+        return ""
+
+
 st.title("🏀 Game Predictions")
 
 preds = load_predictions()
 if preds.empty:
     st.info("No stored predictions yet. Run `python scripts/generate_predictions.py` (or scripts/daily_update.py) to generate them.")
 else:
-    # Provenance banner
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Model Version", preds["model_version"].iloc[0] if "model_version" in preds else "—")
-    col2.metric("Feature Schema", preds["feature_schema_version"].iloc[0] if "feature_schema_version" in preds else "—")
-    col3.metric("Generated At", str(preds["generated_at"].iloc[0])[:16] if "generated_at" in preds else "—")
-
     # Abstention / status filter
     statuses = preds["status"].value_counts()
     for status, count in statuses.items():
@@ -56,10 +64,13 @@ else:
         spread = g.get("predicted_spread")
         market_prob = g.get("market_home_prob")
         edge = g.get("edge")
+        game_time = _format_game_time(g)
 
         with st.container(border=True):
             c1, c2 = st.columns([3, 2])
             with c1:
+                if game_time:
+                    st.caption(f"🕒 {game_time}")
                 st.markdown(f"**{away}** @ **{home}**")
                 st.markdown(_prob_bar(hp, home, away), unsafe_allow_html=True)
                 if spread is not None and pd.notna(spread):
@@ -82,3 +93,4 @@ else:
 
 st.markdown("---")
 st.caption("Predictions are for informational purposes only. Past performance does not guarantee future results.")
+add_betting_oracle_footer()

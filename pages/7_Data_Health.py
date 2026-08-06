@@ -10,7 +10,7 @@ import pandas as pd
 from utils.data_fetcher import load_health
 from utils.league_config import get_league_config
 from utils.model_utils import load_eval_metrics, model_dir
-from footer import add_sidebar_logo
+from footer import add_sidebar_logo, add_betting_oracle_footer
 
 st.set_page_config(page_title="Data Health", page_icon="🩺", layout="wide")
 add_sidebar_logo()
@@ -43,3 +43,5 @@ c3.metric("Regulation Minutes", _CFG.regulation_minutes)
 metrics = load_eval_metrics()
 if metrics:
     st.caption(f"Last training: {len(metrics.get('seasons', []))} seasons, {metrics.get('n_rows', 0):,} rows — `{model_dir()}`")
+
+add_betting_oracle_footer()

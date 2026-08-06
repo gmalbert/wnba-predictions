@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 
 from utils.model_utils import load_eval_metrics, model_dir
-from footer import add_sidebar_logo
+from footer import add_sidebar_logo, add_betting_oracle_footer
 
 st.set_page_config(page_title="Model Performance", page_icon="📈", layout="wide")
 add_sidebar_logo()
@@ -46,3 +46,4 @@ if m or t:
     tc2.metric("Totals RMSE", t.get("total_points_rmse", "—"))
 
 st.caption(f"Artifacts stored in `{model_dir()}`")
+add_betting_oracle_footer()

@@ -202,6 +202,7 @@ def predict_season_games(
             "game_id": str(game.get("canonical_game_id", "")),
             "season": int(season),
             "game_date": str(game.get("game_date", "")),
+            "scheduled_start": game.get("scheduled_start"),
             "home_team": home_name,
             "away_team": away_name,
             "home_team_id": home_id,
