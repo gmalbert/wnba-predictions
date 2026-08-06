@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import datetime as dt
 import os
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -29,6 +30,20 @@ def _now() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
 
+def _load_env_key() -> str:
+    """Read ODDS_API_KEY from the environment or the repo .env file."""
+    key = os.getenv("ODDS_API_KEY", "")
+    if key:
+        return key
+    env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+    if env_path.exists():
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line.startswith("ODDS_API_KEY="):
+                return line.split("=", 1)[1].strip().strip('"').strip("'")
+    return ""
+
+
 class OddsApiAdapter:
     """Adapter around The Odds API for WNBA markets."""
 
@@ -36,7 +51,7 @@ class OddsApiAdapter:
 
     def __init__(self, api_key: str | None = None) -> None:
         self.cfg = get_league_config()
-        self.api_key = api_key or os.getenv("ODDS_API_KEY", "")
+        self.api_key = api_key or _load_env_key()
 
     def fetch_odds(self) -> pd.DataFrame:
         """Current WNBA odds across books, normalized to the canonical schema."""

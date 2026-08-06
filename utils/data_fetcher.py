@@ -241,12 +241,21 @@ def get_odds(force_refresh: bool = False) -> pd.DataFrame:
     if not force_refresh:
         cached = _read_cache(path)
         if cached is not None and not cached.empty:
-            return cached
+            # Treat cached odds as fresh for 10 minutes; otherwise refetch
+            if "retrieved_at" in cached.columns:
+                newest = pd.to_datetime(cached["retrieved_at"], errors="coerce", utc=True).max()
+                if pd.notna(newest) and (dt.datetime.now(dt.timezone.utc) - newest).total_seconds() < 600:
+                    return cached
+            else:
+                return cached
 
     for source in priority_for("odds"):
         try:
             adapter = _adapter_for(source)
-            df = adapter.fetch_odds()
+            fetch = getattr(adapter, "fetch_odds", None)
+            if fetch is None:
+                continue
+            df = fetch()
             if df.empty:
                 continue
             df["league_key"] = get_league_config().league_key
@@ -290,12 +299,14 @@ def load_predictions(date_str: str | None = None) -> pd.DataFrame:
     """Load stored prediction records for a date (YYYY-MM-DD) or the latest."""
     if date_str:
         path = predictions_dir() / f"predictions_{date_str}.parquet"
-        return _read_cache(path) or pd.DataFrame()
+        df = _read_cache(path)
+        return df if df is not None and not df.empty else pd.DataFrame()
     # Latest available
     files = sorted(predictions_dir().glob("predictions_*.parquet")) if predictions_dir().exists() else []
     if not files:
         return pd.DataFrame()
-    return _read_cache(files[-1]) or pd.DataFrame()
+    df = _read_cache(files[-1])
+    return df if df is not None and not df.empty else pd.DataFrame()
 
 
 def save_predictions(df: pd.DataFrame, date_str: str) -> Path:

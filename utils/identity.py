@@ -75,8 +75,9 @@ def _team_lookups() -> dict[str, dict]:
         if field not in df.columns:
             continue
         lookups[field] = {
-            str(v): row.to_dict() for v, row in zip(df[field], df.to_dict("records"))
-            if pd.notna(v) and str(v)
+            str(r.get(field)): r
+            for r in df.to_dict("records")
+            if pd.notna(r.get(field)) and str(r.get(field))
         }
     return lookups
 
@@ -143,8 +144,9 @@ def _player_lookups() -> dict[str, dict]:
         if field not in df.columns:
             continue
         lookups[field] = {
-            str(v): row.to_dict() for v, row in zip(df[field], df.to_dict("records"))
-            if pd.notna(v) and str(v)
+            str(r.get(field)): r
+            for r in df.to_dict("records")
+            if pd.notna(r.get(field)) and str(r.get(field))
         }
     return lookups
 

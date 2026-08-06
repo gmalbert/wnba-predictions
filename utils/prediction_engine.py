@@ -15,6 +15,7 @@ import pandas as pd
 from utils.data_contracts import PREDICTION_COLUMNS, metadata as contracts_metadata
 from utils.data_fetcher import get_schedule, get_team_game_stats, get_odds, predictions_dir
 from utils.feature_engine import build_game_feature_vector, engineer_team_features
+from utils.identity import get_team_by_canonical
 from utils.league_config import get_league_config
 from utils.model_utils import (
     FEATURE_COLS_GAME,
@@ -77,6 +78,13 @@ def _market_lookup(odds_df: pd.DataFrame) -> dict[str, dict]:
             rec["total"] = float(np.nanmean(tot["point"].astype(float)))
         if rec:
             lookup[str(gid)] = rec
+            # Also index by (game_date, home_team, away_team) so ESPN schedule
+            # game ids can join to Odds API game ids via team names + date.
+            gdate = grp["game_date"].iloc[0] if "game_date" in grp else None
+            home = grp["home_team"].iloc[0] if "home_team" in grp else ""
+            away = grp["away_team"].iloc[0] if "away_team" in grp else ""
+            if gdate and home and away:
+                lookup[f"{gdate}|{home}|{away}"] = rec
     return lookup
 
 
@@ -112,7 +120,19 @@ def predict_season_games(
     if schedule.empty:
         return pd.DataFrame(columns=PREDICTION_COLUMNS)
 
-    team_stats = get_team_game_stats(season)
+    # Team stats may lag (e.g. wehoop-data coverage ends at 2022 while the
+    # current season is 2026). Fall back to the most recent available season's
+    # stats so predictions can still be generated from the schedule.
+    team_stats = pd.DataFrame()
+    feature_season = int(season)
+    for s in range(int(season), _CFG.historical_start - 1, -1):
+        try:
+            team_stats = get_team_game_stats(s)
+        except Exception:
+            team_stats = pd.DataFrame()
+        if not team_stats.empty:
+            feature_season = s
+            break
     if team_stats.empty:
         return pd.DataFrame(columns=PREDICTION_COLUMNS)
 
@@ -160,7 +180,20 @@ def predict_season_games(
             hprob = (0.75 * ml_prob + 0.25 * elo_prob) if models else elo_prob
             pred_spread = win_prob_to_spread(hprob)
 
-        market = market_lookup.get(str(game.get("canonical_game_id", ""))) or {}
+        market = market_lookup.get(str(game.get("canonical_game_id", "")))
+        if market is None:
+            # Fallback: join by date + team names (Odds API ids differ from ESPN ids)
+            gdate = str(game.get("game_date", ""))
+            home_id_str, away_id_str = str(home_id), str(away_id)
+            home_row_ref = get_team_by_canonical(home_id)
+            away_row_ref = get_team_by_canonical(away_id)
+            home_name = home_row_ref.get("display_name", home_id_str) if home_row_ref else home_id_str
+            away_name = away_row_ref.get("display_name", away_id_str) if away_row_ref else away_id_str
+            for cand in (f"{gdate}|{home_name}|{away_name}", f"{gdate}|{away_name}|{home_name}"):
+                market = market_lookup.get(cand)
+                if market:
+                    break
+        market = market or {}
         market_prob = market.get("home_prob")
         edge = round(hprob - market_prob, 3) if market_prob else None
 
@@ -169,8 +202,8 @@ def predict_season_games(
             "game_id": str(game.get("canonical_game_id", "")),
             "season": int(season),
             "game_date": str(game.get("game_date", "")),
-            "home_team": str(game.get("home_team_id", "")),
-            "away_team": str(game.get("away_team_id", "")),
+            "home_team": home_name,
+            "away_team": away_name,
             "home_team_id": home_id,
             "away_team_id": away_id,
             "home_win_prob": round(hprob, 3),

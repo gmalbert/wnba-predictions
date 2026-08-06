@@ -56,13 +56,16 @@ def compute_streak(df: pd.DataFrame) -> pd.DataFrame:
 def add_rolling_features(df: pd.DataFrame, stat_cols: list[str], windows: list[int] = [3, 5, 10]) -> pd.DataFrame:
     """Shifted rolling mean/std for each stat and window (pre-game values)."""
     df = df.copy().sort_values("game_date").reset_index(drop=True)
+    new_cols: dict[str, pd.Series] = {}
     for col in stat_cols:
         if col not in df.columns:
             continue
         for w in windows:
             min_p = max(1, w // 2)
-            df[f"{col}_L{w}"] = df[col].rolling(w, min_periods=min_p).mean().shift(1)
-            df[f"{col}_STD{w}"] = df[col].rolling(w, min_periods=min_p).std().shift(1)
+            new_cols[f"{col}_L{w}"] = df[col].rolling(w, min_periods=min_p).mean().shift(1)
+            new_cols[f"{col}_STD{w}"] = df[col].rolling(w, min_periods=min_p).std().shift(1)
+    if new_cols:
+        df = pd.concat([df, pd.DataFrame(new_cols)], axis=1)
     return df
 
 
