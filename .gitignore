@@ -1,0 +1,32 @@
+# Environment / secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Data files (large generated artifacts) — keep schema/reference, ignore bulk
+data_files/wnba/raw/
+data_files/wnba/normalized/
+data_files/wnba/predictions/
+data_files/wnba/model_artifacts/
+data_files/wnba/features/
+data_files/*.parquet
+data_files/odds_snapshots.parquet
+
+# Notebooks / scratch
+.ipynb_checkpoints/
+scratchpad/
+
+# Streamlit runtime
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db

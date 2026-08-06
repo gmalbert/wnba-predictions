@@ -1,0 +1,16 @@
+# WNBA League Configuration
+# Central source of truth for league-specific rules. Everything in the app
+# reads from here — no hardcoded NBA assumptions.
+
+league_key = "wnba"
+display_name = "WNBA"
+stats_league_id = "10"
+season_format = "calendar_year"
+period_minutes = 10
+regulation_periods = 4
+timezone = "America/New_York"
+default_season_type = "Regular Season"
+playoff_label = "Playoffs"
+normalization_minutes = 40        # per-40 normalization basis (regulation time)
+current_season = 2026
+historical_start = 2017           # earliest season we ingest/train on

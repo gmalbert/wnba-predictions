@@ -1,0 +1,26 @@
+# WNBA Season Configuration
+# Calendar-year seasons (no split-year formatting).
+# Update `current_season` at the start of each new WNBA season.
+
+current_season = 2026
+
+# All seasons included in model training / historical backfill.
+historical_seasons = [
+    2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026,
+]
+
+# Approximate regular-season date boundaries (used by fetch_historical_odds.py)
+[season_dates]
+2026 = { start = "2026-05-15", end = "2026-09-10" }
+2025 = { start = "2025-05-16", end = "2025-09-10" }
+2024 = { start = "2024-05-14", end = "2024-09-10" }
+2023 = { start = "2023-05-19", end = "2023-09-10" }
+2022 = { start = "2022-05-06", end = "2022-09-10" }
+2021 = { start = "2021-05-14", end = "2021-09-10" }
+2020 = { start = "2020-07-25", end = "2020-09-10" }   # Pandemic bubble — July start
+2019 = { start = "2019-05-24", end = "2019-09-10" }
+2018 = { start = "2018-05-18", end = "2018-09-10" }
+2017 = { start = "2017-05-13", end = "2017-09-10" }
+
+[season_overrides]
+2020 = { notes = "Pandemic-affected season, played in bubble July–October" }

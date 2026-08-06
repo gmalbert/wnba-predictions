@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(python C:\\Users\\gmalb\\.agents\\skills\\developing-with-streamlit\\scripts\\discover.py --project-dir C:\\Users\\gmalb\\Downloads\\wnba-predictions)",
+      "Shell(venvScriptspython.exe:*)",
+      "Shell(dir:*)",
+      "config",
+      "Shell(git:*)",
+      "Shell(rmdir /s /q \"$COMMANDCODE_SCRATCHPAD\" 2>nul; git clone --depth 1 https://github.com/gmalbert/nba-predictions.git \"C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\" 2>&1)",
+      "Shell(dir /s /b \"C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\utils\" \"C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\scripts\" \"C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\pages\" 2>nul; for %f in (\"C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\utils\\*.py\") do @echo %~nxf %~zf)",
+      "Shell(for:*)",
+      "Shell(C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\utils\\*.py:*)",
+      "Shell(do:*)",
+      "Shell(C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\scripts\\*.py:*)",
+      "Shell(C:\\Users\\gmalb\\AppData\\Local\\Temp\\commandcode\\C--Users-gmalb-Downloads-wnba-predictions\\aef45ca1-1ad8-46b5-834d-80af772c9b8a\\scratchpad\\nba-predictions\\pages\\*.py:*)",
+      "Shell(findstr:*)",
+      "Shell(git -C \"C:\\Users\\gmalb\\Downloads\\wnba-predictions\" log --oneline 2>&1; echo ---; git -C \"C:\\Users\\gmalb\\Downloads\\wnba-predictions\" status --short 2>&1)",
+      "Shell(rmdir:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
