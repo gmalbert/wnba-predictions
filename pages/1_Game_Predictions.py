@@ -8,8 +8,10 @@ import streamlit as st
 import pandas as pd
 
 from utils.data_fetcher import load_predictions, get_odds, load_health
+from footer import add_sidebar_logo
 
 st.set_page_config(page_title="Game Predictions", page_icon="🏀", layout="wide")
+add_sidebar_logo()
 
 WNBA_RED = "#C8102E"
 WNBA_BLUE = "#1D428A"

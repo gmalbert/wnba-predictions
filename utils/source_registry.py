@@ -11,8 +11,8 @@ from dataclasses import dataclass, field
 # Primary → fallback order per data type.
 SOURCE_PRIORITY: dict[str, list[str]] = {
     "schedule": ["wnba_stats", "espn", "balldontlie"],
-    "team_game_stats": ["wnba_stats", "wehoop", "espn", "balldontlie"],
-    "player_game_stats": ["wnba_stats", "wehoop", "espn", "balldontlie"],
+    "team_game_stats": ["wehoop", "espn", "wnba_stats", "balldontlie"],
+    "player_game_stats": ["wehoop", "wnba_stats", "espn", "balldontlie"],
     "standings": ["wnba_stats", "espn", "balldontlie"],
     "rosters": ["espn", "wnba_stats", "balldontlie"],
     "injuries": ["espn", "wnba_stats"],

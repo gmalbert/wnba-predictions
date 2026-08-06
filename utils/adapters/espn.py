@@ -16,11 +16,20 @@ import pandas as pd
 import requests
 
 from utils.adapters.base import SourceUnavailableError
-from utils.data_contracts import GAMES_COLUMNS, INJURIES_COLUMNS
+from utils.data_contracts import GAMES_COLUMNS, INJURIES_COLUMNS, TEAM_GAME_COLUMNS
 from utils.league_config import get_league_config
 
 _BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba"
 _TIMEOUT = 20
+
+
+def _int_or_none(v):
+    try:
+        if v is None or v == "":
+            return None
+        return int(float(v))
+    except (TypeError, ValueError):
+        return None
 
 
 def _now() -> str:
@@ -97,12 +106,95 @@ class EspnAdapter:
         return pd.DataFrame(rows, columns=GAMES_COLUMNS)
 
     def fetch_team_game_stats(self, season: int) -> pd.DataFrame:
-        # ESPN scoreboard per-day is inefficient for full seasons; the wehoop
-        # adapter covers team box scores. This is a fallback that fans out to
-        # team schedules.
-        raise SourceUnavailableError(
-            "ESPN adapter does not provide bulk team game stats; use wehoop or wnba_stats."
-        )
+        """Team box scores for all completed games of a season via ESPN summary.
+
+        Uses the scoreboard to find completed games, then the summary endpoint
+        for each game's team statistics. Normalized to the canonical team-game
+        schema. Preserves raw payloads under data_files/raw/espn/.
+        """
+        start = f"{season}-05-01"
+        end = f"{season}-09-30"
+        sched = self.fetch_schedule(start, end)
+        if sched.empty:
+            raise SourceUnavailableError("ESPN schedule unavailable for box scores")
+
+        completed = sched[
+            sched["status"].str.contains("FINAL", na=False)
+            & sched["home_score"].notna()
+            & sched["away_score"].notna()
+        ]
+        if completed.empty:
+            raise SourceUnavailableError(f"No completed games found for {season}")
+
+        rows = []
+        for _, g in completed.iterrows():
+            game_id = g["canonical_game_id"]
+            try:
+                data = _get("summary", {"event": game_id})
+            except SourceUnavailableError:
+                continue
+            _save_raw(f"summary_{game_id}", data)
+            teams_box = data.get("boxscore", {}).get("teams", [])
+            if len(teams_box) < 2:
+                continue
+            for tb in teams_box:
+                team_info = tb.get("team", {})
+                team_id = team_info.get("id")
+                if not team_id:
+                    continue
+                stats = {s.get("name"): s.get("displayValue") for s in tb.get("statistics", [])}
+
+                def _split_pair(key: str):
+                    """Parse 'made-attempted' strings like '24-68'."""
+                    v = stats.get(key, "")
+                    if isinstance(v, str) and "-" in v:
+                        made, att = v.split("-")
+                        try:
+                            return int(made), int(att)
+                        except ValueError:
+                            return None, None
+                    return None, None
+
+                fgm, fga = _split_pair("fieldGoalsMade-fieldGoalsAttempted")
+                tpm, tpa = _split_pair("threePointFieldGoalsMade-threePointFieldGoalsAttempted")
+                ftm, fta = _split_pair("freeThrowsMade-freeThrowsAttempted")
+                is_home = 1 if tb.get("homeAway") == "home" else 0
+
+                rows.append({
+                    "league_key": self.cfg.league_key,
+                    "season": int(season),
+                    "season_type": self.cfg.default_season_type,
+                    "canonical_game_id": str(game_id),
+                    "canonical_team_id": int(team_id),
+                    "opponent_team_id": None,
+                    "is_home": is_home,
+                    "game_date": str(g.get("game_date", ""))[:10],
+                    "win": 1 if int(g["home_score"] if is_home else g["away_score"]) > int(g["away_score"] if is_home else g["home_score"]) else 0,
+                    "points": int(g["home_score"] if is_home else g["away_score"]),
+                    "field_goals_made": fgm,
+                    "field_goals_attempted": fga,
+                    "three_points_made": tpm,
+                    "three_points_attempted": tpa,
+                    "free_throws_made": ftm,
+                    "free_throws_attempted": fta,
+                    "offensive_rebounds": _int_or_none(stats.get("offensiveRebounds")),
+                    "defensive_rebounds": _int_or_none(stats.get("defensiveRebounds")),
+                    "assists": _int_or_none(stats.get("assists")),
+                    "turnovers": _int_or_none(stats.get("totalTurnovers")),
+                    "steals": _int_or_none(stats.get("steals")),
+                    "blocks": _int_or_none(stats.get("blocks")),
+                    "personal_fouls": _int_or_none(stats.get("fouls")),
+                    "minutes": None,
+                    "possessions": None,
+                    "source": self.source_name,
+                    "retrieved_at": _now(),
+                })
+
+        if not rows:
+            raise SourceUnavailableError(f"ESPN returned no team box scores for {season}")
+        df = pd.DataFrame(rows, columns=TEAM_GAME_COLUMNS)
+        df = df.drop_duplicates(["canonical_game_id", "canonical_team_id"], keep="first")
+        return df
 
     def fetch_player_game_stats(self, season: int) -> pd.DataFrame:
         raise SourceUnavailableError(

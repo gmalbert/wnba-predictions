@@ -8,8 +8,10 @@ import streamlit as st
 import pandas as pd
 
 from utils.model_utils import load_eval_metrics, model_dir
+from footer import add_sidebar_logo
 
 st.set_page_config(page_title="Model Performance", page_icon="📈", layout="wide")
+add_sidebar_logo()
 
 st.title("📈 Model Performance")
 
@@ -30,7 +32,7 @@ st.markdown(f"**Training rows:** {metrics.get('n_rows', 0):,}  |  **Seasons:** {
 wf = metrics.get("walk_forward", [])
 if wf:
     st.subheader("Walk-Forward Validation (chronological)")
-    st.dataframe(pd.DataFrame(wf), use_container_width=True)
+    st.dataframe(pd.DataFrame(wf), width="stretch")
 
 # ── Margin / totals ───────────────────────────────────────────────────────────
 m = metrics.get("margin", {})

@@ -10,8 +10,10 @@ import pandas as pd
 from utils.data_fetcher import get_player_game_stats, get_team_game_stats
 from utils.league_config import get_league_config
 from utils.identity import load_players
+from footer import add_sidebar_logo
 
 st.set_page_config(page_title="Player Stats", page_icon="👤", layout="wide")
+add_sidebar_logo()
 
 _CFG = get_league_config()
 season = st.sidebar.selectbox("Season", list(range(_CFG.current_season, _CFG.historical_start - 1, -1)), index=0)
@@ -60,7 +62,7 @@ c4.metric("Ast/40 (L10)", f"{recent['assists_per40'].mean():.1f}" if "assists_pe
 
 st.subheader("Recent Game Log")
 show_cols = [c for c in ["game_date", "points", "rebounds", "assists", "minutes", "points_per40"] if c in player_df.columns]
-st.dataframe(player_df[show_cols].tail(15).iloc[::-1], use_container_width=True)
+st.dataframe(player_df[show_cols].tail(15).iloc[::-1], width="stretch")
 
 if "points" in player_df.columns and len(player_df) >= 3:
     st.subheader("Points Per Game")

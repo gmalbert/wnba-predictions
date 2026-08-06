@@ -33,3 +33,14 @@ def add_betting_oracle_footer():
     """
     import streamlit as st
     st.markdown(FOOTER_HTML, unsafe_allow_html=True)
+
+
+def add_sidebar_logo(width: int = 120):
+    """
+    Add the WNBA logo to the top of the sidebar.
+
+    Used by sub-pages (the main predictions.py shows the logo in the header).
+    Must be called after st.set_page_config() and before other sidebar content.
+    """
+    import streamlit as st
+    st.sidebar.image("data_files/logo.png", width=width)

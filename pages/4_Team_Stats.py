@@ -11,8 +11,10 @@ from utils.data_fetcher import get_team_game_stats, get_player_game_stats
 from utils.feature_engine import engineer_team_features
 from utils.league_config import get_league_config
 from utils.identity import load_teams
+from footer import add_sidebar_logo
 
 st.set_page_config(page_title="Team Stats", page_icon="📊", layout="wide")
+add_sidebar_logo()
 
 _CFG = get_league_config()
 season = st.sidebar.selectbox("Season", list(range(_CFG.current_season, _CFG.historical_start - 1, -1)), index=0)
@@ -61,7 +63,7 @@ log_cols = [c for c in log_cols if c in team_df.columns]
 display = team_df[log_cols].copy()
 display["is_home"] = display["is_home"].map({1: "Home", 0: "Away"})
 display["win"] = display["win"].map({1: "W", 0: "L"})
-st.dataframe(display.tail(15).iloc[::-1], use_container_width=True)
+st.dataframe(display.tail(15).iloc[::-1], width="stretch")
 
 # ── Rolling points chart ──────────────────────────────────────────────────────
 st.subheader("Points Per Game (rolling)")

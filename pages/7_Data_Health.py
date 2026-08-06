@@ -10,8 +10,10 @@ import pandas as pd
 from utils.data_fetcher import load_health
 from utils.league_config import get_league_config
 from utils.model_utils import load_eval_metrics, model_dir
+from footer import add_sidebar_logo
 
 st.set_page_config(page_title="Data Health", page_icon="🩺", layout="wide")
+add_sidebar_logo()
 
 _CFG = get_league_config()
 st.title("🩺 Data Health")
@@ -24,7 +26,7 @@ else:
     display = df[["source", "data_type", "ok", "last_success", "last_attempt", "records"]]
     display["ok"] = display["ok"].map({True: "✅", False: "❌"})
     st.subheader("Source Status")
-    st.dataframe(display.sort_values(["source", "data_type"]), use_container_width=True)
+    st.dataframe(display.sort_values(["source", "data_type"]), width="stretch")
 
     failed = df[~df["ok"]]
     if not failed.empty:

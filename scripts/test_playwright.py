@@ -41,8 +41,18 @@ def main() -> int:
 
         # ── Main page ─────────────────────────────────────────────────────────
         print("Loading main page...", flush=True)
-        page.goto(BASE_URL, wait_until="networkidle", timeout=60000)
-        time.sleep(3)
+        # Streamlit keeps a websocket open, so 'networkidle' never fires.
+        # Wait for the page header, then poll until the dashboard content renders.
+        page.goto(BASE_URL, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_selector("[data-testid='stHeader']", timeout=60000)
+        page.wait_for_selector("h1", timeout=60000)
+        # Poll until the body contains the WNBA title (Streamlit streams content)
+        for _ in range(20):
+            body = page.inner_text("body").lower()
+            if "wnba predictions" in body:
+                break
+            time.sleep(1)
+        time.sleep(2)
         body = page.inner_text("body").lower()
         for expected in ["wnba predictions", "season"]:
             if expected not in body:
@@ -59,7 +69,14 @@ def main() -> int:
         # ── Each page ─────────────────────────────────────────────────────────
         for filename, label in PAGES:
             print(f"Loading {filename}...", flush=True)
-            page.goto(f"{BASE_URL}/{filename}", wait_until="networkidle", timeout=60000)
+            page.goto(f"{BASE_URL}/{filename}", wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_selector("[data-testid='stHeader']", timeout=60000)
+            # Poll until the sidebar nav + page content both render
+            for _ in range(20):
+                body = page.inner_text("body")
+                if "data health" in body.lower() and len(body.strip()) > 100:
+                    break
+                time.sleep(1)
             time.sleep(2)
             body = page.inner_text("body")
             if len(body.strip()) < 50:
