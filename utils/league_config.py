@@ -68,6 +68,8 @@ def load_league_config(path: Path | None = None) -> LeagueConfig:
         "period_minutes",
         "regulation_periods",
         "timezone",
+        "default_season_type",
+        "playoff_label",
         "normalization_minutes",
         "current_season",
         "historical_start",

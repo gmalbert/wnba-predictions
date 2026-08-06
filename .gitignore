@@ -2,6 +2,9 @@
 .env
 .env.local
 
+# Command Code local state (session scratch, taste, prompts)
+.commandcode/
+
 # Python
 __pycache__/
 *.py[cod]
