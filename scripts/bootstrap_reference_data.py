@@ -31,22 +31,21 @@ def build_teams_table() -> pd.DataFrame:
         from utils.adapters.espn import EspnAdapter
 
         espn = EspnAdapter()
-        teams = espn.fetch_rosters(cfg.current_season)  # reuses team list endpoint
-        # fetch_rosters returns per-player rows; group by team for team metadata
+        teams = espn.fetch_teams()
         if not teams.empty:
-            for _, grp in teams.groupby("team_id"):
-                tid = int(grp["team_id"].iloc[0])
-                name = str(grp["team_name"].iloc[0])
-                abbr = name
-                # Infer abbreviation from name (e.g. "Las Vegas Aces" -> "LV")
+            for _, t in teams.iterrows():
+                tid = int(t["espn_team_id"])
+                name = str(t["display_name"] or "")
                 words = name.split()
-                abbr = "".join(w[0] for w in words[:2]).upper() if len(words) >= 2 else name[:3].upper()
+                abbr = str(t.get("abbreviation") or "")
+                if not abbr and len(words) >= 2:
+                    abbr = "".join(w[0] for w in words[:2]).upper()
                 rows.append({
                     "canonical_team_id": tid,
                     "canonical_franchise_id": tid,
                     "display_name": name,
-                    "city": words[0] if words else "",
-                    "nickname": " ".join(words[1:]) if len(words) > 1 else name,
+                    "city": str(t.get("city") or (words[0] if words else "")),
+                    "nickname": str(t.get("nickname") or (" ".join(words[1:]) if len(words) > 1 else name)),
                     "abbreviation": abbr,
                     "conference": "",
                     "active_from": cfg.historical_start,
@@ -72,7 +71,8 @@ def build_teams_table() -> pd.DataFrame:
 def build_players_table(seasons: list[int] | None = None) -> pd.DataFrame:
     """Seed player identity from wehoop player box scores."""
     cfg = get_league_config()
-    seasons = seasons or [cfg.current_season, cfg.current_season - 1]
+    # wehoop-data coverage ends at 2022; use the most recent available seasons
+    seasons = seasons or [2022, 2021]
 
     records: list[dict] = []
     try:

@@ -142,7 +142,10 @@ class EspnAdapter:
             team_id = t.get("id")
             if not team_id:
                 continue
-            roster = _get(f"team/{team_id}/roster", {"season": season})
+            try:
+                roster = _get(f"team/{team_id}/roster", {"season": season})
+            except SourceUnavailableError:
+                continue
             _save_raw(f"roster_{team_id}_{season}", roster)
             for athlete in roster.get("athletes", []):
                 rows.append({
@@ -154,6 +157,22 @@ class EspnAdapter:
                     "position": athlete.get("position", {}).get("abbreviation", ""),
                     "jersey": athlete.get("jersey"),
                 })
+        return pd.DataFrame(rows)
+
+    def fetch_teams(self) -> pd.DataFrame:
+        """Current WNBA team list from ESPN (id, displayName, abbreviation)."""
+        data = _get("teams")
+        _save_raw("teams", data)
+        rows = []
+        for team in data.get("sports", [{}])[0].get("leagues", [{}])[0].get("teams", []):
+            t = team.get("team", {})
+            rows.append({
+                "espn_team_id": t.get("id"),
+                "display_name": t.get("displayName", ""),
+                "abbreviation": t.get("abbreviation", ""),
+                "city": t.get("location", ""),
+                "nickname": t.get("name", ""),
+            })
         return pd.DataFrame(rows)
 
     def fetch_injuries(self, as_of: str | None = None) -> pd.DataFrame:

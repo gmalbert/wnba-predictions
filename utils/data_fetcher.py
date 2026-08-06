@@ -134,7 +134,7 @@ def get_schedule(season: int, force_refresh: bool = False) -> pd.DataFrame:
                 df["season_type"] = df["season_type"].fillna(get_league_config().default_season_type)
             elif source == "espn":
                 start = f"{season}-05-01"
-                end = f"{season}-10-15"
+                end = f"{season}-09-30"
                 df = adapter.fetch_schedule(start, end)
                 df["season"] = int(season)
             else:

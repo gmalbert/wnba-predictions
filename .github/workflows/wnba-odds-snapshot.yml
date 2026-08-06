@@ -1,0 +1,38 @@
+name: WNBA Odds Snapshot
+
+on:
+  schedule:
+    # Every 4 hours during WNBA season
+    - cron: "17 12,16,20,0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  odds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Snapshot odds
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python scripts/fetch_odds.py --force || true
+
+      - name: Commit odds snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data_files/ || true
+          git commit -m "chore: WNBA odds snapshot" || echo "No changes to commit"
+          git push
