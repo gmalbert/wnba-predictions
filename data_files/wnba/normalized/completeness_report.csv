@@ -1,7 +1,6 @@
-season,team_rows,player_rows,error
-2018,442.0,5187.0,
-2019,442.0,5211.0,
-2020,294.0,3544.0,
-2021,422.0,4626.0,
-2022,482.0,5307.0,
-2023,,,No team game stats source available for 2023: BALLDONTLIE bulk team stats not available for WNBA.
+season,team_rows,player_rows
+2018,442,5187
+2019,442,5211
+2020,294,3544
+2021,422,4626
+2022,482,5307
