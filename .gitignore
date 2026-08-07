@@ -16,9 +16,6 @@ venv/
 
 # Data files (large generated artifacts) — keep schema/reference, ignore bulk
 data_files/wnba/raw/
-data_files/wnba/normalized/
-data_files/wnba/predictions/
-data_files/wnba/model_artifacts/
 data_files/wnba/features/
 data_files/*.parquet
 data_files/odds_snapshots.parquet

@@ -1,0 +1,92 @@
+{
+  "win_model": {
+    "accuracy": 0.622,
+    "log_loss": 0.6651,
+    "brier_score": 0.2348
+  },
+  "walk_forward": [
+    {
+      "accuracy": 0.5665,
+      "log_loss": 0.6774,
+      "brier_score": 0.2401,
+      "fold": 1,
+      "n_test": 173
+    },
+    {
+      "accuracy": 0.6994,
+      "log_loss": 0.5976,
+      "brier_score": 0.2043,
+      "fold": 2,
+      "n_test": 173
+    },
+    {
+      "accuracy": 0.526,
+      "log_loss": 0.7903,
+      "brier_score": 0.2876,
+      "fold": 3,
+      "n_test": 173
+    },
+    {
+      "accuracy": 0.6069,
+      "log_loss": 0.6792,
+      "brier_score": 0.2408,
+      "fold": 4,
+      "n_test": 173
+    },
+    {
+      "accuracy": 0.6185,
+      "log_loss": 0.6586,
+      "brier_score": 0.2325,
+      "fold": 5,
+      "n_test": 173
+    }
+  ],
+  "margin": {
+    "margin_mae": 4.78,
+    "margin_rmse": 6.33
+  },
+  "totals": {
+    "total_points_mae": 6.78,
+    "total_points_rmse": 10.49
+  },
+  "n_rows": 1041,
+  "seasons": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "feature_cols": [
+    "home_win_pct_season",
+    "away_win_pct_season",
+    "home_win_pct_L10",
+    "away_win_pct_L10",
+    "home_win_pct_L5",
+    "away_win_pct_L5",
+    "home_points_L10",
+    "away_points_L10",
+    "home_efg_pct_L10",
+    "away_efg_pct_L10",
+    "home_tov_pct_L10",
+    "away_tov_pct_L10",
+    "home_oreb_rate_L10",
+    "away_oreb_rate_L10",
+    "home_assists_L10",
+    "away_assists_L10",
+    "home_rest_days",
+    "away_rest_days",
+    "home_is_b2b",
+    "away_is_b2b",
+    "home_streak",
+    "away_streak",
+    "win_pct_diff",
+    "pts_diff_L10",
+    "rest_diff",
+    "streak_diff",
+    "efg_diff_L10",
+    "tov_diff_L10",
+    "oreb_diff_L10",
+    "pace_diff_L10"
+  ]
+}

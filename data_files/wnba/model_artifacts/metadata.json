@@ -1,0 +1,8 @@
+{
+  "league_key": "wnba",
+  "season_format": "calendar_year",
+  "regulation_minutes": 40,
+  "normalization_minutes": 40,
+  "current_season": 2026,
+  "model_suffix": "latest"
+}
