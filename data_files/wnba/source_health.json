@@ -84,7 +84,7 @@
     "source": "wehoop",
     "data_type": "player_game_stats",
     "ok": false,
-    "last_attempt": "2026-08-06T21:01:44+00:00",
+    "last_attempt": "2026-08-06T21:15:06+00:00",
     "last_success": null,
     "error": "wehoop fetch failed for season 2026: HTTP Error 404: Not Found",
     "records": 0
@@ -93,7 +93,7 @@
     "source": "wnba_stats",
     "data_type": "player_game_stats",
     "ok": false,
-    "last_attempt": "2026-08-06T21:01:45+00:00",
+    "last_attempt": "2026-08-06T21:15:07+00:00",
     "last_success": null,
     "error": "LeagueGameLog(player) failed: LeagueGameLog.__init__() got an unexpected keyword argument 'league_id_nullable'. Did you mean 'date_to_nullable'?",
     "records": 0
@@ -102,7 +102,7 @@
     "source": "espn",
     "data_type": "player_game_stats",
     "ok": false,
-    "last_attempt": "2026-08-06T21:01:45+00:00",
+    "last_attempt": "2026-08-06T21:15:07+00:00",
     "last_success": null,
     "error": "ESPN adapter does not provide bulk player game stats; use wehoop or wnba_stats.",
     "records": 0
@@ -111,7 +111,7 @@
     "source": "balldontlie",
     "data_type": "player_game_stats",
     "ok": false,
-    "last_attempt": "2026-08-06T21:01:45+00:00",
+    "last_attempt": "2026-08-06T21:15:07+00:00",
     "last_success": null,
     "error": "BALLDONTLIE bulk player stats not available for WNBA.",
     "records": 0

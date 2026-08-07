@@ -35,3 +35,6 @@ scratchpad/
 Thumbs.db
 
 *.code-workspace
+data_files/screenshots/
+scripts/debug_observe.py
+scripts/debug_time.py

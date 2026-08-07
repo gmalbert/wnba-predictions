@@ -44,38 +44,3 @@ def add_sidebar_logo(width: int = 120):
     """
     import streamlit as st
     st.sidebar.image("data_files/logo_no_words.png", width=width)
-
-
-def add_theme_selector():
-    """Sidebar theme selector shared by all pages (main + sub-pages)."""
-    import streamlit as st
-
-    from config.themes import slug_from_option, theme_options
-    from utils.theme_utils import apply_theme, current_theme_slug
-
-    with st.sidebar:
-        st.markdown("#### 🎨 Theme")
-        period = st.radio("Mode", ["Daytime", "Nighttime"], horizontal=True, key="theme_period")
-        options = theme_options("daytime" if period == "Daytime" else "nighttime")
-        current = current_theme_slug()
-        # Default to the user's chosen themes: Lilac Dawn (daytime) / Wine Violet (nighttime)
-        default_slug = "lilac_dawn" if period == "Daytime" else "wine_violet"
-        # If a theme is already active and it's in the current list, keep it
-        option_slugs = {slug_from_option(o) for o in options}
-        if current in option_slugs:
-            default_slug = current
-        default_idx = next(
-            (i for i, opt in enumerate(options) if slug_from_option(opt) == default_slug),
-            0,
-        )
-        choice = st.selectbox(
-            "Theme",
-            options,
-            index=default_idx,
-            key="theme_choice",
-            help="Applies immediately across the whole app.",
-        )
-        chosen_slug = slug_from_option(choice)
-        if chosen_slug != current:
-            apply_theme(chosen_slug)
-            st.rerun()

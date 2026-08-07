@@ -320,13 +320,3 @@ ALL_THEMES = {**DAYTIME, **NIGHTTIME}
 def get_theme(slug: str) -> dict:
     """Return a theme dict by slug; falls back to Brand Dark."""
     return ALL_THEMES.get(slug, NIGHTTIME["brand_dark"])
-
-
-def theme_options(period: str) -> list[str]:
-    """Return slugs for a period ('daytime' | 'nighttime'), grouped by name."""
-    source = DAYTIME if period == "daytime" else NIGHTTIME
-    return [f"{slug} · {meta['name']}" for slug, meta in source.items()]
-
-
-def slug_from_option(option: str) -> str:
-    return option.split(" · ")[0]

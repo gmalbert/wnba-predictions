@@ -151,10 +151,20 @@ def home_page():
     add_betting_oracle_footer()
 
 
-# ── Theme selector (sidebar, on every page) ───────────────────────────────────
-from footer import add_theme_selector
+# ── Auto theme (browser-local time) ───────────────────────────────────────────
+def apply_time_based_theme():
+    """Pick the theme from the browser's local time and apply it.
 
-add_theme_selector()
+    Streamlit reports the browser's timezone via st.context; we compute the
+    browser-local hour from that and switch between the daytime and nighttime
+    themes.
+    """
+    from utils.theme_utils import ensure_time_based_theme
+
+    ensure_time_based_theme()
+
+
+apply_time_based_theme()
 
 
 # ── Navigation ────────────────────────────────────────────────────────────────
