@@ -1,6 +1,6 @@
 {
   "error_count": 0,
-  "warning_count": 2,
+  "warning_count": 5,
   "healthy": true,
   "issues": [
     {
@@ -12,7 +12,25 @@
     {
       "check": "freshness",
       "severity": "warning",
+      "message": "games_2026: newest row 37.2h old (threshold 24h)",
+      "count": 0
+    },
+    {
+      "check": "freshness",
+      "severity": "warning",
+      "message": "team_game_stats_2026: newest row 36.7h old (threshold 24h)",
+      "count": 0
+    },
+    {
+      "check": "freshness",
+      "severity": "warning",
       "message": "player_game_stats_2026: no data",
+      "count": 0
+    },
+    {
+      "check": "freshness",
+      "severity": "warning",
+      "message": "injuries: newest row 37.1h old (threshold 24h)",
       "count": 0
     }
   ],
@@ -93,7 +111,7 @@
       "source": "the_odds_api",
       "data_type": "odds",
       "ok": false,
-      "last_attempt": "2026-08-07T08:28:46+00:00",
+      "last_attempt": "2026-08-08T08:17:02+00:00",
       "last_success": null,
       "error": "ODDS_API_KEY is not set",
       "records": 0
@@ -102,7 +120,7 @@
       "source": "wehoop",
       "data_type": "player_game_stats",
       "ok": false,
-      "last_attempt": "2026-08-07T08:28:54+00:00",
+      "last_attempt": "2026-08-08T08:17:10+00:00",
       "last_success": null,
       "error": "wehoop fetch failed for season 2026: HTTP Error 404: Not Found",
       "records": 0
@@ -111,7 +129,7 @@
       "source": "wnba_stats",
       "data_type": "player_game_stats",
       "ok": false,
-      "last_attempt": "2026-08-07T08:28:55+00:00",
+      "last_attempt": "2026-08-08T08:17:11+00:00",
       "last_success": null,
       "error": "LeagueGameLog(player) failed: LeagueGameLog.__init__() got an unexpected keyword argument 'league_id_nullable'",
       "records": 0
@@ -120,7 +138,7 @@
       "source": "espn",
       "data_type": "player_game_stats",
       "ok": false,
-      "last_attempt": "2026-08-07T08:28:55+00:00",
+      "last_attempt": "2026-08-08T08:17:11+00:00",
       "last_success": null,
       "error": "ESPN adapter does not provide bulk player game stats; use wehoop or wnba_stats.",
       "records": 0
@@ -129,7 +147,7 @@
       "source": "balldontlie",
       "data_type": "player_game_stats",
       "ok": false,
-      "last_attempt": "2026-08-07T08:28:55+00:00",
+      "last_attempt": "2026-08-08T08:17:11+00:00",
       "last_success": null,
       "error": "BALLDONTLIE bulk player stats not available for WNBA.",
       "records": 0
@@ -138,5 +156,5 @@
   "seasons": [
     2026
   ],
-  "published_at": "2026-08-07T08:28:55.125728+00:00"
+  "published_at": "2026-08-08T08:17:11.355005+00:00"
 }
