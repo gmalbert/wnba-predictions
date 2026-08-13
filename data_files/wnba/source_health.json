@@ -72,15 +72,6 @@
     "records": 15
   },
   {
-    "source": "the_odds_api",
-    "data_type": "odds",
-    "ok": false,
-    "last_attempt": "2026-08-13T08:35:35+00:00",
-    "last_success": null,
-    "error": "ODDS_API_KEY is not set",
-    "records": 0
-  },
-  {
     "source": "wehoop",
     "data_type": "player_game_stats",
     "ok": false,
@@ -114,6 +105,15 @@
     "last_attempt": "2026-08-13T08:35:43+00:00",
     "last_success": null,
     "error": "BALLDONTLIE bulk player stats not available for WNBA.",
+    "records": 0
+  },
+  {
+    "source": "the_odds_api",
+    "data_type": "odds",
+    "ok": false,
+    "last_attempt": "2026-08-13T12:33:10+00:00",
+    "last_success": null,
+    "error": "ODDS_API_KEY is not set",
     "records": 0
   }
 ]
