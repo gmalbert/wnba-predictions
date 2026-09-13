@@ -110,10 +110,10 @@
   {
     "source": "the_odds_api",
     "data_type": "odds",
-    "ok": false,
-    "last_attempt": "2026-09-13T20:24:27+00:00",
-    "last_success": null,
-    "error": "ODDS_API_KEY is not set",
-    "records": 0
+    "ok": true,
+    "last_attempt": "2026-09-13T21:41:21+00:00",
+    "last_success": "2026-09-13T21:41:21+00:00",
+    "error": null,
+    "records": 334
   }
 ]
