@@ -30,11 +30,23 @@ def fetch_season(season: int, force: bool = False) -> dict:
     tg = get_team_game_stats(season, force_refresh=force)
     print(f"[{season}] team rows: {len(tg)}", flush=True)
 
-    print(f"[{season}] player game stats...", flush=True)
-    pg = get_player_game_stats(season, force_refresh=force)
+    player_error = None
+    try:
+        print(f"[{season}] player game stats...", flush=True)
+        pg = get_player_game_stats(season, force_refresh=force)
+    except Exception as exc:
+        pg = pd.DataFrame()
+        player_error = str(exc)
     print(f"[{season}] player rows: {len(pg)}", flush=True)
 
-    return {"season": season, "team_rows": len(tg), "player_rows": len(pg)}
+    return {
+        "season": season,
+        "team_rows": len(tg),
+        "player_rows": len(pg),
+        "team_complete": bool(len(tg) > 0),
+        "player_complete": bool(len(pg) > 0),
+        "player_error": player_error,
+    }
 
 
 def main() -> None:
@@ -47,8 +59,9 @@ def main() -> None:
     if args.seasons:
         seasons = [int(s) for s in args.seasons.split(",") if s.strip()]
     else:
-        # Default: a few recent seasons for a fast baseline; override for full backfill
-        seasons = [cfg.current_season - 2, cfg.current_season - 1, cfg.current_season]
+        # The audited gap is 2023-25; keep the current season out of historical
+        # training because it is the forward shadow ledger.
+        seasons = list(range(2023, min(cfg.current_season - 1, 2025) + 1))
 
     print(f"Seasons: {seasons}", flush=True)
     report = []

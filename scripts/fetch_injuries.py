@@ -18,9 +18,10 @@ from utils.data_fetcher import get_injuries, normalized_dir  # noqa: E402
 def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch WNBA injuries")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--as-of", default=None, help="Observation timestamp for replay metadata")
     args = parser.parse_args()
 
-    df = get_injuries(force_refresh=args.force)
+    df = get_injuries(as_of=args.as_of, force_refresh=args.force)
     if df.empty:
         print("No injuries returned.")
         sys.exit(0)

@@ -11,6 +11,7 @@ Run: python scripts/test_playwright.py
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 from pathlib import Path
@@ -19,9 +20,10 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 from playwright.sync_api import sync_playwright
 
-BASE_URL = "http://localhost:8501"
+BASE_URL = os.getenv("PLAYWRIGHT_BASE_URL", "http://localhost:8501").rstrip("/")
 PAGES = [
     ("Game_Predictions", "Game Predictions"),
+    ("Scenario_Lab", "Scenario Lab"),
     ("Standings", "Standings"),
     ("Team_Stats", "Team Stats"),
     ("Player_Stats", "Player Stats"),
@@ -29,11 +31,39 @@ PAGES = [
     ("Data_Health", "Data Health"),
 ]
 
+PAGE_EXPECTED = {
+    "Game_Predictions": ["game predictions", "no bet", "rotation and availability scenario editor", "travel & context"],
+    "Scenario_Lab": ["scenario lab", "player prop", "parlay dependence", "kelly"],
+    "Standings": ["standings"],
+    "Team_Stats": ["team stats"],
+    "Player_Stats": ["player stats"],
+    "Model_Performance": ["model performance", "release gate", "calibrated continuous distributions"],
+    "Data_Health": ["data health", "adapter source status", "capability and fallback registry"],
+}
+
+
+def _launch_browser(playwright):
+    """Use managed Chromium when installed, otherwise a system Chromium browser."""
+    try:
+        return playwright.chromium.launch(headless=True)
+    except Exception as first_error:
+        candidates = [
+            Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+            Path(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"),
+            Path(r"C:\Program Files\Microsoft\Edge\Application\msedge.exe"),
+            Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
+        ]
+        for executable in candidates:
+            if executable.exists():
+                print(f"Using system browser: {executable}", flush=True)
+                return playwright.chromium.launch(headless=True, executable_path=str(executable))
+        raise first_error
+
 
 def main() -> int:
     failures: list[str] = []
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = _launch_browser(p)
         page = browser.new_page(viewport={"width": 1400, "height": 900})
         errors: list[str] = []
         page.on("console", lambda msg: errors.append(msg.text) if msg.type == "error" else None)
@@ -81,6 +111,28 @@ def main() -> int:
             body = page.inner_text("body")
             if len(body.strip()) < 50:
                 failures.append(f"{filename} returned near-empty page")
+            lower_body = body.lower()
+            for expected in PAGE_EXPECTED.get(filename, []):
+                if expected not in lower_body:
+                    failures.append(f"{filename} missing text: {expected!r}")
+            if filename == "Game_Predictions":
+                if page.locator("[data-testid='stDataFrame']").count() == 0:
+                    failures.append("Game_Predictions missing interactive rotation data editor")
+                travel_tab = page.get_by_role("tab", name="Travel & context").first
+                if travel_tab.count():
+                    travel_tab.click()
+                    page.wait_for_timeout(300)
+                    if "travel and workload timeline" not in page.inner_text("body").lower():
+                        failures.append("Game_Predictions travel/context tab did not render")
+            if filename == "Scenario_Lab":
+                if page.locator("[data-testid='stSlider']").count() < 3:
+                    failures.append("Scenario_Lab missing prop/parlay sliders")
+                parlay_tab = page.get_by_role("tab", name="Parlay dependence")
+                if parlay_tab.count():
+                    parlay_tab.click()
+                    page.wait_for_timeout(300)
+                    if "simulated joint hit" not in page.inner_text("body").lower():
+                        failures.append("Scenario_Lab parlay simulation did not render")
             print(f"  {label}: {len(body)} chars", flush=True)
 
         # Collect console/page errors (ignore benign favicon/asset 404s)

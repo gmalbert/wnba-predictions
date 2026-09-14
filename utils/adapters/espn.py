@@ -16,7 +16,13 @@ import pandas as pd
 import requests
 
 from utils.adapters.base import SourceUnavailableError
-from utils.data_contracts import GAMES_COLUMNS, INJURIES_COLUMNS, TEAM_GAME_COLUMNS
+from utils.data_contracts import (
+    GAMES_COLUMNS,
+    INJURIES_COLUMNS,
+    OFFICIALS_COLUMNS,
+    PLAY_BY_PLAY_COLUMNS,
+    TEAM_GAME_COLUMNS,
+)
 from utils.league_config import get_league_config
 
 _BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba"
@@ -84,10 +90,19 @@ class EspnAdapter:
                 home = next((t for t in teams if t.get("homeAway") == "home"), teams[0])
                 away = next((t for t in teams if t.get("homeAway") == "away"), teams[1])
                 status = comp.get("status", {}).get("type", {})
+                venue = comp.get("venue", {}) or {}
+                address = venue.get("address", {}) or {}
+                name_text = " ".join(
+                    str(value or "")
+                    for value in [ev.get("name"), ev.get("shortName"), comp.get("notes")]
+                ).lower()
+                season_type_name = str(ev.get("season", {}).get("type", ""))
+                is_playoff = season_type_name == "3" or "playoff" in name_text or "finals" in name_text
+                is_cup = "commissioner" in name_text or "cup" in name_text
                 rows.append({
                     "league_key": self.cfg.league_key,
                     "season": None,
-                    "season_type": None,
+                    "season_type": self.cfg.playoff_label if is_playoff else self.cfg.default_season_type,
                     "canonical_game_id": str(ev.get("id", "")),
                     "source_game_id": str(ev.get("id", "")),
                     "game_date": d.isoformat(),
@@ -99,6 +114,14 @@ class EspnAdapter:
                     "status": status.get("name", ""),
                     "neutral_site": bool(comp.get("neutralSite", False)),
                     "overtime_periods": None,
+                    "season_phase": "playoffs" if is_playoff else "commissioners_cup" if is_cup else "regular",
+                    "is_commissioners_cup": is_cup,
+                    "is_playoff": is_playoff,
+                    "venue_name": venue.get("fullName"),
+                    "venue_city": address.get("city"),
+                    "venue_latitude": None,
+                    "venue_longitude": None,
+                    "venue_timezone": None,
                     "source": self.source_name,
                     "retrieved_at": _now(),
                 })
@@ -112,8 +135,8 @@ class EspnAdapter:
         for each game's team statistics. Normalized to the canonical team-game
         schema. Preserves raw payloads under data_files/raw/espn/.
         """
-        start = f"{season}-05-01"
-        end = f"{season}-09-30"
+        start = f"{season}-04-01"
+        end = f"{season}-11-01"
         sched = self.fetch_schedule(start, end)
         if sched.empty:
             raise SourceUnavailableError("ESPN schedule unavailable for box scores")
@@ -284,6 +307,9 @@ class EspnAdapter:
                     "team_name": team_name,
                     "status": inj.get("status", "Unknown"),
                     "description": inj.get("shortComment", inj.get("type", {}).get("description", "")),
+                    "status_detail": inj.get("type", {}).get("description", ""),
+                    "confirmed_starter": False,
+                    "observed_at": _now(),
                     "source": self.source_name,
                     "retrieved_at": _now(),
                 })
@@ -299,7 +325,7 @@ class EspnAdapter:
             for ev in data.get("events", []):
                 game_id = ev.get("id")
                 try:
-                    summary = _get(f"summary?event={game_id}")
+                    summary = _get("summary", {"event": game_id})
                 except SourceUnavailableError:
                     continue
                 officials = summary.get("gameInfo", {}).get("officials", [])
@@ -309,7 +335,46 @@ class EspnAdapter:
                         "game_date": d.isoformat(),
                         "official_name": off.get("displayName", ""),
                         "official_position": off.get("position", {}).get("name", ""),
+                        "league_key": self.cfg.league_key,
+                        "canonical_game_id": str(game_id),
+                        "official_id": off.get("id"),
+                        "observed_at": _now(),
                         "source": self.source_name,
+                        "retrieved_at": _now(),
                     })
             d += dt.timedelta(days=1)
-        return pd.DataFrame(rows)
+        return pd.DataFrame(rows).reindex(columns=OFFICIALS_COLUMNS)
+
+    def fetch_play_by_play(self, season: int) -> pd.DataFrame:
+        """Normalize ESPN play-by-play for completed season games."""
+        schedule = self.fetch_schedule(f"{season}-04-01", f"{season}-11-01")
+        rows: list[dict] = []
+        for _, game in schedule.iterrows():
+            game_id = str(game["canonical_game_id"])
+            try:
+                summary = _get("summary", {"event": game_id})
+            except SourceUnavailableError:
+                continue
+            for sequence, play in enumerate(summary.get("plays", []), start=1):
+                competitors = play.get("competitors", [])
+                home_score = next((item.get("score") for item in competitors if item.get("homeAway") == "home"), None)
+                away_score = next((item.get("score") for item in competitors if item.get("homeAway") == "away"), None)
+                athletes = play.get("participants", [])
+                rows.append({
+                    "league_key": self.cfg.league_key,
+                    "season": int(season),
+                    "canonical_game_id": game_id,
+                    "event_id": str(play.get("id", sequence)),
+                    "sequence_number": sequence,
+                    "period": play.get("period", {}).get("number"),
+                    "clock": play.get("clock", {}).get("displayValue"),
+                    "event_type": play.get("type", {}).get("text"),
+                    "event_text": play.get("text", ""),
+                    "canonical_team_id": play.get("team", {}).get("id"),
+                    "canonical_player_id": athletes[0].get("athlete", {}).get("id") if athletes else None,
+                    "home_score": home_score,
+                    "away_score": away_score,
+                    "source": self.source_name,
+                    "retrieved_at": _now(),
+                })
+        return pd.DataFrame(rows).reindex(columns=PLAY_BY_PLAY_COLUMNS)

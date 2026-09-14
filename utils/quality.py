@@ -10,6 +10,15 @@ from dataclasses import dataclass, field
 
 import pandas as pd
 
+from utils.data_contracts import (
+    AVAILABILITY_COLUMNS,
+    GAMES_COLUMNS,
+    LINEUP_COLUMNS,
+    ODDS_COLUMNS,
+    PLAYER_GAME_COLUMNS,
+    TEAM_GAME_COLUMNS,
+)
+
 
 @dataclass
 class QualityIssue:
@@ -116,6 +125,42 @@ def check_odds(odds: pd.DataFrame) -> list[QualityIssue]:
     issues: list[QualityIssue] = []
     if odds is None or odds.empty:
         return [QualityIssue("odds", "info", "No odds snapshots present")]
+    required = ["canonical_game_id", "book", "market", "retrieved_at"]
+    missing = [column for column in required if column not in odds.columns]
+    if missing:
+        issues.append(QualityIssue("odds", "error", f"Odds missing timestamped keys: {missing}"))
+    return issues
+
+
+def check_contract_fixture(df: pd.DataFrame, kind: str) -> list[QualityIssue]:
+    """Validate adapter fixtures, including partial/edge-case source payloads."""
+    schemas = {
+        "games": GAMES_COLUMNS,
+        "team_game_stats": TEAM_GAME_COLUMNS,
+        "player_game_stats": PLAYER_GAME_COLUMNS,
+        "odds": ODDS_COLUMNS,
+        "availability": AVAILABILITY_COLUMNS,
+        "lineups": LINEUP_COLUMNS,
+    }
+    expected = schemas.get(kind)
+    if expected is None:
+        return [QualityIssue("contract_fixture", "error", f"Unknown fixture kind: {kind}")]
+    missing = [column for column in expected if column not in df.columns]
+    issues = []
+    if missing:
+        issues.append(QualityIssue("contract_fixture", "error", f"{kind} missing canonical columns: {missing}"))
+    if kind == "games" and not df.empty:
+        # Postponed/partial schedules may omit scores, but never identity/date.
+        critical = df[["canonical_game_id", "game_date"]].isna().any(axis=1)
+        if critical.any():
+            issues.append(QualityIssue("contract_fixture", "error", "Schedule fixture missing identity/date", int(critical.sum())))
+        expansion = df["home_team_id"].isna() | df["away_team_id"].isna()
+        if expansion.any():
+            issues.append(QualityIssue("contract_fixture", "warning", "Fixture includes unmapped expansion team", int(expansion.sum())))
+    if kind == "player_game_stats" and "canonical_player_id" in df.columns:
+        missing_players = int(df["canonical_player_id"].isna().sum())
+        if missing_players:
+            issues.append(QualityIssue("contract_fixture", "warning", "Fixture includes missing player IDs", missing_players))
     return issues
 
 

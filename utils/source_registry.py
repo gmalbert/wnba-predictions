@@ -16,9 +16,15 @@ SOURCE_PRIORITY: dict[str, list[str]] = {
     "standings": ["wnba_stats", "espn", "balldontlie"],
     "rosters": ["espn", "wnba_stats", "balldontlie"],
     "injuries": ["espn", "wnba_stats"],
-    "odds": ["the_odds_api", "espn"],
+    # Query both new providers so partial coverage from one feed can be
+    # supplemented by the other. The legacy The Odds API adapter remains
+    # available explicitly but is no longer part of the default path.
+    "odds": ["odds_api_io", "therundown"],
+    "player_prop_odds": ["the_odds_api"],
     "officials": ["wehoop", "espn"],
     "play_by_play": ["wehoop", "espn"],
+    "tracking": [],
+    "overseas_workload": [],
 }
 
 ALL_SOURCES = sorted({s for srcs in SOURCE_PRIORITY.values() for s in srcs})

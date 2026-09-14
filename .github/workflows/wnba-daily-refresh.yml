@@ -12,6 +12,10 @@ permissions:
 jobs:
   daily:
     runs-on: ubuntu-latest
+    env:
+      ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
+      THERUNDOWN_API_KEY: ${{ secrets.THERUNDOWN_API_KEY }}
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -25,18 +29,19 @@ jobs:
           pip install -r requirements.txt
 
       - name: Fetch historical + daily data
-        env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
-          python scripts/fetch_historical.py --seasons 2018,2019,2020,2021,2022
+          python scripts/fetch_historical.py --seasons 2023,2024,2025
           python scripts/fetch_odds.py || true
           python scripts/fetch_injuries.py || true
 
       - name: Train models
-        run: python scripts/train_models.py --seasons 2018,2019,2020,2021,2022
+        run: python scripts/train_models.py --seasons 2018,2019,2020,2021,2022,2023,2024,2025 --holdout-season 2025
 
       - name: Generate predictions
-        run: python scripts/generate_predictions.py
+        run: |
+          python scripts/generate_predictions.py --stage morning
+          python scripts/generate_predictions.py --stage injury_report
+          python scripts/generate_predictions.py --stage pre_tip
 
       - name: Publish data health
         run: python scripts/publish_data_health.py

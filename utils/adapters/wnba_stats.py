@@ -14,9 +14,32 @@ import pandas as pd
 
 from utils.adapters.base import SourceUnavailableError
 from utils.data_contracts import GAMES_COLUMNS, TEAM_GAME_COLUMNS, PLAYER_GAME_COLUMNS
+from utils.identity import load_players, load_teams, normalize_name
 from utils.league_config import get_league_config
 
 _RATE_LIMIT_DELAY = 0.7
+
+
+def _team_identity_maps() -> tuple[dict[int, int], dict[str, int]]:
+    """Map official WNBA Stats IDs/abbreviations to canonical ESPN-backed IDs."""
+    references = load_teams()
+    source_to_canonical = {
+        int(row["wnba_stats_team_id"]): int(row["canonical_team_id"])
+        for row in references.to_dict("records")
+        if pd.notna(row.get("wnba_stats_team_id")) and pd.notna(row.get("canonical_team_id"))
+    }
+    abbreviation_to_canonical: dict[str, int] = {}
+    try:
+        from nba_api.stats.static.teams import get_wnba_teams
+
+        abbreviation_to_canonical = {
+            str(team["abbreviation"]).upper(): source_to_canonical[int(team["id"])]
+            for team in get_wnba_teams()
+            if int(team["id"]) in source_to_canonical
+        }
+    except Exception:
+        pass
+    return source_to_canonical, abbreviation_to_canonical
 
 
 def _sleep() -> None:
@@ -124,7 +147,7 @@ class WnbaStatsAdapter:
                 season=self._season_str(season),
                 season_type_all_star=self.cfg.default_season_type,
                 player_or_team_abbreviation="T",
-                league_id_nullable=self.cfg.stats_league_id,
+                league_id=self.cfg.stats_league_id,
             )
             df = raw.get_data_frames()[0]
         except Exception as e:
@@ -133,6 +156,7 @@ class WnbaStatsAdapter:
             raise SourceUnavailableError("LeagueGameLog returned no rows")
 
         df = df.copy()
+        source_team_map, team_map = _team_identity_maps()
         rows = []
         for _, r in df.iterrows():
             matchup = str(r.get("MATCHUP", ""))
@@ -142,8 +166,8 @@ class WnbaStatsAdapter:
                 "season": int(season),
                 "season_type": self.cfg.default_season_type,
                 "canonical_game_id": str(r.get("GAME_ID", "")),
-                "canonical_team_id": int(r.get("TEAM_ID", 0)),
-                "opponent_team_id": None,
+                "canonical_team_id": source_team_map.get(int(r.get("TEAM_ID", 0)), int(r.get("TEAM_ID", 0))),
+                "opponent_team_id": team_map.get(matchup.split()[-1].upper()),
                 "is_home": is_home,
                 "game_date": str(r.get("GAME_DATE", ""))[:10],
                 "win": 1 if r.get("WL") == "W" else 0,
@@ -179,7 +203,7 @@ class WnbaStatsAdapter:
                 season=self._season_str(season),
                 season_type_all_star=self.cfg.default_season_type,
                 player_or_team_abbreviation="P",
-                league_id_nullable=self.cfg.stats_league_id,
+                league_id=self.cfg.stats_league_id,
             )
             df = raw.get_data_frames()[0]
         except Exception as e:
@@ -187,17 +211,30 @@ class WnbaStatsAdapter:
         if df.empty:
             raise SourceUnavailableError("LeagueGameLog(player) returned no rows")
 
+        source_team_map, team_map = _team_identity_maps()
+        players = load_players()
+        player_map = {
+            normalize_name(row.get("display_name", "")): int(row["canonical_player_id"])
+            for row in players.to_dict("records")
+            if pd.notna(row.get("canonical_player_id"))
+        }
         rows = []
         for _, r in df.iterrows():
+            matchup = str(r.get("MATCHUP", ""))
+            player_name = str(r.get("PLAYER_NAME", ""))
             rows.append({
                 "league_key": self.cfg.league_key,
                 "season": int(season),
                 "season_type": self.cfg.default_season_type,
                 "canonical_game_id": str(r.get("GAME_ID", "")),
-                "canonical_player_id": int(r.get("PLAYER_ID", 0)),
-                "canonical_team_id": int(r.get("TEAM_ID", 0)),
+                "canonical_player_id": player_map.get(normalize_name(player_name), int(r.get("PLAYER_ID", 0))),
+                "player_name": player_name,
+                "canonical_team_id": source_team_map.get(int(r.get("TEAM_ID", 0)), int(r.get("TEAM_ID", 0))),
+                "opponent_team_id": team_map.get(matchup.split()[-1].upper()),
+                "game_date": str(r.get("GAME_DATE", ""))[:10],
+                "is_home": 1 if "vs." in matchup else 0,
                 "started": None,
-                "minutes": None,
+                "minutes": r.get("MIN"),
                 "points": r.get("PTS"),
                 "rebounds": r.get("REB"),
                 "assists": r.get("AST"),

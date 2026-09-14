@@ -19,10 +19,18 @@ from utils.data_contracts import ODDS_COLUMNS
 from utils.league_config import get_league_config
 
 _BASE = "https://api.the-odds-api.com/v4/sports/basketball_wnba/odds"
+_EVENT_ODDS_BASE = "https://api.the-odds-api.com/v4/sports/basketball_wnba/events/{event_id}/odds"
 _TIMEOUT = 20
 _SPORT_KEY = "basketball_wnba"
 
 MARKETS = ["h2h", "spreads", "totals"]
+PLAYER_PROP_MARKETS = [
+    "player_points",
+    "player_rebounds",
+    "player_assists",
+    "player_threes",
+    "player_points_rebounds_assists",
+]
 REGIONS = "us"
 
 
@@ -98,6 +106,57 @@ class OddsApiAdapter:
                             "price": outcome.get("price"),
                             "point": outcome.get("point"),
                             "commence_time": commence,
+                            "snapshot_horizon": "latest",
+                            "is_closing": False,
+                            "market_last_update": market.get("last_update", bm.get("last_update")),
+                            "source": self.source_name,
+                            "retrieved_at": _now(),
+                        })
+        return pd.DataFrame(rows, columns=ODDS_COLUMNS)
+
+    def fetch_prop_odds(self, event_ids: list[str]) -> pd.DataFrame:
+        """Fetch timestamped player-prop prices for selected WNBA events."""
+        if not self.api_key:
+            raise SourceUnavailableError("ODDS_API_KEY is not set")
+        rows: list[dict] = []
+        for event_id in dict.fromkeys(str(value) for value in event_ids if value):
+            try:
+                response = requests.get(
+                    _EVENT_ODDS_BASE.format(event_id=event_id),
+                    params={
+                        "apiKey": self.api_key,
+                        "regions": REGIONS,
+                        "markets": ",".join(PLAYER_PROP_MARKETS),
+                        "oddsFormat": "american",
+                    },
+                    timeout=_TIMEOUT,
+                )
+                response.raise_for_status()
+                game = response.json()
+            except Exception as exc:
+                raise SourceUnavailableError(f"Odds API player-prop request failed for {event_id}: {exc}") from exc
+            home = game.get("home_team", "")
+            away = game.get("away_team", "")
+            commence = game.get("commence_time", "")
+            for bookmaker in game.get("bookmakers", []):
+                for market in bookmaker.get("markets", []):
+                    for outcome in market.get("outcomes", []):
+                        rows.append({
+                            "league_key": self.cfg.league_key,
+                            "season": None,
+                            "canonical_game_id": event_id,
+                            "game_date": commence[:10] if commence else None,
+                            "home_team": home,
+                            "away_team": away,
+                            "book": bookmaker.get("key", ""),
+                            "market": market.get("key", ""),
+                            "name": outcome.get("description", outcome.get("name", "")),
+                            "price": outcome.get("price"),
+                            "point": outcome.get("point"),
+                            "commence_time": commence,
+                            "snapshot_horizon": "latest",
+                            "is_closing": False,
+                            "market_last_update": market.get("last_update", bookmaker.get("last_update")),
                             "source": self.source_name,
                             "retrieved_at": _now(),
                         })
