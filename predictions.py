@@ -71,12 +71,20 @@ def home_page():
         preds_df = pd.DataFrame()
 
     metrics = load_eval_metrics()
+    gate = metrics.get("release_gate", {})
+
+    if gate.get("status") != "production_ready":
+        st.error(
+            "Paper-only shadow mode: the recent-season holdout, 300 priced bets, positive CLV, "
+            "and drift release gate has not passed."
+        )
 
     # ── Hero metrics row ──────────────────────────────────────────────────────
     m1, m2, m3, m4, m5 = st.columns(5)
     total_games = len(preds_df) if not preds_df.empty else 0
-    high_conf = int((preds_df["confidence"] == "High").sum()) if not preds_df.empty else 0
-    med_conf = int((preds_df["confidence"] == "Medium").sum()) if not preds_df.empty else 0
+    ready_mask = preds_df.get("status", pd.Series("no_bet", index=preds_df.index)).eq("ready") if not preds_df.empty else pd.Series(dtype=bool)
+    high_conf = int(((preds_df["confidence"] == "High") & ready_mask).sum()) if not preds_df.empty else 0
+    med_conf = int(((preds_df["confidence"] == "Medium") & ready_mask).sum()) if not preds_df.empty else 0
     avg_conv = (
         preds_df["home_win_prob"].clip(upper=0.99).apply(lambda p: max(p, 1 - p)).mean()
         if not preds_df.empty else 0.0
@@ -88,7 +96,7 @@ def home_page():
     m3.metric("Medium Confidence", med_conf)
     m4.metric("Avg Conviction", f"{avg_conv:.0%}" if avg_conv else "—")
     m5.metric(
-        "Model Accuracy",
+        "2025 Holdout Accuracy",
         f"{accuracy:.1%}" if accuracy else "—",
         help="Ensemble accuracy on held-out games. Train via scripts/train_models.py.",
     )
@@ -106,6 +114,7 @@ def home_page():
             hp = float(g.get("home_win_prob", 0.5))
             conf = g.get("confidence", "Medium")
             spread = g.get("predicted_spread", None)
+            no_bet = str(g.get("status", "no_bet")) != "ready" or bool(g.get("paper_only", True))
 
             spread_str = ""
             if spread is not None and pd.notna(spread):
@@ -123,11 +132,20 @@ def home_page():
                     st.markdown(_prob_bar_html(hp, home, away), unsafe_allow_html=True)
                 with row_r:
                     st.markdown(
-                        f'<div style="text-align:right;padding-top:8px">{_conf_badge(conf)}</div>',
+                        (
+                            '<div style="text-align:right;padding-top:8px">'
+                            '<span style="background:#991b1b;color:white;padding:2px 9px;border-radius:10px;'
+                            'font-size:.72rem;font-weight:700">NO BET · PAPER ONLY</span></div>'
+                            if no_bet
+                            else f'<div style="text-align:right;padding-top:8px">{_conf_badge(conf)}</div>'
+                        ),
                         unsafe_allow_html=True,
                     )
-                    fav_label = home if hp >= 0.5 else away
-                    st.caption(f"Pick: {fav_label}")
+                    if no_bet:
+                        st.caption(str(g.get("no_bet_reason") or "Release gate has not passed."))
+                    else:
+                        fav_label = home if hp >= 0.5 else away
+                        st.caption(f"Pick: {fav_label}")
 
     st.markdown("---")
 
@@ -175,6 +193,7 @@ pg = st.navigation(
         ],
         "Predictions": [
             st.Page("pages/1_Game_Predictions.py", title="Game Predictions", icon="🏀"),
+            st.Page("pages/2_Scenario_Lab.py", title="Scenario Lab", icon="🧪"),
         ],
         "Stats": [
             st.Page("pages/3_Standings.py", title="Standings", icon="🏆"),

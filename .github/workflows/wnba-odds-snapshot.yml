@@ -12,6 +12,10 @@ permissions:
 jobs:
   odds:
     runs-on: ubuntu-latest
+    env:
+      ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
+      THERUNDOWN_API_KEY: ${{ secrets.THERUNDOWN_API_KEY }}
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -25,9 +29,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Snapshot odds
-        env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python scripts/fetch_odds.py --force || true
+        run: python scripts/fetch_odds.py --force --horizon pre_tip || true
 
       - name: Commit odds snapshot
         run: |

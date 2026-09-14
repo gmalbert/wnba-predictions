@@ -17,7 +17,7 @@ from pathlib import Path
 import pandas as pd
 
 from utils.adapters.base import SourceUnavailableError
-from utils.data_contracts import GAMES_COLUMNS, TEAM_GAME_COLUMNS, PLAYER_GAME_COLUMNS
+from utils.data_contracts import GAMES_COLUMNS, PLAY_BY_PLAY_COLUMNS, TEAM_GAME_COLUMNS, PLAYER_GAME_COLUMNS
 from utils.league_config import get_league_config
 
 _DATA_BASE = "https://raw.githubusercontent.com/saiemgilani/wehoop-data/main/wnba"
@@ -91,6 +91,9 @@ class WehoopAdapter:
                 season_type = self.cfg.default_season_type
             elif season_type == "3":
                 season_type = self.cfg.playoff_label
+            name_text = " ".join(str(g.get(key, "")) for key in ("name", "short_name", "notes")).lower()
+            is_playoff = season_type == self.cfg.playoff_label
+            is_cup = "commissioner" in name_text or "cup" in name_text
             rows.append({
                 "league_key": self.cfg.league_key,
                 "season": int(season),
@@ -106,6 +109,14 @@ class WehoopAdapter:
                 "status": status,
                 "neutral_site": _bool_flag(g.get("neutral_site")),
                 "overtime_periods": None,
+                "season_phase": "playoffs" if is_playoff else "commissioners_cup" if is_cup else "regular",
+                "is_commissioners_cup": is_cup,
+                "is_playoff": is_playoff,
+                "venue_name": g.get("venue_full_name", g.get("venue")),
+                "venue_city": g.get("venue_city"),
+                "venue_latitude": g.get("venue_latitude"),
+                "venue_longitude": g.get("venue_longitude"),
+                "venue_timezone": g.get("venue_timezone"),
                 "source": self.source_name,
                 "retrieved_at": _now(),
             })
@@ -160,7 +171,11 @@ class WehoopAdapter:
                 "season_type": str(r.get("season_type", self.cfg.default_season_type)),
                 "canonical_game_id": str(r.get("game_id", "")),
                 "canonical_player_id": _to_int(r.get("athlete_id")),
+                "player_name": str(r.get("athlete_display_name", r.get("athlete_name", ""))),
                 "canonical_team_id": _to_int(r.get("team_id")),
+                "opponent_team_id": _to_int(r.get("opponent_team_id")),
+                "game_date": str(r.get("game_date", ""))[:10],
+                "is_home": 1 if str(r.get("team_home_away", "")).lower() == "home" else 0,
                 "started": 1 if _bool_flag(r.get("starter")) else 0,
                 "minutes": _to_float(r.get("minutes")),
                 "points": _to_int(r.get("points")),
@@ -183,7 +198,27 @@ class WehoopAdapter:
     # ── Play-by-play (raw; normalized elsewhere) ──────────────────────────────
 
     def fetch_play_by_play(self, season: int) -> pd.DataFrame:
-        return _read_season(_PBP_URL, season)
+        raw = _read_season(_PBP_URL, season)
+        rows = []
+        for sequence, (_, play) in enumerate(raw.iterrows(), start=1):
+            rows.append({
+                "league_key": self.cfg.league_key,
+                "season": int(season),
+                "canonical_game_id": str(play.get("game_id", "")),
+                "event_id": str(play.get("id", play.get("play_id", sequence))),
+                "sequence_number": play.get("sequence_number", sequence),
+                "period": play.get("period", play.get("period_number")),
+                "clock": play.get("clock_display_value", play.get("clock")),
+                "event_type": play.get("type_text", play.get("type")),
+                "event_text": play.get("text", play.get("play_text", "")),
+                "canonical_team_id": _to_int(play.get("team_id")),
+                "canonical_player_id": _to_int(play.get("athlete_id", play.get("player_id"))),
+                "home_score": _to_int(play.get("home_score")),
+                "away_score": _to_int(play.get("away_score")),
+                "source": self.source_name,
+                "retrieved_at": _now(),
+            })
+        return pd.DataFrame(rows).reindex(columns=PLAY_BY_PLAY_COLUMNS)
 
     # ── Rosters ───────────────────────────────────────────────────────────────
 

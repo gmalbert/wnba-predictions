@@ -18,6 +18,13 @@ from utils.league_config import get_league_config
 _CFG = get_league_config()
 NORM_MINUTES = _CFG.normalization_minutes  # 40
 
+
+def _canonical_id_strings(series: pd.Series) -> pd.Series:
+    """Normalize parquet integer/float IDs to stable strings without '.0'."""
+    numeric = pd.to_numeric(series, errors="coerce")
+    normalized = numeric.round().astype("Int64").astype(str)
+    return normalized.where(numeric.notna(), series.astype(str))
+
 # ── Low-level utilities ────────────────────────────────────────────────────────
 
 def compute_rest_days(df: pd.DataFrame, date_col: str = "game_date") -> pd.DataFrame:
@@ -53,8 +60,9 @@ def compute_streak(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def add_rolling_features(df: pd.DataFrame, stat_cols: list[str], windows: list[int] = [3, 5, 10]) -> pd.DataFrame:
+def add_rolling_features(df: pd.DataFrame, stat_cols: list[str], windows: list[int] | None = None) -> pd.DataFrame:
     """Shifted rolling mean/std for each stat and window (pre-game values)."""
+    windows = windows or [3, 5, 10]
     df = df.copy().sort_values("game_date").reset_index(drop=True)
     new_cols: dict[str, pd.Series] = {}
     for col in stat_cols:
@@ -79,7 +87,8 @@ def add_season_averages(df: pd.DataFrame, stat_cols: list[str]) -> pd.DataFrame:
     return df
 
 
-def compute_win_pct(df: pd.DataFrame, windows: list[int] = [5, 10]) -> pd.DataFrame:
+def compute_win_pct(df: pd.DataFrame, windows: list[int] | None = None) -> pd.DataFrame:
+    windows = windows or [5, 10]
     df = df.copy().sort_values("game_date").reset_index(drop=True)
     df["win_pct_season"] = df["win"].expanding(min_periods=1).mean().shift(1)
     for w in windows:
@@ -113,6 +122,34 @@ def add_derived_rates(df: pd.DataFrame) -> pd.DataFrame:
         tot = df["offensive_rebounds"] + df["defensive_rebounds"]
         df["oreb_rate"] = (df["offensive_rebounds"] / tot.replace(0, np.nan)).fillna(0)
 
+    # Possession/shot-quality proxies remain useful when tracking feeds are not
+    # available.  If a source provides measured possessions, preserve them.
+    needed = {"field_goals_attempted", "free_throws_attempted", "offensive_rebounds", "turnovers"}
+    if needed.issubset(df.columns):
+        estimated = (
+            df["field_goals_attempted"]
+            + 0.44 * df["free_throws_attempted"]
+            - df["offensive_rebounds"]
+            + df["turnovers"]
+        )
+        if "possessions" not in df.columns:
+            df["possessions"] = estimated
+        else:
+            df["possessions"] = pd.to_numeric(df["possessions"], errors="coerce").fillna(estimated)
+        poss = df["possessions"].replace(0, np.nan)
+        df["offensive_rating"] = (100.0 * df["points"] / poss).replace([np.inf, -np.inf], np.nan)
+
+    if {"three_points_attempted", "field_goals_attempted"}.issubset(df.columns):
+        df["three_attempt_rate"] = (
+            df["three_points_attempted"] / df["field_goals_attempted"].replace(0, np.nan)
+        ).fillna(0)
+    if {"free_throws_attempted", "field_goals_attempted"}.issubset(df.columns):
+        df["free_throw_rate"] = (
+            df["free_throws_attempted"] / df["field_goals_attempted"].replace(0, np.nan)
+        ).fillna(0)
+    if {"assists", "field_goals_made"}.issubset(df.columns):
+        df["assist_rate"] = (df["assists"] / df["field_goals_made"].replace(0, np.nan)).fillna(0)
+
     # Per-40 normalization (WNBA regulation is 40 minutes, not NBA's 48)
     if "minutes" in df.columns:
         mins = pd.to_numeric(df["minutes"], errors="coerce").clip(lower=1)
@@ -130,6 +167,8 @@ TEAM_STAT_COLS = [
     "three_points_attempted", "free_throws_made", "free_throws_attempted",
     "offensive_rebounds", "defensive_rebounds", "assists", "turnovers",
     "steals", "blocks", "personal_fouls", "ts_pct", "tov_pct", "oreb_rate",
+    "possessions", "offensive_rating", "three_attempt_rate", "free_throw_rate", "assist_rate",
+    "roster_continuity", "travel_miles", "timezone_shift_hours", "games_last_4_days",
 ]
 
 
@@ -145,7 +184,10 @@ def engineer_team_features(df: pd.DataFrame) -> pd.DataFrame:
     df = compute_win_pct(df, windows=[5, 10])
     df = add_derived_rates(df)
     df = add_rolling_features(df, TEAM_STAT_COLS, windows=[3, 5, 10])
-    df = add_season_averages(df, ["points", "points_per40", "turnovers", "assists", "efg_pct"])
+    df = add_season_averages(
+        df,
+        ["points", "points_per40", "turnovers", "assists", "efg_pct", "possessions", "offensive_rating"],
+    )
 
     # Schedule compression: games in last 7 days
     if "game_date" in df.columns:
@@ -176,12 +218,70 @@ def build_game_feature_vector(home_row: pd.Series, away_row: pd.Series) -> pd.Se
     d["tov_diff_L10"] = d.get("home_tov_pct_L10", 0) - d.get("away_tov_pct_L10", 0)
     d["oreb_diff_L10"] = d.get("home_oreb_rate_L10", 0) - d.get("away_oreb_rate_L10", 0)
     d["pace_diff_L10"] = (
-        d.get("home_field_goals_attempted_L10", 0) - d.get("away_field_goals_attempted_L10", 0)
+        d.get("home_possessions_L10", d.get("home_field_goals_attempted_L10", 0))
+        - d.get("away_possessions_L10", d.get("away_field_goals_attempted_L10", 0))
+    )
+    d["off_rating_diff_L10"] = d.get("home_offensive_rating_L10", 0) - d.get("away_offensive_rating_L10", 0)
+    d["three_rate_diff_L10"] = d.get("home_three_attempt_rate_L10", 0) - d.get("away_three_attempt_rate_L10", 0)
+    d["travel_diff"] = d.get("home_travel_miles", 0) - d.get("away_travel_miles", 0)
+    d["timezone_shift_diff"] = d.get("home_timezone_shift_hours", 0) - d.get("away_timezone_shift_hours", 0)
+    d["workload_diff"] = d.get("home_games_last_4_days", 0) - d.get("away_games_last_4_days", 0)
+    d["roster_continuity_diff"] = d.get("home_roster_continuity", 0) - d.get("away_roster_continuity", 0)
+    d["is_commissioners_cup"] = max(
+        int(bool(d.get("home_is_commissioners_cup", False))),
+        int(bool(d.get("away_is_commissioners_cup", False))),
+    )
+    d["is_playoff"] = max(
+        int(bool(d.get("home_is_playoff", False))),
+        int(bool(d.get("away_is_playoff", False))),
+    )
+    d["neutral_site"] = max(
+        int(bool(d.get("home_neutral_site", False))),
+        int(bool(d.get("away_neutral_site", False))),
+    )
+    d["is_early_start"] = max(
+        int(bool(d.get("home_is_early_start", False))),
+        int(bool(d.get("away_is_early_start", False))),
     )
     return pd.Series(d)
 
 
-def build_training_dataset(team_game_df: pd.DataFrame) -> pd.DataFrame:
+def _historical_roster_continuity(player_game_df: pd.DataFrame) -> pd.DataFrame:
+    """Create pre-game minutes-overlap continuity without future leakage."""
+    if player_game_df is None or player_game_df.empty:
+        return pd.DataFrame(columns=["canonical_game_id", "canonical_team_id", "roster_continuity"])
+    pg = player_game_df.copy()
+    pg["game_date"] = pd.to_datetime(pg.get("game_date"), errors="coerce")
+    pg["minutes"] = pd.to_numeric(pg.get("minutes"), errors="coerce").fillna(0).clip(lower=0)
+    rows: list[dict] = []
+    for team_id, team in pg.groupby("canonical_team_id"):
+        games = []
+        for game_id, game in team.groupby("canonical_game_id"):
+            minutes = game.groupby("canonical_player_id")["minutes"].sum()
+            games.append((game["game_date"].max(), game_id, minutes))
+        games.sort(key=lambda item: (pd.Timestamp.min if pd.isna(item[0]) else item[0], str(item[1])))
+        previous: pd.Series | None = None
+        for _, game_id, minutes in games:
+            continuity = np.nan
+            if previous is not None:
+                ids = previous.index.union(minutes.index)
+                pair = pd.concat([previous.reindex(ids), minutes.reindex(ids)], axis=1).fillna(0)
+                denom = max(float(pair.max(axis=1).sum()), 1.0)
+                continuity = float(pair.min(axis=1).sum() / denom)
+            rows.append({
+                "canonical_game_id": str(game_id),
+                "canonical_team_id": team_id,
+                "roster_continuity": continuity,
+            })
+            previous = minutes
+    return pd.DataFrame(rows)
+
+
+def build_training_dataset(
+    team_game_df: pd.DataFrame,
+    context_df: pd.DataFrame | None = None,
+    player_game_df: pd.DataFrame | None = None,
+) -> pd.DataFrame:
     """
     Build a model-ready training DataFrame from canonical team game stats.
 
@@ -190,6 +290,26 @@ def build_training_dataset(team_game_df: pd.DataFrame) -> pd.DataFrame:
     """
     tg = team_game_df.copy()
     tg["game_date"] = pd.to_datetime(tg["game_date"])
+
+    if context_df is not None and not context_df.empty:
+        context = context_df.copy()
+        context["canonical_game_id"] = context["canonical_game_id"].astype(str)
+        context["canonical_team_id"] = _canonical_id_strings(context["canonical_team_id"])
+        tg["canonical_game_id"] = tg["canonical_game_id"].astype(str)
+        tg["canonical_team_id"] = _canonical_id_strings(tg["canonical_team_id"])
+        context_cols = [
+            "canonical_game_id", "canonical_team_id", "travel_miles", "timezone_shift_hours",
+            "games_last_4_days", "is_cross_country", "is_early_start",
+            "is_commissioners_cup", "is_playoff", "neutral_site",
+        ]
+        tg = tg.merge(context[[c for c in context_cols if c in context.columns]], on=["canonical_game_id", "canonical_team_id"], how="left")
+    if player_game_df is not None and not player_game_df.empty:
+        continuity = _historical_roster_continuity(player_game_df)
+        tg["canonical_game_id"] = tg["canonical_game_id"].astype(str)
+        tg["canonical_team_id"] = _canonical_id_strings(tg["canonical_team_id"])
+        continuity["canonical_game_id"] = continuity["canonical_game_id"].astype(str)
+        continuity["canonical_team_id"] = _canonical_id_strings(continuity["canonical_team_id"])
+        tg = tg.merge(continuity, on=["canonical_game_id", "canonical_team_id"], how="left")
 
     team_features: dict[int, pd.DataFrame] = {}
     for team_id, grp in tg.groupby("canonical_team_id"):
@@ -202,7 +322,7 @@ def build_training_dataset(team_game_df: pd.DataFrame) -> pd.DataFrame:
         home_tid = int(home_row["canonical_team_id"])
         away_rows = tg[
             (tg["canonical_game_id"] == game_id)
-            & (tg["canonical_team_id"] != home_tid)
+            & (tg["canonical_team_id"].astype(str) != str(home_tid))
         ]
         if away_rows.empty:
             continue

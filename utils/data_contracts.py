@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 from typing import Any
 
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "2.0.0"
 
 # ── Canonical column lists (order matters for stable parquet output) ──────────
 
@@ -31,6 +31,14 @@ GAMES_COLUMNS = [
     "status",
     "neutral_site",
     "overtime_periods",
+    "season_phase",
+    "is_commissioners_cup",
+    "is_playoff",
+    "venue_name",
+    "venue_city",
+    "venue_latitude",
+    "venue_longitude",
+    "venue_timezone",
     "source",
     "retrieved_at",
 ]
@@ -71,7 +79,11 @@ PLAYER_GAME_COLUMNS = [
     "season_type",
     "canonical_game_id",
     "canonical_player_id",
+    "player_name",
     "canonical_team_id",
+    "opponent_team_id",
+    "game_date",
+    "is_home",
     "started",
     "minutes",
     "points",
@@ -131,6 +143,9 @@ INJURIES_COLUMNS = [
     "team_name",
     "status",
     "description",
+    "status_detail",
+    "confirmed_starter",
+    "observed_at",
     "source",
     "retrieved_at",
 ]
@@ -148,8 +163,157 @@ ODDS_COLUMNS = [
     "price",
     "point",
     "commence_time",
+    "snapshot_horizon",
+    "is_closing",
+    "market_last_update",
     "source",
     "retrieved_at",
+]
+
+# Append-only observation contracts.  These intentionally keep observation
+# time separate from event time so historical replays can reproduce exactly
+# what was knowable at morning, injury-report, and pre-tip horizons.
+AVAILABILITY_COLUMNS = [
+    "league_key",
+    "canonical_game_id",
+    "canonical_player_id",
+    "canonical_team_id",
+    "player_name",
+    "status",
+    "status_detail",
+    "availability_probability",
+    "minutes_mean",
+    "minutes_sd",
+    "role",
+    "confirmed_starter",
+    "observation_horizon",
+    "observed_at",
+    "source",
+    "retrieved_at",
+]
+
+LINEUP_COLUMNS = [
+    "league_key",
+    "season",
+    "canonical_game_id",
+    "canonical_team_id",
+    "lineup_id",
+    "player_ids",
+    "minutes",
+    "possessions",
+    "offensive_rating",
+    "defensive_rating",
+    "net_rating",
+    "observed_at",
+    "source",
+    "retrieved_at",
+]
+
+OVERSEAS_WORKLOAD_COLUMNS = [
+    "league_key",
+    "canonical_player_id",
+    "canonical_team_id",
+    "competition",
+    "club",
+    "season_start",
+    "season_end",
+    "minutes",
+    "games",
+    "return_date",
+    "origin_city",
+    "verified",
+    "observed_at",
+    "source",
+    "retrieved_at",
+]
+
+OFFICIALS_COLUMNS = [
+    "league_key",
+    "canonical_game_id",
+    "game_date",
+    "official_id",
+    "official_name",
+    "official_position",
+    "observed_at",
+    "source",
+    "retrieved_at",
+]
+
+PLAY_BY_PLAY_COLUMNS = [
+    "league_key",
+    "season",
+    "canonical_game_id",
+    "event_id",
+    "sequence_number",
+    "period",
+    "clock",
+    "event_type",
+    "event_text",
+    "canonical_team_id",
+    "canonical_player_id",
+    "home_score",
+    "away_score",
+    "source",
+    "retrieved_at",
+]
+
+TRACKING_COLUMNS = [
+    "league_key",
+    "season",
+    "canonical_game_id",
+    "canonical_team_id",
+    "canonical_player_id",
+    "metric",
+    "value",
+    "unit",
+    "observed_at",
+    "source",
+    "retrieved_at",
+]
+
+TRAVEL_CONTEXT_COLUMNS = [
+    "league_key",
+    "season",
+    "canonical_game_id",
+    "canonical_team_id",
+    "game_date",
+    "is_home",
+    "rest_days",
+    "games_last_4_days",
+    "games_last_7_days",
+    "travel_miles",
+    "timezone_shift_hours",
+    "is_cross_country",
+    "is_early_start",
+    "is_commissioners_cup",
+    "is_playoff",
+    "neutral_site",
+    "observed_at",
+]
+
+BET_LEDGER_COLUMNS = [
+    "ledger_id",
+    "prediction_id",
+    "game_id",
+    "game_date",
+    "frozen_at",
+    "horizon",
+    "market",
+    "selection",
+    "model_probability",
+    "model_line",
+    "book",
+    "price",
+    "market_line",
+    "closing_price",
+    "closing_line",
+    "clv",
+    "stake_units",
+    "result",
+    "profit_units",
+    "status",
+    "paper_only",
+    "model_version",
 ]
 
 PREDICTION_COLUMNS = [
@@ -166,12 +330,30 @@ PREDICTION_COLUMNS = [
     "away_win_prob",
     "predicted_spread",
     "predicted_total",
+    "margin_mean",
+    "margin_sd",
+    "margin_low",
+    "margin_high",
+    "total_mean",
+    "total_sd",
+    "total_low",
+    "total_high",
     "market_home_prob",
     "market_spread",
     "market_total",
     "edge",
     "confidence",
     "status",
+    "no_bet_reason",
+    "paper_only",
+    "release_gate_status",
+    "scenario_uncertainty",
+    "availability_status",
+    "roster_continuity_home",
+    "roster_continuity_away",
+    "travel_context_json",
+    "availability_json",
+    "lineup_matchup_json",
     "model_version",
     "feature_schema_version",
     "generated_at",
@@ -214,6 +396,13 @@ def metadata() -> dict[str, Any]:
             "games": schema_hash(GAMES_COLUMNS),
             "team_game": schema_hash(TEAM_GAME_COLUMNS),
             "player_game": schema_hash(PLAYER_GAME_COLUMNS),
+            "availability": schema_hash(AVAILABILITY_COLUMNS),
+            "lineup": schema_hash(LINEUP_COLUMNS),
+            "odds": schema_hash(ODDS_COLUMNS),
+            "bet_ledger": schema_hash(BET_LEDGER_COLUMNS),
+            "officials": schema_hash(OFFICIALS_COLUMNS),
+            "play_by_play": schema_hash(PLAY_BY_PLAY_COLUMNS),
+            "tracking": schema_hash(TRACKING_COLUMNS),
         },
     }
 
