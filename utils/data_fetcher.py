@@ -35,6 +35,7 @@ from utils.data_contracts import (
     OVERSEAS_WORKLOAD_COLUMNS,
     PLAYER_GAME_COLUMNS,
     PLAY_BY_PLAY_COLUMNS,
+    PREDICTION_COLUMNS,
     TEAM_GAME_COLUMNS,
     TRACKING_COLUMNS,
 )
@@ -568,12 +569,22 @@ def load_predictions(date_str: str | None = None) -> pd.DataFrame:
         path = predictions_dir() / f"predictions_{date_str}.parquet"
         df = _read_cache(path)
         return df if df is not None and not df.empty else pd.DataFrame()
-    # Latest available
+    # Prefer the latest available snapshot that satisfies the current
+    # prediction contract. Automated refreshes may leave older-schema daily
+    # snapshots beside frontier snapshots during a rolling migration.
     files = sorted(predictions_dir().glob("predictions_*.parquet")) if predictions_dir().exists() else []
     if not files:
         return pd.DataFrame()
-    df = _read_cache(files[-1])
-    return df if df is not None and not df.empty else pd.DataFrame()
+    required = set(PREDICTION_COLUMNS)
+    fallback = None
+    for path in reversed(files):
+        df = _read_cache(path)
+        if df is None or df.empty:
+            continue
+        fallback = df
+        if required.issubset(df.columns):
+            return df
+    return fallback if fallback is not None else pd.DataFrame()
 
 
 def save_predictions(df: pd.DataFrame, date_str: str) -> Path:
