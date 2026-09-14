@@ -120,9 +120,9 @@
     "source": "the_odds_api",
     "data_type": "odds",
     "ok": true,
-    "last_attempt": "2026-08-26T01:27:23+00:00",
-    "last_success": "2026-08-26T01:27:23+00:00",
+    "last_attempt": "2026-09-14T20:24:49+00:00",
+    "last_success": "2026-09-14T20:24:49+00:00",
     "error": null,
-    "records": 194
+    "records": 328
   }
 ]
