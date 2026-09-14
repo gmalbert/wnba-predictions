@@ -72,15 +72,6 @@
     "records": 15
   },
   {
-    "source": "the_odds_api",
-    "data_type": "odds",
-    "ok": true,
-    "last_attempt": "2026-09-14T08:22:28+00:00",
-    "last_success": "2026-09-14T08:22:28+00:00",
-    "error": null,
-    "records": 334
-  },
-  {
     "source": "wehoop",
     "data_type": "player_game_stats",
     "ok": false,
@@ -115,5 +106,14 @@
     "last_success": null,
     "error": "BALLDONTLIE bulk player stats not available for WNBA.",
     "records": 0
+  },
+  {
+    "source": "the_odds_api",
+    "data_type": "odds",
+    "ok": true,
+    "last_attempt": "2026-09-14T12:37:32+00:00",
+    "last_success": "2026-09-14T12:37:32+00:00",
+    "error": null,
+    "records": 334
   }
 ]
