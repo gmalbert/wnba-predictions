@@ -1,9 +1,4 @@
 season,team_rows,player_rows,team_complete,player_complete,player_error
-2018,442,5187,,,
-2019,442,5211,,,
-2020,294,3544,,,
-2021,422,4626,,,
-2022,482,5307,,,
 2023,546,4544,True,True,
 2024,550,4515,True,True,
 2025,654,5407,True,True,
