@@ -22,7 +22,7 @@
     },
     "holdout_season": 2025,
     "holdout_rows": 327,
-    "priced_bets": 15,
+    "priced_bets": 63,
     "mean_clv": null,
     "drift_suspended": false
   },
