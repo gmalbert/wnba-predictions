@@ -13,7 +13,7 @@
     "paper_only": true,
     "checks": {
       "untouched_2025_holdout": true,
-      "limited_paper_sample": false,
+      "limited_paper_sample": true,
       "limited_paper_games": false,
       "limited_paper_market_coverage": false,
       "minimum_300_priced_bets": false,
@@ -22,7 +22,7 @@
     },
     "holdout_season": 2025,
     "holdout_rows": 327,
-    "priced_bets": 63,
+    "priced_bets": 111,
     "mean_clv": null,
     "drift_suspended": false
   },
