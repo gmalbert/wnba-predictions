@@ -16,7 +16,7 @@
     },
     "holdout_season": 2025,
     "holdout_rows": 327,
-    "priced_bets": 159,
+    "priced_bets": 177,
     "mean_clv": null,
     "drift_suspended": false
   },
@@ -497,12 +497,12 @@
     }
   },
   "paper_ledger": {
-    "priced_bets": 159,
+    "priced_bets": 177,
     "graded_bets": 0,
     "distinct_games": 12,
     "priced_by_market": {
-      "moneyline": 77,
-      "spread": 77,
+      "moneyline": 86,
+      "spread": 86,
       "total": 5
     },
     "mean_clv": null,
