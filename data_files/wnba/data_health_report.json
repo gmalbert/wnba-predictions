@@ -6,25 +6,25 @@
     {
       "check": "freshness",
       "severity": "warning",
-      "message": "games_2026: newest row 1069.2h old (threshold 24h)",
+      "message": "games_2026: newest row 1093.3h old (threshold 24h)",
       "count": 0
     },
     {
       "check": "freshness",
       "severity": "warning",
-      "message": "team_game_stats_2026: newest row 1068.7h old (threshold 24h)",
+      "message": "team_game_stats_2026: newest row 1092.8h old (threshold 24h)",
       "count": 0
     },
     {
       "check": "freshness",
       "severity": "warning",
-      "message": "player_game_stats_2026: newest row 899.1h old (threshold 24h)",
+      "message": "player_game_stats_2026: newest row 923.2h old (threshold 24h)",
       "count": 0
     },
     {
       "check": "freshness",
       "severity": "warning",
-      "message": "injuries: newest row 1069.1h old (threshold 24h)",
+      "message": "injuries: newest row 1093.2h old (threshold 24h)",
       "count": 0
     }
   ],
@@ -159,16 +159,16 @@
       "source": "odds_api_io",
       "data_type": "odds",
       "ok": true,
-      "last_attempt": "2026-09-20T08:17:56+00:00",
-      "last_success": "2026-09-20T08:17:56+00:00",
+      "last_attempt": "2026-09-21T08:22:22+00:00",
+      "last_success": "2026-09-21T08:22:22+00:00",
       "error": null,
-      "records": 608
+      "records": 442
     },
     {
       "source": "therundown",
       "data_type": "odds",
       "ok": false,
-      "last_attempt": "2026-09-20T08:17:57+00:00",
+      "last_attempt": "2026-09-21T08:22:22+00:00",
       "last_success": null,
       "error": "TheRundown rate limit reached; stopped without retrying.",
       "records": 0
@@ -177,5 +177,5 @@
   "seasons": [
     2026
   ],
-  "published_at": "2026-09-20T08:19:05.032773+00:00"
+  "published_at": "2026-09-21T08:23:28.853475+00:00"
 }
