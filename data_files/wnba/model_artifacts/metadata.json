@@ -16,13 +16,13 @@
       "limited_paper_sample": true,
       "limited_paper_games": false,
       "limited_paper_market_coverage": false,
-      "minimum_300_priced_bets": false,
+      "minimum_300_priced_bets": true,
       "positive_clv": false,
       "drift_clear": true
     },
     "holdout_season": 2025,
     "holdout_rows": 327,
-    "priced_bets": 291,
+    "priced_bets": 303,
     "mean_clv": null,
     "drift_suspended": false
   },

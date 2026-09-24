@@ -10,13 +10,13 @@
       "limited_paper_sample": true,
       "limited_paper_games": false,
       "limited_paper_market_coverage": false,
-      "minimum_300_priced_bets": false,
+      "minimum_300_priced_bets": true,
       "positive_clv": false,
       "drift_clear": true
     },
     "holdout_season": 2025,
     "holdout_rows": 327,
-    "priced_bets": 291,
+    "priced_bets": 303,
     "mean_clv": null,
     "drift_suspended": false
   },
@@ -497,12 +497,12 @@
     }
   },
   "paper_ledger": {
-    "priced_bets": 291,
+    "priced_bets": 303,
     "graded_bets": 0,
     "distinct_games": 29,
     "priced_by_market": {
-      "moneyline": 143,
-      "spread": 143,
+      "moneyline": 149,
+      "spread": 149,
       "total": 5
     },
     "mean_clv": null,
