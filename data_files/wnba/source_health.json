@@ -129,16 +129,16 @@
     "source": "odds_api_io",
     "data_type": "odds",
     "ok": true,
-    "last_attempt": "2026-09-30T08:21:03+00:00",
-    "last_success": "2026-09-30T08:21:03+00:00",
+    "last_attempt": "2026-09-30T12:43:09+00:00",
+    "last_success": "2026-09-30T12:43:09+00:00",
     "error": null,
-    "records": 466
+    "records": 468
   },
   {
     "source": "therundown",
     "data_type": "odds",
     "ok": false,
-    "last_attempt": "2026-09-30T08:21:03+00:00",
+    "last_attempt": "2026-09-30T12:43:09+00:00",
     "last_success": null,
     "error": "TheRundown rate limit reached; stopped without retrying.",
     "records": 0
