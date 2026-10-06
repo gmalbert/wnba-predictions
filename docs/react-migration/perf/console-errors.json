@@ -1,0 +1,22 @@
+{
+  "react": {
+    "Home": [],
+    "Game_Predictions": [],
+    "Scenario_Lab": [],
+    "Standings": [],
+    "Team_Stats": [],
+    "Player_Stats": [],
+    "Model_Performance": [],
+    "Data_Health": []
+  },
+  "streamlit": {
+    "Home": [],
+    "Game_Predictions": [],
+    "Scenario_Lab": [],
+    "Standings": [],
+    "Team_Stats": [],
+    "Player_Stats": [],
+    "Model_Performance": [],
+    "Data_Health": []
+  }
+}

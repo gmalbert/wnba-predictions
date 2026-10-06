@@ -1,0 +1,27 @@
+{
+  "artifacts": {
+    "data_health": "data_health.json",
+    "model_performance": "model_performance.json",
+    "player_stats": "player_stats.json",
+    "predictions": "predictions.json",
+    "release_gate": "release_gate.json",
+    "scenario_policy": "scenario_policy.json",
+    "standings": "standings.json",
+    "team_stats": "team_stats.json"
+  },
+  "feature_schema_version": "2.0.0",
+  "generated_at": "2026-09-28T01:16:55Z",
+  "league_key": "wnba",
+  "model_version": "wnba-ensemble-v2",
+  "release_mode": "paper_only",
+  "schema_version": 1,
+  "season": 2026,
+  "sport": "WNBA",
+  "status": "ok",
+  "thresholds": {
+    "model_perf_stale_hours": 720,
+    "predictions_stale_hours": 24,
+    "standings_stale_hours": 168,
+    "team_stats_stale_hours": 168
+  }
+}

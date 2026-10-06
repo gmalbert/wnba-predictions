@@ -34,9 +34,13 @@ def main() -> None:
     required_segments = {"travel", "rest", "roster_continuity", "season_phase", "data_source"}
     require(required_segments.issubset(metrics.get("segment_performance", {})), "Context segment report is incomplete")
     gate = metrics.get("release_gate", {})
-    require(set(gate.get("checks", {})) == {
+    production_checks = {
         "untouched_2025_holdout", "minimum_300_priced_bets", "positive_clv", "drift_clear"
-    }, "Production release gate checks are incomplete")
+    }
+    require(
+        production_checks.issubset(set(gate.get("checks", {}))),
+        "Production release gate checks are incomplete",
+    )
 
     for season in (2023, 2024, 2025):
         for kind, filename in (

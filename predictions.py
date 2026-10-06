@@ -10,10 +10,10 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from footer import add_betting_oracle_footer
+from utils.browser_tz import browser_timezone
 from utils.league_config import get_league_config
 
 _CFG = get_league_config()
-_ET = ZoneInfo("America/New_York")
 
 st.set_page_config(
     page_title=f"WNBA Predictions",
@@ -51,6 +51,7 @@ def home_page():
     from utils.model_utils import load_eval_metrics
 
     # ── Header ────────────────────────────────────────────────────────────────
+    today = datetime.now(tz=ZoneInfo(browser_timezone())).strftime("%A, %B %d, %Y")
     hdr_left, hdr_right = st.columns([1, 4])
     with hdr_left:
         st.image("data_files/logo.png", width=130)
@@ -58,7 +59,7 @@ def home_page():
         st.markdown(
             f"<h1 style='margin-bottom:0'>WNBA Predictions</h1>"
             f"<p style='color:#888;margin-top:2px'>Season {_CFG.current_season} · "
-            f"{datetime.now(tz=_ET).strftime('%A, %B %d, %Y')}</p>",
+            f"{today}</p>",
             unsafe_allow_html=True,
         )
 

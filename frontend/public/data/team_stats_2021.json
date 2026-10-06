@@ -1,0 +1,3697 @@
+{
+  "generated_at": "2026-09-28T01:16:57Z",
+  "league_key": "wnba",
+  "schema_version": 1,
+  "season": 2021,
+  "seasons_available": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "teams": {
+    "11": {
+      "name": "Phoenix Mercury",
+      "rankings": {
+        "efg_pct_L10": 0.49,
+        "oreb_rate_L10": 0.242,
+        "points_L10": 83.4,
+        "tov_pct_L10": 0.144
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-10-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 50,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 117,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 90,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 76,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 43,
+        "points_L10": 84.3,
+        "rest_days": 2.0,
+        "streak": 8.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 11,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-16T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-18T00:00:00Z",
+          "points": 91.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 67.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-26T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-29T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 80.16666666666667
+        },
+        {
+          "game_date": "2021-06-03T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 80.71428571428571
+        },
+        {
+          "game_date": "2021-06-08T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.25
+        },
+        {
+          "game_date": "2021-06-11T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 80.33333333333333
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2021-06-16T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.8
+        },
+        {
+          "game_date": "2021-06-18T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2021-06-27T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2021-06-30T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 79.3
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2021-08-21T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2021-08-25T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2021-08-27T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 88.5
+        },
+        {
+          "game_date": "2021-09-06T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 87.3
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.1
+        },
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "points": 117.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2021-10-08T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2021-10-10T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2021-10-13T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2021-10-15T00:00:00Z",
+          "points": 50.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2021-10-17T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 84.3
+        }
+      ]
+    },
+    "14": {
+      "name": "Seattle Storm",
+      "rankings": {
+        "efg_pct_L10": 0.5,
+        "oreb_rate_L10": 0.199,
+        "points_L10": 81.5,
+        "tov_pct_L10": 0.154
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 53,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 105,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 99,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 77,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 34,
+        "points_L10": 81.4,
+        "rest_days": 9.0,
+        "streak": 11.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 14,
+      "trends": [
+        {
+          "game_date": "2021-05-15T00:00:00Z",
+          "points": 97.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-18T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-20T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-22T00:00:00Z",
+          "points": 100.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-25T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 91.4
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 89.83333333333333
+        },
+        {
+          "game_date": "2021-06-04T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 89.57142857142857
+        },
+        {
+          "game_date": "2021-06-06T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 91.5
+        },
+        {
+          "game_date": "2021-06-09T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 88.77777777777777
+        },
+        {
+          "game_date": "2021-06-11T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 88.3
+        },
+        {
+          "game_date": "2021-06-15T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 88.9
+        },
+        {
+          "game_date": "2021-06-22T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2021-06-27T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2021-07-02T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2021-07-04T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2021-08-12T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2021-08-18T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2021-08-27T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2021-08-29T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "points": 53.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 81.4
+        }
+      ]
+    },
+    "16": {
+      "name": "Washington Mystics",
+      "rankings": {
+        "efg_pct_L10": 0.497,
+        "oreb_rate_L10": 0.201,
+        "points_L10": 77.0,
+        "tov_pct_L10": 0.159
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 89,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 77.1,
+        "rest_days": 2.0,
+        "streak": -7.0,
+        "win_pct_L10": 0.4
+      },
+      "team_id": 16,
+      "trends": [
+        {
+          "game_date": "2021-05-15T00:00:00Z",
+          "points": 56.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-18T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-23T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-25T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2021-06-05T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 78.33333333333333
+        },
+        {
+          "game_date": "2021-06-08T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 80.42857142857143
+        },
+        {
+          "game_date": "2021-06-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 81.88888888888889
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2021-06-19T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2021-06-22T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2021-06-24T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2021-06-26T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2021-06-29T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2021-07-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 75.5
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 77.1
+        }
+      ]
+    },
+    "17": {
+      "name": "Las Vegas Aces",
+      "rankings": {
+        "efg_pct_L10": 0.513,
+        "oreb_rate_L10": 0.186,
+        "points_L10": 88.2,
+        "tov_pct_L10": 0.102
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-10-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 60,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 103,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 102,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 93,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 37,
+        "points_L10": 88.8,
+        "rest_days": 2.0,
+        "streak": 16.0,
+        "win_pct_L10": 0.7
+      },
+      "team_id": 17,
+      "trends": [
+        {
+          "game_date": "2021-05-15T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-18T00:00:00Z",
+          "points": 96.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 97.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-23T00:00:00Z",
+          "points": 65.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-26T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 113.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2021-05-30T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 89.83333333333333
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 91.42857142857143
+        },
+        {
+          "game_date": "2021-06-03T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 88.375
+        },
+        {
+          "game_date": "2021-06-05T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 89.7
+        },
+        {
+          "game_date": "2021-06-15T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 89.9
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 90.3
+        },
+        {
+          "game_date": "2021-06-25T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 90.9
+        },
+        {
+          "game_date": "2021-06-27T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 93.3
+        },
+        {
+          "game_date": "2021-06-30T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 94.3
+        },
+        {
+          "game_date": "2021-07-02T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 92.9
+        },
+        {
+          "game_date": "2021-07-04T00:00:00Z",
+          "points": 118.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 94.5
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 94.1
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 91.2
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 92.2
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 90.6
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 89.6
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2021-09-13T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "points": 60.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2021-10-08T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 88.8
+        }
+      ]
+    },
+    "18": {
+      "name": "Connecticut Sun",
+      "rankings": {
+        "efg_pct_L10": 0.493,
+        "oreb_rate_L10": 0.325,
+        "points_L10": 82.7,
+        "tov_pct_L10": 0.153
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 75,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 72,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 37,
+        "points_L10": 83.4,
+        "rest_days": 3.0,
+        "streak": 18.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 18,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-16T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-19T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-23T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-25T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2021-05-30T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 81.875
+        },
+        {
+          "game_date": "2021-06-05T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 81.4
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2021-06-19T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2021-06-22T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2021-06-27T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2021-06-29T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2021-07-01T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 78.8
+        },
+        {
+          "game_date": "2021-08-12T00:00:00Z",
+          "points": 57.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 77.0
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 76.1
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 76.3
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 75.1
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 74.1
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2021-09-09T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 75.8
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 76.2
+        },
+        {
+          "game_date": "2021-09-15T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 83.4
+        }
+      ]
+    },
+    "19": {
+      "name": "Chicago Sky",
+      "rankings": {
+        "efg_pct_L10": 0.525,
+        "oreb_rate_L10": 0.225,
+        "points_L10": 84.7,
+        "tov_pct_L10": 0.151
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-10-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2021-10-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 81,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 83,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 42,
+        "points_L10": 86.5,
+        "rest_days": 2.0,
+        "streak": 5.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 19,
+      "trends": [
+        {
+          "game_date": "2021-05-15T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-19T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-23T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-25T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 61.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-30T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 77.16666666666667
+        },
+        {
+          "game_date": "2021-06-03T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2021-06-05T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2021-06-09T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 75.88888888888889
+        },
+        {
+          "game_date": "2021-06-12T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2021-06-15T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 78.8
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2021-06-19T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2021-06-22T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2021-06-24T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2021-06-27T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2021-06-30T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2021-07-02T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2021-07-10T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2021-08-21T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2021-08-27T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2021-08-29T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2021-09-28T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2021-09-30T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2021-10-03T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2021-10-06T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2021-10-10T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2021-10-13T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2021-10-15T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2021-10-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.5
+        }
+      ]
+    },
+    "20": {
+      "name": "Atlanta Dream",
+      "rankings": {
+        "efg_pct_L10": 0.45,
+        "oreb_rate_L10": 0.241,
+        "points_L10": 72.2,
+        "tov_pct_L10": 0.112
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-16T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 69,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 72,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 72.2,
+        "rest_days": 3.0,
+        "streak": -15.0,
+        "win_pct_L10": 0.2
+      },
+      "team_id": 20,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 67.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-19T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-25T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-27T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-29T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2021-06-04T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.66666666666667
+        },
+        {
+          "game_date": "2021-06-06T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 84.57142857142857
+        },
+        {
+          "game_date": "2021-06-09T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2021-06-11T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 82.55555555555556
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2021-06-23T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2021-06-26T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2021-06-29T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2021-07-02T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2021-07-04T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 81.3
+        },
+        {
+          "game_date": "2021-08-21T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 76.9
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 74.7
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 72.1
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 72.4
+        },
+        {
+          "game_date": "2021-09-14T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 73.0
+        },
+        {
+          "game_date": "2021-09-16T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 73.4
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 72.2
+        }
+      ]
+    },
+    "3": {
+      "name": "Dallas Wings",
+      "rankings": {
+        "efg_pct_L10": 0.467,
+        "oreb_rate_L10": 0.258,
+        "points_L10": 73.3,
+        "tov_pct_L10": 0.151
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 77,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 56,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 72,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 59,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 96,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 33,
+        "points_L10": 74.9,
+        "rest_days": 4.0,
+        "streak": -4.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 3,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 94.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-22T00:00:00Z",
+          "points": 97.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-24T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-27T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-29T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 90.4
+        },
+        {
+          "game_date": "2021-06-04T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 88.5
+        },
+        {
+          "game_date": "2021-06-06T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 90.42857142857143
+        },
+        {
+          "game_date": "2021-06-08T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 87.625
+        },
+        {
+          "game_date": "2021-06-11T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 87.33333333333333
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2021-06-19T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2021-06-22T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2021-06-24T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2021-06-26T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2021-06-30T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2021-07-02T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2021-07-05T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 82.9
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2021-09-05T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 80.3
+        },
+        {
+          "game_date": "2021-09-07T00:00:00Z",
+          "points": 56.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 72.7
+        },
+        {
+          "game_date": "2021-09-13T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 72.5
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 72.1
+        },
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 74.9
+        }
+      ]
+    },
+    "5": {
+      "name": "Indiana Fever",
+      "rankings": {
+        "efg_pct_L10": 0.466,
+        "oreb_rate_L10": 0.319,
+        "points_L10": 76.4,
+        "tov_pct_L10": 0.149
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 65,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 73,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 75.7,
+        "rest_days": 2.0,
+        "streak": -19.0,
+        "win_pct_L10": 0.2
+      },
+      "team_id": 5,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-16T00:00:00Z",
+          "points": 65.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-19T00:00:00Z",
+          "points": 67.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-23T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-25T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2021-05-30T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 76.14285714285714
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 76.375
+        },
+        {
+          "game_date": "2021-06-03T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2021-06-09T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 74.7
+        },
+        {
+          "game_date": "2021-06-12T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 73.6
+        },
+        {
+          "game_date": "2021-06-15T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 75.0
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 75.3
+        },
+        {
+          "game_date": "2021-06-19T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 74.3
+        },
+        {
+          "game_date": "2021-06-24T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 73.1
+        },
+        {
+          "game_date": "2021-07-01T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 72.6
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 72.9
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 72.4
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 73.3
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 74.9
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 74.3
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 74.4
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 75.7
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2021-09-06T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 75.7
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 75.8
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 75.7
+        },
+        {
+          "game_date": "2021-09-14T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 75.5
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 75.7
+        }
+      ]
+    },
+    "6": {
+      "name": "Los Angeles Sparks",
+      "rankings": {
+        "efg_pct_L10": 0.485,
+        "oreb_rate_L10": 0.169,
+        "points_L10": 71.2,
+        "tov_pct_L10": 0.165
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-16T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 81,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 57,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 57,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 61,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 66,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 75,
+          "win": 1
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 61,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 62,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 69.4,
+        "rest_days": 3.0,
+        "streak": -7.0,
+        "win_pct_L10": 0.4
+      },
+      "team_id": 6,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 71.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-30T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-06-01T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-06-03T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 73.4
+        },
+        {
+          "game_date": "2021-06-05T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2021-06-10T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 76.14285714285714
+        },
+        {
+          "game_date": "2021-06-12T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 75.5
+        },
+        {
+          "game_date": "2021-06-16T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 74.22222222222223
+        },
+        {
+          "game_date": "2021-06-18T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 75.3
+        },
+        {
+          "game_date": "2021-06-20T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 74.8
+        },
+        {
+          "game_date": "2021-06-24T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2021-06-27T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2021-06-30T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 76.2
+        },
+        {
+          "game_date": "2021-07-02T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2021-07-04T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 72.8
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 73.4
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 61.0,
+          "points_L10": 72.5
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 72.2
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 71.2
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 73.1
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 72.4
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 72.1
+        },
+        {
+          "game_date": "2021-08-26T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 71.0
+        },
+        {
+          "game_date": "2021-08-28T00:00:00Z",
+          "points": 61.0,
+          "points_L10": 70.7
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 71.0
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 57.0,
+          "points_L10": 70.8
+        },
+        {
+          "game_date": "2021-09-09T00:00:00Z",
+          "points": 57.0,
+          "points_L10": 70.3
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 69.9
+        },
+        {
+          "game_date": "2021-09-16T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 70.5
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 69.4
+        }
+      ]
+    },
+    "8": {
+      "name": "Minnesota Lynx",
+      "rankings": {
+        "efg_pct_L10": 0.496,
+        "oreb_rate_L10": 0.226,
+        "points_L10": 82.0,
+        "tov_pct_L10": 0.151
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 66,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 60,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 86,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 33,
+        "points_L10": 84.5,
+        "rest_days": 7.0,
+        "streak": 12.0,
+        "win_pct_L10": 0.9
+      },
+      "team_id": 8,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-18T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-20T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-28T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-30T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-06-04T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 75.8
+        },
+        {
+          "game_date": "2021-06-06T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2021-06-08T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.71428571428571
+        },
+        {
+          "game_date": "2021-06-12T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 80.75
+        },
+        {
+          "game_date": "2021-06-15T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 80.66666666666667
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2021-06-19T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2021-06-23T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2021-06-25T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2021-06-30T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2021-07-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.1
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2021-08-17T00:00:00Z",
+          "points": 60.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2021-08-19T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2021-08-21T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2021-08-24T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 81.7
+        },
+        {
+          "game_date": "2021-09-04T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2021-09-08T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2021-09-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2021-09-12T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2021-09-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2021-09-26T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 84.5
+        }
+      ]
+    },
+    "9": {
+      "name": "New York Liberty",
+      "rankings": {
+        "efg_pct_L10": 0.497,
+        "oreb_rate_L10": 0.193,
+        "points_L10": 76.8,
+        "tov_pct_L10": 0.169
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2021-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2021-08-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 54,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2021-07-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 99,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 33,
+        "points_L10": 76.9,
+        "rest_days": 6.0,
+        "streak": -8.0,
+        "win_pct_L10": 0.2
+      },
+      "team_id": 9,
+      "trends": [
+        {
+          "game_date": "2021-05-14T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-16T00:00:00Z",
+          "points": 73.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-18T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-21T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-23T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2021-05-24T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2021-05-29T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 83.66666666666667
+        },
+        {
+          "game_date": "2021-06-03T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 84.14285714285714
+        },
+        {
+          "game_date": "2021-06-05T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 83.875
+        },
+        {
+          "game_date": "2021-06-13T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.66666666666667
+        },
+        {
+          "game_date": "2021-06-15T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2021-06-17T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2021-06-20T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2021-06-22T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2021-06-24T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2021-06-26T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2021-06-29T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2021-07-03T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2021-07-05T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2021-07-09T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2021-07-11T00:00:00Z",
+          "points": 54.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2021-08-15T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 76.6
+        },
+        {
+          "game_date": "2021-08-18T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2021-08-20T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2021-08-22T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2021-08-25T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2021-08-27T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2021-08-31T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2021-09-02T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 75.8
+        },
+        {
+          "game_date": "2021-09-11T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 73.4
+        },
+        {
+          "game_date": "2021-09-15T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 74.1
+        },
+        {
+          "game_date": "2021-09-17T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2021-09-23T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 76.9
+        }
+      ]
+    },
+    "96": {
+      "name": "Team 96",
+      "rankings": {
+        "efg_pct_L10": 0.53,
+        "oreb_rate_L10": 0.317,
+        "points_L10": 93.0,
+        "tov_pct_L10": 0.074
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-07-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 97,
+          "points": 93,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 96,
+      "trends": [
+        {
+          "game_date": "2021-07-14T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "97": {
+      "name": "Team 97",
+      "rankings": {
+        "efg_pct_L10": 0.52,
+        "oreb_rate_L10": 0.216,
+        "points_L10": 85.0,
+        "tov_pct_L10": 0.161
+      },
+      "recent_games": [
+        {
+          "game_date": "2021-07-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 96,
+          "points": 85,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 97,
+      "trends": [
+        {
+          "game_date": "2021-07-14T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "Home": {
+    "first_contentful_paint_ms": 140,
+    "first_paint_ms": 44,
+    "dom_content_loaded_ms": 44,
+    "load_ms": 44,
+    "tti_estimate_ms": 44,
+    "total_transferred_bytes": 734090,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 8,
+    "url": "http://127.0.0.1:4173/"
+  },
+  "Game_Predictions": {
+    "first_contentful_paint_ms": 100,
+    "first_paint_ms": 20,
+    "dom_content_loaded_ms": 23.69999998807907,
+    "load_ms": 23.69999998807907,
+    "tti_estimate_ms": 23.69999998807907,
+    "total_transferred_bytes": 621089,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 5,
+    "url": "http://127.0.0.1:4173/game-predictions"
+  },
+  "Scenario_Lab": {
+    "first_contentful_paint_ms": 140,
+    "first_paint_ms": 28,
+    "dom_content_loaded_ms": 31.599999994039536,
+    "load_ms": 31.599999994039536,
+    "tti_estimate_ms": 31.599999994039536,
+    "total_transferred_bytes": 537613,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 6,
+    "url": "http://127.0.0.1:4173/scenario-lab"
+  },
+  "Standings": {
+    "first_contentful_paint_ms": 180,
+    "first_paint_ms": 40,
+    "dom_content_loaded_ms": 46.599999994039536,
+    "load_ms": 46.599999994039536,
+    "tti_estimate_ms": 46.599999994039536,
+    "total_transferred_bytes": 539397,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 6,
+    "url": "http://127.0.0.1:4173/standings"
+  },
+  "Team_Stats": {
+    "first_contentful_paint_ms": 176,
+    "first_paint_ms": 52,
+    "dom_content_loaded_ms": 47.20000001788139,
+    "load_ms": 48,
+    "tti_estimate_ms": 48,
+    "total_transferred_bytes": 550648,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 6,
+    "url": "http://127.0.0.1:4173/team-stats"
+  },
+  "Player_Stats": {
+    "first_contentful_paint_ms": 192,
+    "first_paint_ms": 36,
+    "dom_content_loaded_ms": 48.400000005960464,
+    "load_ms": 48.400000005960464,
+    "tti_estimate_ms": 48.400000005960464,
+    "total_transferred_bytes": 682862,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 6,
+    "url": "http://127.0.0.1:4173/player-stats"
+  },
+  "Model_Performance": {
+    "first_contentful_paint_ms": 184,
+    "first_paint_ms": 44,
+    "dom_content_loaded_ms": 47.80000001192093,
+    "load_ms": 47.80000001192093,
+    "tti_estimate_ms": 47.80000001192093,
+    "total_transferred_bytes": 539057,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 5,
+    "url": "http://127.0.0.1:4173/model-performance"
+  },
+  "Data_Health": {
+    "first_contentful_paint_ms": 120,
+    "first_paint_ms": 120,
+    "dom_content_loaded_ms": 23.599999994039536,
+    "load_ms": 23.69999998807907,
+    "tti_estimate_ms": 23.69999998807907,
+    "total_transferred_bytes": 540902,
+    "js_request_count": 1,
+    "js_transferred_bytes": 70268,
+    "resource_count": 6,
+    "url": "http://127.0.0.1:4173/data-health"
+  }
+}

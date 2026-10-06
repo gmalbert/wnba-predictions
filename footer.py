@@ -4,6 +4,12 @@ Betting Oracle Footer Component
 Copy this file to your Streamlit app repository and import it to add consistent branding.
 """
 
+from pathlib import Path
+
+_ROOT = Path(__file__).resolve().parent
+_LOCAL_LOGO = _ROOT / "data_files" / "betting_oracle_logo.png"
+_REMOTE_LOGO = "https://raw.githubusercontent.com/gmalbert/betting-oracle/main/data_files/logo.png"
+
 FOOTER_HTML = """
 <div style="text-align: center; padding: 20px 0; border-top: 1px solid #e0e0e0; margin-top: 40px;">
     <p style="margin: 0 0 10px 0; font-size: 14px; color: #666; font-family: sans-serif;">
@@ -13,12 +19,22 @@ FOOTER_HTML = """
         Sports Prediction Analytics
     </p>
     <a href="https://www.betting-oracle.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/gmalbert/betting-oracle/main/data_files/logo.png"
+        <img src="__LOGO_SRC__"
              alt="Betting Oracle Logo"
              style="height: 60px; width: auto; border: none;">
     </a>
 </div>
 """
+
+
+def _logo_src() -> str:
+    """Serve the tracked local logo as a data URI; fall back to the remote asset."""
+    if _LOCAL_LOGO.exists():
+        import base64
+
+        payload = base64.b64encode(_LOCAL_LOGO.read_bytes()).decode("ascii")
+        return f"data:image/png;base64,{payload}"
+    return _REMOTE_LOGO
 
 
 def add_betting_oracle_footer():
@@ -32,7 +48,7 @@ def add_betting_oracle_footer():
         add_betting_oracle_footer()
     """
     import streamlit as st
-    st.markdown(FOOTER_HTML, unsafe_allow_html=True)
+    st.markdown(FOOTER_HTML.replace("__LOGO_SRC__", _logo_src()), unsafe_allow_html=True)
 
 
 def add_sidebar_logo(width: int = 120):
