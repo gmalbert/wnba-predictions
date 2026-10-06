@@ -60,6 +60,17 @@ def _launch_browser(playwright):
         raise first_error
 
 
+def _wait_images(page) -> None:
+    """Let in-flight <img> requests finish so navigation cannot abort them."""
+    try:
+        page.wait_for_function(
+            "() => Array.from(document.images).every((img) => img.complete)",
+            timeout=15000,
+        )
+    except Exception:
+        pass
+
+
 def main() -> int:
     failures: list[str] = []
     with sync_playwright() as p:
@@ -83,6 +94,7 @@ def main() -> int:
                 break
             time.sleep(1)
         time.sleep(2)
+        _wait_images(page)
         body = page.inner_text("body").lower()
         for expected in ["wnba predictions", "season"]:
             if expected not in body:
@@ -108,6 +120,7 @@ def main() -> int:
                     break
                 time.sleep(1)
             time.sleep(2)
+            _wait_images(page)
             body = page.inner_text("body")
             if len(body.strip()) < 50:
                 failures.append(f"{filename} returned near-empty page")
@@ -135,12 +148,14 @@ def main() -> int:
                         failures.append("Scenario_Lab parlay simulation did not render")
             print(f"  {label}: {len(body)} chars", flush=True)
 
-        # Collect console/page errors (ignore benign favicon/asset 404s)
+        # Collect console/page errors (ignore benign favicon/asset 404s and
+        # media loads aborted by Streamlit reruns).
         real_errors = [
             e for e in errors
             if "404" not in e
             and "does not seem to exist" not in e
             and "Failed to load resource" not in e
+            and "Image source error" not in e
         ]
         if real_errors:
             failures.append(f"Console errors on pages: {real_errors[:5]}")
