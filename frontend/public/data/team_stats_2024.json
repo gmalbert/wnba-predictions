@@ -1,0 +1,4365 @@
+{
+  "generated_at": "2026-09-28T01:16:57Z",
+  "league_key": "wnba",
+  "schema_version": 1,
+  "season": 2024,
+  "seasons_available": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "teams": {
+    "104959": {
+      "name": "Team 104959",
+      "rankings": {
+        "efg_pct_L10": 0.328,
+        "oreb_rate_L10": 0.286,
+        "points_L10": 50.0,
+        "tov_pct_L10": 0.197
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-05-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 50,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 104959,
+      "trends": [
+        {
+          "game_date": "2024-05-11T00:00:00Z",
+          "points": 50.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "11": {
+      "name": "Phoenix Mercury",
+      "rankings": {
+        "efg_pct_L10": 0.506,
+        "oreb_rate_L10": 0.205,
+        "points_L10": 79.6,
+        "tov_pct_L10": 0.154
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 44,
+        "points_L10": 78.4,
+        "rest_days": 3.0,
+        "streak": -5.0,
+        "win_pct_L10": 0.3
+      },
+      "team_id": 11,
+      "trends": [
+        {
+          "game_date": "2024-05-07T00:00:00Z",
+          "points": 59.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-10T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-21T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-23T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.16666666666667
+        },
+        {
+          "game_date": "2024-05-28T00:00:00Z",
+          "points": 47.0,
+          "points_L10": 83.57142857142857
+        },
+        {
+          "game_date": "2024-05-29T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 78.88888888888889
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2024-06-04T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2024-06-13T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2024-06-16T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-06-18T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-06-22T00:00:00Z",
+          "points": 60.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2024-06-28T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2024-06-30T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2024-07-01T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2024-07-03T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 87.3
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2024-07-12T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 87.9
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2024-08-21T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2024-09-07T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 76.2
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 74.2
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 74.9
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 78.4
+        }
+      ]
+    },
+    "14": {
+      "name": "Seattle Storm",
+      "rankings": {
+        "efg_pct_L10": 0.483,
+        "oreb_rate_L10": 0.217,
+        "points_L10": 79.8,
+        "tov_pct_L10": 0.13
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 44,
+        "points_L10": 80.8,
+        "rest_days": 2.0,
+        "streak": 9.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 14,
+      "trends": [
+        {
+          "game_date": "2024-05-04T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-17T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-20T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-05-22T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 79.85714285714286
+        },
+        {
+          "game_date": "2024-05-28T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2024-05-30T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 81.88888888888889
+        },
+        {
+          "game_date": "2024-06-04T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2024-06-11T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2024-06-13T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2024-06-16T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2024-06-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 85.1
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-06-29T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2024-07-01T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2024-07-05T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2024-07-12T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2024-09-07T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 80.7
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 80.8
+        }
+      ]
+    },
+    "16": {
+      "name": "Washington Mystics",
+      "rankings": {
+        "efg_pct_L10": 0.523,
+        "oreb_rate_L10": 0.229,
+        "points_L10": 80.7,
+        "tov_pct_L10": 0.176
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 68,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 42,
+        "points_L10": 78.9,
+        "rest_days": 2.0,
+        "streak": -15.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 16,
+      "trends": [
+        {
+          "game_date": "2024-05-04T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-08T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-17T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-19T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-21T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2024-05-23T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 76.83333333333333
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 77.28571428571429
+        },
+        {
+          "game_date": "2024-05-29T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 76.25
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 75.22222222222223
+        },
+        {
+          "game_date": "2024-06-04T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2024-06-06T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 73.1
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 72.5
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 72.8
+        },
+        {
+          "game_date": "2024-06-11T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 73.9
+        },
+        {
+          "game_date": "2024-06-14T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 75.1
+        },
+        {
+          "game_date": "2024-06-19T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 76.6
+        },
+        {
+          "game_date": "2024-06-22T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2024-06-29T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2024-07-04T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2024-07-06T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 80.7
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2024-08-31T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 81.3
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 78.9
+        }
+      ]
+    },
+    "17": {
+      "name": "Las Vegas Aces",
+      "rankings": {
+        "efg_pct_L10": 0.521,
+        "oreb_rate_L10": 0.161,
+        "points_L10": 82.4,
+        "tov_pct_L10": 0.124
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 97,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 47,
+        "points_L10": 84.8,
+        "rest_days": 2.0,
+        "streak": 16.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 17,
+      "trends": [
+        {
+          "game_date": "2024-05-11T00:00:00Z",
+          "points": 102.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-21T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 99.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-29T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 93.4
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 91.16666666666667
+        },
+        {
+          "game_date": "2024-06-05T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 88.71428571428571
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 89.5
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 86.77777777777777
+        },
+        {
+          "game_date": "2024-06-11T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 87.3
+        },
+        {
+          "game_date": "2024-06-13T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2024-06-15T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2024-06-19T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2024-06-21T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2024-06-29T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 88.5
+        },
+        {
+          "game_date": "2024-07-04T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 87.8
+        },
+        {
+          "game_date": "2024-07-05T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 91.2
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 93.0
+        },
+        {
+          "game_date": "2024-07-12T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 91.3
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2024-08-21T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 87.9
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 87.8
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2024-08-27T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 84.8
+        }
+      ]
+    },
+    "18": {
+      "name": "Connecticut Sun",
+      "rankings": {
+        "efg_pct_L10": 0.487,
+        "oreb_rate_L10": 0.272,
+        "points_L10": 80.7,
+        "tov_pct_L10": 0.139
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-10-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 73,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 64,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 48,
+        "points_L10": 81.8,
+        "rest_days": 2.0,
+        "streak": 17.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 18,
+      "trends": [
+        {
+          "game_date": "2024-05-09T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 92.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-17T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-20T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-23T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2024-05-28T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 85.33333333333333
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 83.14285714285714
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2024-06-04T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 80.55555555555556
+        },
+        {
+          "game_date": "2024-06-08T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-06-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-06-12T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2024-06-15T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.3
+        },
+        {
+          "game_date": "2024-06-18T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2024-06-21T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 61.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2024-06-28T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2024-07-01T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2024-07-04T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 81.7
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-08-24T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-08-31T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 77.2
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 78.8
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 80.7
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 80.7
+        },
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 80.7
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2024-10-08T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 81.8
+        }
+      ]
+    },
+    "19": {
+      "name": "Chicago Sky",
+      "rankings": {
+        "efg_pct_L10": 0.466,
+        "oreb_rate_L10": 0.258,
+        "points_L10": 74.6,
+        "tov_pct_L10": 0.167
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 54,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 58,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 42,
+        "points_L10": 76.2,
+        "rest_days": 2.0,
+        "streak": -13.0,
+        "win_pct_L10": 0.2
+      },
+      "team_id": 19,
+      "trends": [
+        {
+          "game_date": "2024-05-03T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-07T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-15T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-23T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2024-05-28T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2024-05-30T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.42857142857143
+        },
+        {
+          "game_date": "2024-06-01T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 83.375
+        },
+        {
+          "game_date": "2024-06-04T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 81.88888888888889
+        },
+        {
+          "game_date": "2024-06-06T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2024-06-08T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2024-06-12T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2024-06-14T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2024-06-16T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 78.3
+        },
+        {
+          "game_date": "2024-06-20T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 77.7
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-06-30T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2024-07-05T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2024-07-11T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2024-07-13T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 76.3
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 76.2
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 76.3
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 76.6
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 79.3
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 76.1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 54.0,
+          "points_L10": 76.2
+        }
+      ]
+    },
+    "20": {
+      "name": "Atlanta Dream",
+      "rankings": {
+        "efg_pct_L10": 0.458,
+        "oreb_rate_L10": 0.29,
+        "points_L10": 79.7,
+        "tov_pct_L10": 0.144
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 107,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 44,
+        "points_L10": 79.5,
+        "rest_days": 2.0,
+        "streak": -11.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 20,
+      "trends": [
+        {
+          "game_date": "2024-05-04T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-09T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-15T00:00:00Z",
+          "points": 92.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-21T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-26T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2024-05-29T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 84.33333333333333
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 82.71428571428571
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 50.0,
+          "points_L10": 82.125
+        },
+        {
+          "game_date": "2024-06-06T00:00:00Z",
+          "points": 61.0,
+          "points_L10": 78.55555555555556
+        },
+        {
+          "game_date": "2024-06-08T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2024-06-11T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 77.0
+        },
+        {
+          "game_date": "2024-06-13T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 75.8
+        },
+        {
+          "game_date": "2024-06-16T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 75.0
+        },
+        {
+          "game_date": "2024-06-19T00:00:00Z",
+          "points": 55.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2024-06-21T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 72.4
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 72.4
+        },
+        {
+          "game_date": "2024-06-28T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 72.6
+        },
+        {
+          "game_date": "2024-06-30T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 72.6
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 75.1
+        },
+        {
+          "game_date": "2024-07-05T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2024-07-12T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 74.4
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 72.7
+        },
+        {
+          "game_date": "2024-07-17T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 74.2
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 74.2
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 75.0
+        },
+        {
+          "game_date": "2024-08-21T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 75.1
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 75.1
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 79.5
+        }
+      ]
+    },
+    "3": {
+      "name": "Dallas Wings",
+      "rankings": {
+        "efg_pct_L10": 0.489,
+        "oreb_rate_L10": 0.293,
+        "points_L10": 87.8,
+        "tov_pct_L10": 0.145
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 113,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 41,
+        "points_L10": 88.7,
+        "rest_days": 4.0,
+        "streak": -20.0,
+        "win_pct_L10": 0.2
+      },
+      "team_id": 3,
+      "trends": [
+        {
+          "game_date": "2024-05-03T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-15T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 74.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-21T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 107.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-26T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 84.83333333333333
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2024-06-05T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 82.125
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2024-06-13T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2024-06-15T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2024-06-17T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2024-06-20T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2024-06-22T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 76.1
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2024-06-29T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2024-07-01T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2024-07-03T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2024-07-05T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2024-07-13T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2024-07-17T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2024-08-22T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "points": 113.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2024-08-27T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 87.8
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 88.7
+        },
+        {
+          "game_date": "2024-09-03T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 89.5
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 89.7
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 91.2
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2024-09-12T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 88.7
+        }
+      ]
+    },
+    "5": {
+      "name": "Indiana Fever",
+      "rankings": {
+        "efg_pct_L10": 0.539,
+        "oreb_rate_L10": 0.224,
+        "points_L10": 88.5,
+        "tov_pct_L10": 0.17
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 110,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 44,
+        "points_L10": 90.4,
+        "rest_days": 3.0,
+        "streak": -1.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 5,
+      "trends": [
+        {
+          "game_date": "2024-05-03T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-09T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 71.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-16T00:00:00Z",
+          "points": 66.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-20T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2024-05-22T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 76.66666666666667
+        },
+        {
+          "game_date": "2024-05-24T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 77.57142857142857
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 77.625
+        },
+        {
+          "game_date": "2024-05-28T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 77.88888888888889
+        },
+        {
+          "game_date": "2024-05-30T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 78.3
+        },
+        {
+          "game_date": "2024-06-01T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 78.3
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2024-06-10T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2024-06-13T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2024-06-16T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2024-06-19T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2024-06-21T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2024-06-30T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2024-07-06T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2024-07-12T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2024-07-17T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2024-08-16T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2024-08-24T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2024-09-04T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 90.7
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 90.5
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 91.2
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 92.3
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 110.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 91.2
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 91.9
+        },
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 90.4
+        }
+      ]
+    },
+    "6": {
+      "name": "Los Angeles Sparks",
+      "rankings": {
+        "efg_pct_L10": 0.474,
+        "oreb_rate_L10": 0.23,
+        "points_L10": 77.1,
+        "tov_pct_L10": 0.169
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 68,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 110,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 61,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 42,
+        "points_L10": 81.3,
+        "rest_days": 2.0,
+        "streak": -23.0,
+        "win_pct_L10": 0.1
+      },
+      "team_id": 6,
+      "trends": [
+        {
+          "game_date": "2024-05-04T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-10T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-15T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-21T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-24T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2024-05-26T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 81.33333333333333
+        },
+        {
+          "game_date": "2024-05-28T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 81.57142857142857
+        },
+        {
+          "game_date": "2024-05-30T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 82.375
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 81.33333333333333
+        },
+        {
+          "game_date": "2024-06-05T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 76.1
+        },
+        {
+          "game_date": "2024-06-11T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2024-06-14T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2024-06-16T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2024-06-18T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2024-06-20T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2024-06-22T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2024-06-28T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2024-07-05T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2024-07-07T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2024-07-09T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-07-13T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 80.7
+        },
+        {
+          "game_date": "2024-08-18T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 81.3
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "points": 61.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2024-08-25T00:00:00Z",
+          "points": 110.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2024-09-04T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2024-09-11T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 76.9
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 81.3
+        }
+      ]
+    },
+    "8": {
+      "name": "Minnesota Lynx",
+      "rankings": {
+        "efg_pct_L10": 0.513,
+        "oreb_rate_L10": 0.194,
+        "points_L10": 78.9,
+        "tov_pct_L10": 0.16
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-10-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-16T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 102,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 51,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 55,
+        "points_L10": 82.8,
+        "rest_days": 2.0,
+        "streak": 26.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 8,
+      "trends": [
+        {
+          "game_date": "2024-05-03T00:00:00Z",
+          "points": 92.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-08T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-17T00:00:00Z",
+          "points": 102.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-23T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2024-05-26T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 87.66666666666667
+        },
+        {
+          "game_date": "2024-05-29T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 88.28571428571429
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 86.55555555555556
+        },
+        {
+          "game_date": "2024-06-05T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2024-06-07T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2024-06-11T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2024-06-14T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2024-06-17T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2024-06-19T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2024-06-22T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-06-25T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2024-06-27T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2024-06-30T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2024-07-04T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 81.4
+        },
+        {
+          "game_date": "2024-07-06T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2024-07-09T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2024-07-12T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2024-07-14T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2024-07-17T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 75.8
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2024-08-21T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2024-08-23T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2024-08-24T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2024-09-01T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2024-09-06T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2024-09-13T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 51.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2024-09-25T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2024-10-08T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-10-10T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2024-10-13T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2024-10-16T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-10-18T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2024-10-20T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 82.8
+        }
+      ]
+    },
+    "9": {
+      "name": "New York Liberty",
+      "rankings": {
+        "efg_pct_L10": 0.499,
+        "oreb_rate_L10": 0.253,
+        "points_L10": 82.3,
+        "tov_pct_L10": 0.157
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-10-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-16T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2024-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 54,
+        "points_L10": 83.9,
+        "rest_days": 2.0,
+        "streak": 27.0,
+        "win_pct_L10": 0.7
+      },
+      "team_id": 9,
+      "trends": [
+        {
+          "game_date": "2024-05-07T00:00:00Z",
+          "points": 53.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-09T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-14T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-16T00:00:00Z",
+          "points": 102.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-18T00:00:00Z",
+          "points": 91.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2024-05-20T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2024-05-23T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 81.16666666666667
+        },
+        {
+          "game_date": "2024-05-25T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 81.14285714285714
+        },
+        {
+          "game_date": "2024-05-29T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 79.375
+        },
+        {
+          "game_date": "2024-05-31T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 79.55555555555556
+        },
+        {
+          "game_date": "2024-06-02T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2024-06-04T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2024-06-06T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2024-06-08T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2024-06-09T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-06-15T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2024-06-18T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2024-06-20T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2024-06-22T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2024-06-23T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 90.9
+        },
+        {
+          "game_date": "2024-06-25T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 91.5
+        },
+        {
+          "game_date": "2024-06-30T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2024-07-02T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2024-07-06T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2024-07-10T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 88.7
+        },
+        {
+          "game_date": "2024-07-11T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2024-07-13T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2024-07-16T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2024-08-15T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2024-08-17T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2024-08-20T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2024-08-22T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2024-08-24T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2024-08-26T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2024-08-28T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2024-08-30T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2024-09-05T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2024-09-08T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2024-09-10T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2024-09-12T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2024-09-15T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2024-09-17T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2024-09-19T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2024-09-22T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2024-09-24T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2024-09-29T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2024-10-01T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2024-10-04T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2024-10-06T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2024-10-10T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2024-10-13T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2024-10-16T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2024-10-18T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2024-10-20T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 83.9
+        }
+      ]
+    },
+    "96": {
+      "name": "Team 96",
+      "rankings": {
+        "efg_pct_L10": 0.568,
+        "oreb_rate_L10": 0.237,
+        "points_L10": 117.0,
+        "tov_pct_L10": 0.076
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 117,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 96,
+      "trends": [
+        {
+          "game_date": "2024-07-20T00:00:00Z",
+          "points": 117.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "97": {
+      "name": "Team 97",
+      "rankings": {
+        "efg_pct_L10": 0.58,
+        "oreb_rate_L10": 0.209,
+        "points_L10": 109.0,
+        "tov_pct_L10": 0.137
+      },
+      "recent_games": [
+        {
+          "game_date": "2024-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 97,
+      "trends": [
+        {
+          "game_date": "2024-07-20T00:00:00Z",
+          "points": 109.0,
+          "points_L10": null
+        }
+      ]
+    }
+  }
+}

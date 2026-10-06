@@ -1,0 +1,298 @@
+{
+  "artifact_safety": {
+    "artifact": "Shadow Only",
+    "league": "WNBA",
+    "schema": "2.0.0",
+    "season": 2026
+  },
+  "as_of_coverage": [
+    {
+      "dataset": "Odds",
+      "policy": "Append-only timestamps",
+      "required_history": "Morning, injury report, pre-tip, close"
+    },
+    {
+      "dataset": "Availability/news",
+      "policy": "No later observation in replay",
+      "required_history": "Every status observation and starter confirmation"
+    },
+    {
+      "dataset": "Player minutes",
+      "policy": "Partially pooled cold starts",
+      "required_history": "Game-level minutes plus uncertainty"
+    },
+    {
+      "dataset": "Overseas workload",
+      "policy": "Show only verified rows",
+      "required_history": "Minutes, return date, provenance"
+    },
+    {
+      "dataset": "Lineups/on-off",
+      "policy": "Inferred rotation if absent",
+      "required_history": "Lineup minutes and possessions"
+    }
+  ],
+  "capability_registry": [
+    {
+      "data_type": "schedule",
+      "priority": 1,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "schedule",
+      "priority": 2,
+      "source": "espn"
+    },
+    {
+      "data_type": "schedule",
+      "priority": 3,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "team_game_stats",
+      "priority": 1,
+      "source": "wehoop"
+    },
+    {
+      "data_type": "team_game_stats",
+      "priority": 2,
+      "source": "espn"
+    },
+    {
+      "data_type": "team_game_stats",
+      "priority": 3,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "team_game_stats",
+      "priority": 4,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "player_game_stats",
+      "priority": 1,
+      "source": "wehoop"
+    },
+    {
+      "data_type": "player_game_stats",
+      "priority": 2,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "player_game_stats",
+      "priority": 3,
+      "source": "espn"
+    },
+    {
+      "data_type": "player_game_stats",
+      "priority": 4,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "standings",
+      "priority": 1,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "standings",
+      "priority": 2,
+      "source": "espn"
+    },
+    {
+      "data_type": "standings",
+      "priority": 3,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "rosters",
+      "priority": 1,
+      "source": "espn"
+    },
+    {
+      "data_type": "rosters",
+      "priority": 2,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "rosters",
+      "priority": 3,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "injuries",
+      "priority": 1,
+      "source": "espn"
+    },
+    {
+      "data_type": "injuries",
+      "priority": 2,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "odds",
+      "priority": 1,
+      "source": "odds_api_io"
+    },
+    {
+      "data_type": "odds",
+      "priority": 2,
+      "source": "therundown"
+    },
+    {
+      "data_type": "player_prop_odds",
+      "priority": 1,
+      "source": "the_odds_api"
+    },
+    {
+      "data_type": "officials",
+      "priority": 1,
+      "source": "wehoop"
+    },
+    {
+      "data_type": "officials",
+      "priority": 2,
+      "source": "espn"
+    },
+    {
+      "data_type": "play_by_play",
+      "priority": 1,
+      "source": "wehoop"
+    },
+    {
+      "data_type": "play_by_play",
+      "priority": 2,
+      "source": "espn"
+    }
+  ],
+  "generated_at": "2026-09-28T01:17:05Z",
+  "league_key": "wnba",
+  "schema_version": 1,
+  "sources": [
+    {
+      "data_type": "injuries",
+      "error": null,
+      "last_attempt": "2026-08-06T19:12:53+00:00",
+      "last_success": "2026-08-06T19:12:53+00:00",
+      "ok": true,
+      "records": 40,
+      "source": "espn"
+    },
+    {
+      "data_type": "standings",
+      "error": "BALLDONTLIE standings not available for WNBA.",
+      "last_attempt": "2026-08-06T19:26:18+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "standings",
+      "error": null,
+      "last_attempt": "2026-08-06T19:37:51+00:00",
+      "last_success": "2026-08-06T19:37:51+00:00",
+      "ok": true,
+      "records": 15,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "team_game_stats",
+      "error": "nba_api import failed: No module named 'nba_api'",
+      "last_attempt": "2026-08-13T02:40:47+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "team_game_stats",
+      "error": "BALLDONTLIE bulk team stats not available for WNBA.",
+      "last_attempt": "2026-08-13T02:40:47+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "team_game_stats",
+      "error": "wehoop fetch failed for season 2025: HTTP Error 404: Not Found",
+      "last_attempt": "2026-08-13T02:44:41+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "wehoop"
+    },
+    {
+      "data_type": "team_game_stats",
+      "error": null,
+      "last_attempt": "2026-08-13T02:46:26+00:00",
+      "last_success": "2026-08-13T02:46:26+00:00",
+      "ok": true,
+      "records": 654,
+      "source": "espn"
+    },
+    {
+      "data_type": "schedule",
+      "error": "ScoreboardV3 failed: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/scoreboardv3?GameDate=04%2F01%2F2025&LeagueID=10 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024399FAA120>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))",
+      "last_attempt": "2026-08-13T10:59:30+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "schedule",
+      "error": "ESPN request failed (https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard): HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/basketball/wnba/scoreboard?dates=20250401 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024398AB6570>: Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions'))",
+      "last_attempt": "2026-08-13T10:59:30+00:00",
+      "last_success": "2026-08-06T19:06:16+00:00",
+      "ok": false,
+      "records": 0,
+      "source": "espn"
+    },
+    {
+      "data_type": "player_game_stats",
+      "error": "ESPN adapter does not provide bulk player game stats; use wehoop or wnba_stats.",
+      "last_attempt": "2026-08-13T11:04:05+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "espn"
+    },
+    {
+      "data_type": "player_game_stats",
+      "error": "BALLDONTLIE bulk player stats not available for WNBA.",
+      "last_attempt": "2026-08-13T11:04:05+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "balldontlie"
+    },
+    {
+      "data_type": "player_game_stats",
+      "error": "wehoop fetch failed for season 2026: HTTP Error 404: Not Found",
+      "last_attempt": "2026-08-13T21:11:30+00:00",
+      "last_success": null,
+      "ok": false,
+      "records": 0,
+      "source": "wehoop"
+    },
+    {
+      "data_type": "player_game_stats",
+      "error": null,
+      "last_attempt": "2026-08-13T21:11:32+00:00",
+      "last_success": "2026-08-13T21:11:32+00:00",
+      "ok": true,
+      "records": 4945,
+      "source": "wnba_stats"
+    },
+    {
+      "data_type": "odds",
+      "error": null,
+      "last_attempt": "2026-09-14T20:24:49+00:00",
+      "last_success": "2026-09-14T20:24:49+00:00",
+      "ok": true,
+      "records": 328,
+      "source": "the_odds_api"
+    }
+  ]
+}

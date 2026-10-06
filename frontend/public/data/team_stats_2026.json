@@ -1,0 +1,4363 @@
+{
+  "generated_at": "2026-09-28T01:16:57Z",
+  "league_key": "wnba",
+  "schema_version": 1,
+  "season": 2026,
+  "seasons_available": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "teams": {
+    "11": {
+      "name": "Phoenix Mercury",
+      "rankings": {
+        "efg_pct_L10": 0.52,
+        "oreb_rate_L10": 0.163,
+        "points_L10": 85.9,
+        "tov_pct_L10": 0.145
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 106,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 58,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 111,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 84.3,
+        "rest_days": 2.0,
+        "streak": -7.0,
+        "win_pct_L10": 0.4
+      },
+      "team_id": 11,
+      "trends": [
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 99.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-12T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 91.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-19T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-21T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2026-05-24T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 88.5
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 87.28571428571429
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 85.625
+        },
+        {
+          "game_date": "2026-06-01T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 83.66666666666667
+        },
+        {
+          "game_date": "2026-06-03T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2026-06-05T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 80.3
+        },
+        {
+          "game_date": "2026-06-09T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 111.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 85.1
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 84.3
+        }
+      ]
+    },
+    "129689": {
+      "name": "Golden State Valkyries",
+      "rankings": {
+        "efg_pct_L10": 0.531,
+        "oreb_rate_L10": 0.298,
+        "points_L10": 83.3,
+        "tov_pct_L10": 0.139
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 62,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 30,
+        "points_L10": 81.7,
+        "rest_days": 2.0,
+        "streak": 11.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 129689,
+      "trends": [
+        {
+          "game_date": "2026-05-08T00:00:00Z",
+          "points": 91.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 63.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-21T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-22T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-25T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2026-05-28T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 85.83333333333333
+        },
+        {
+          "game_date": "2026-05-31T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.42857142857143
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 85.75
+        },
+        {
+          "game_date": "2026-06-04T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.77777777777777
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2026-06-09T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2026-06-12T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2026-08-04T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 81.7
+        }
+      ]
+    },
+    "131935": {
+      "name": "Toronto Tempo",
+      "rankings": {
+        "efg_pct_L10": 0.539,
+        "oreb_rate_L10": 0.219,
+        "points_L10": 82.5,
+        "tov_pct_L10": 0.193
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 125,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 31,
+        "points_L10": 82.0,
+        "rest_days": 2.0,
+        "streak": -10.0,
+        "win_pct_L10": 0.1
+      },
+      "team_id": 131935,
+      "trends": [
+        {
+          "game_date": "2026-05-01T00:00:00Z",
+          "points": 66.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-08T00:00:00Z",
+          "points": 65.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 106.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-19T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2026-05-21T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2026-05-23T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 111.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2026-05-30T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 86.55555555555556
+        },
+        {
+          "game_date": "2026-06-03T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2026-06-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2026-06-10T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2026-06-12T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 92.8
+        },
+        {
+          "game_date": "2026-06-14T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 91.8
+        },
+        {
+          "game_date": "2026-06-16T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 88.9
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "points": 125.0,
+          "points_L10": 91.8
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 93.2
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 91.9
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 91.3
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 90.3
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 88.5
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2026-08-04T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 82.0
+        }
+      ]
+    },
+    "132052": {
+      "name": "Portland Fire",
+      "rankings": {
+        "efg_pct_L10": 0.557,
+        "oreb_rate_L10": 0.23,
+        "points_L10": 89.3,
+        "tov_pct_L10": 0.167
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 97,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-16T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 102,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 123,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 74,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 31,
+        "points_L10": 91.5,
+        "rest_days": 2.0,
+        "streak": -8.0,
+        "win_pct_L10": 0.3
+      },
+      "team_id": 132052,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-12T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-14T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-18T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-20T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2026-05-23T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 82.33333333333333
+        },
+        {
+          "game_date": "2026-05-25T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 84.71428571428571
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 84.25
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 82.77777777777777
+        },
+        {
+          "game_date": "2026-05-30T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2026-06-05T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2026-06-07T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 123.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 89.5
+        },
+        {
+          "game_date": "2026-07-16T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 90.3
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 90.6
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 91.5
+        }
+      ]
+    },
+    "133383": {
+      "name": "Team 133383",
+      "rankings": {
+        "efg_pct_L10": 0.589,
+        "oreb_rate_L10": 0.237,
+        "points_L10": 129.0,
+        "tov_pct_L10": 0.121
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-07-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 129,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 133383,
+      "trends": [
+        {
+          "game_date": "2026-07-25T00:00:00Z",
+          "points": 129.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "133384": {
+      "name": "Team 133384",
+      "rankings": {
+        "efg_pct_L10": 0.513,
+        "oreb_rate_L10": 0.308,
+        "points_L10": 122.0,
+        "tov_pct_L10": 0.071
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-07-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 122,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 133384,
+      "trends": [
+        {
+          "game_date": "2026-07-25T00:00:00Z",
+          "points": 122.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "14": {
+      "name": "Seattle Storm",
+      "rankings": {
+        "efg_pct_L10": 0.5,
+        "oreb_rate_L10": 0.318,
+        "points_L10": 88.5,
+        "tov_pct_L10": 0.157
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 102,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 107,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 105,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 33,
+        "points_L10": 88.1,
+        "rest_days": 2.0,
+        "streak": -20.0,
+        "win_pct_L10": 0.1
+      },
+      "team_id": 14,
+      "trends": [
+        {
+          "game_date": "2026-05-08T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 73.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-20T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-22T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2026-05-24T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 79.16666666666667
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 81.71428571428571
+        },
+        {
+          "game_date": "2026-05-30T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2026-06-01T00:00:00Z",
+          "points": 56.0,
+          "points_L10": 78.66666666666667
+        },
+        {
+          "game_date": "2026-06-03T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 76.4
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2026-06-08T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 73.1
+        },
+        {
+          "game_date": "2026-06-10T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 74.9
+        },
+        {
+          "game_date": "2026-06-12T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 74.8
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 110.0,
+          "points_L10": 73.6
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 88.9
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 88.1
+        }
+      ]
+    },
+    "16": {
+      "name": "Washington Mystics",
+      "rankings": {
+        "efg_pct_L10": 0.459,
+        "oreb_rate_L10": 0.304,
+        "points_L10": 79.6,
+        "tov_pct_L10": 0.156
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-16T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 56,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 49,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 124,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 57,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 30,
+        "points_L10": 78.1,
+        "rest_days": 5.0,
+        "streak": 5.0,
+        "win_pct_L10": 0.7
+      },
+      "team_id": 16,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-08T00:00:00Z",
+          "points": 68.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 104.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-18T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-24T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 83.66666666666667
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 82.85714285714286
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.375
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 84.11111111111111
+        },
+        {
+          "game_date": "2026-06-08T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2026-06-12T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2026-06-14T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 81.7
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "points": 57.0,
+          "points_L10": 81.4
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 124.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "points": 49.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 79.3
+        },
+        {
+          "game_date": "2026-07-16T00:00:00Z",
+          "points": 56.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 75.9
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 78.1
+        }
+      ]
+    },
+    "17": {
+      "name": "Las Vegas Aces",
+      "rankings": {
+        "efg_pct_L10": 0.571,
+        "oreb_rate_L10": 0.179,
+        "points_L10": 93.9,
+        "tov_pct_L10": 0.126
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 106,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 107,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 92.8,
+        "rest_days": 2.0,
+        "streak": 9.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 17,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 66.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 105.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2026-05-23T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 89.83333333333333
+        },
+        {
+          "game_date": "2026-05-28T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 90.57142857142857
+        },
+        {
+          "game_date": "2026-05-31T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 90.125
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 90.22222222222223
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2026-06-08T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 92.6
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 92.6
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 92.8
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2026-06-23T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2026-06-30T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 91.6
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 91.7
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 91.4
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 90.5
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 93.4
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 93.3
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 93.0
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 92.8
+        }
+      ]
+    },
+    "17476": {
+      "name": "Team 17476",
+      "rankings": {
+        "efg_pct_L10": 0.3,
+        "oreb_rate_L10": 0.312,
+        "points_L10": 57.0,
+        "tov_pct_L10": 0.25
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-05-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 57,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 17476,
+      "trends": [
+        {
+          "game_date": "2026-05-02T00:00:00Z",
+          "points": 57.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "18": {
+      "name": "Connecticut Sun",
+      "rankings": {
+        "efg_pct_L10": 0.485,
+        "oreb_rate_L10": 0.277,
+        "points_L10": 80.6,
+        "tov_pct_L10": 0.174
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 68,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 97,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 31,
+        "points_L10": 82.6,
+        "rest_days": 3.0,
+        "streak": -16.0,
+        "win_pct_L10": 0.3
+      },
+      "team_id": 18,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 67.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-08T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 94.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-18T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2026-05-20T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.16666666666667
+        },
+        {
+          "game_date": "2026-05-22T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 78.42857142857143
+        },
+        {
+          "game_date": "2026-05-25T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 61.0,
+          "points_L10": 75.33333333333333
+        },
+        {
+          "game_date": "2026-05-30T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 73.9
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2026-06-05T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2026-06-08T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2026-06-10T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 76.6
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2026-07-14T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 81.4
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 82.6
+        }
+      ]
+    },
+    "19": {
+      "name": "Chicago Sky",
+      "rankings": {
+        "efg_pct_L10": 0.531,
+        "oreb_rate_L10": 0.202,
+        "points_L10": 92.8,
+        "tov_pct_L10": 0.123
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 0
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 124,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 31,
+        "points_L10": 91.0,
+        "rest_days": 2.0,
+        "streak": -8.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 19,
+      "trends": [
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-20T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-23T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 83.33333333333333
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 86.28571428571429
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 82.75
+        },
+        {
+          "game_date": "2026-06-05T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.55555555555556
+        },
+        {
+          "game_date": "2026-06-07T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2026-06-09T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "points": 124.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 91.3
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 92.2
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 93.4
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 91.9
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 91.9
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 92.3
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 95.1
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 94.4
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 91.4
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 89.9
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 91.0
+        }
+      ]
+    },
+    "20": {
+      "name": "Atlanta Dream",
+      "rankings": {
+        "efg_pct_L10": 0.502,
+        "oreb_rate_L10": 0.323,
+        "points_L10": 93.2,
+        "tov_pct_L10": 0.146
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 111,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 31,
+        "points_L10": 91.2,
+        "rest_days": 2.0,
+        "streak": 6.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 20,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 91.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-12T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-22T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-24T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 81.85714285714286
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 82.375
+        },
+        {
+          "game_date": "2026-06-04T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 83.33333333333333
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2026-06-09T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2026-06-14T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2026-06-18T00:00:00Z",
+          "points": 108.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "points": 113.0,
+          "points_L10": 90.2
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 93.3
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 94.6
+        },
+        {
+          "game_date": "2026-06-26T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 92.6
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 91.0
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 92.9
+        },
+        {
+          "game_date": "2026-07-04T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 89.6
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 89.7
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 89.6
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 111.0,
+          "points_L10": 87.9
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 91.5
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 91.2
+        }
+      ]
+    },
+    "3": {
+      "name": "Dallas Wings",
+      "rankings": {
+        "efg_pct_L10": 0.537,
+        "oreb_rate_L10": 0.242,
+        "points_L10": 91.2,
+        "tov_pct_L10": 0.121
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 108,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 112,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 90.9,
+        "rest_days": 3.0,
+        "streak": 9.0,
+        "win_pct_L10": 0.7
+      },
+      "team_id": 3,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 107.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-12T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-14T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-18T00:00:00Z",
+          "points": 92.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-20T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 91.6
+        },
+        {
+          "game_date": "2026-05-22T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 92.83333333333333
+        },
+        {
+          "game_date": "2026-05-24T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 89.42857142857143
+        },
+        {
+          "game_date": "2026-05-28T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 89.625
+        },
+        {
+          "game_date": "2026-06-01T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 90.22222222222223
+        },
+        {
+          "game_date": "2026-06-05T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2026-06-09T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 87.3
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 112.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 90.3
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2026-07-02T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 88.5
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "points": 108.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 91.3
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 91.3
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 92.3
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 92.8
+        },
+        {
+          "game_date": "2026-07-29T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 91.7
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 91.4
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 91.2
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 90.9
+        }
+      ]
+    },
+    "5": {
+      "name": "Indiana Fever",
+      "rankings": {
+        "efg_pct_L10": 0.6,
+        "oreb_rate_L10": 0.265,
+        "points_L10": 102.6,
+        "tov_pct_L10": 0.149
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 112,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 105,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 123,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 108,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 110,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 111,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 31,
+        "points_L10": 101.0,
+        "rest_days": 2.0,
+        "streak": 10.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 5,
+      "trends": [
+        {
+          "game_date": "2026-05-02T00:00:00Z",
+          "points": 105.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 104.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 102.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-20T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 97.4
+        },
+        {
+          "game_date": "2026-05-22T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 96.16666666666667
+        },
+        {
+          "game_date": "2026-05-28T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 95.28571428571429
+        },
+        {
+          "game_date": "2026-05-30T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 94.375
+        },
+        {
+          "game_date": "2026-06-04T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 93.22222222222223
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 92.2
+        },
+        {
+          "game_date": "2026-06-08T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 114.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2026-06-16T00:00:00Z",
+          "points": 113.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2026-06-18T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2026-06-20T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2026-06-22T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 91.7
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 91.5
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "points": 111.0,
+          "points_L10": 94.0
+        },
+        {
+          "game_date": "2026-07-05T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 96.8
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 97.7
+        },
+        {
+          "game_date": "2026-07-09T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 99.1
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 96.9
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 99.3
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 110.0,
+          "points_L10": 95.5
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "points": 108.0,
+          "points_L10": 96.4
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 123.0,
+          "points_L10": 97.6
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 101.3
+        },
+        {
+          "game_date": "2026-07-31T00:00:00Z",
+          "points": 112.0,
+          "points_L10": 100.9
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 101.0
+        }
+      ]
+    },
+    "6": {
+      "name": "Los Angeles Sparks",
+      "rankings": {
+        "efg_pct_L10": 0.567,
+        "oreb_rate_L10": 0.199,
+        "points_L10": 93.6,
+        "tov_pct_L10": 0.167
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 106,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 109,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 102,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 106,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 97,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 83,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 30,
+        "points_L10": 91.2,
+        "rest_days": 3.0,
+        "streak": -5.0,
+        "win_pct_L10": 0.3
+      },
+      "team_id": 6,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-13T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-15T00:00:00Z",
+          "points": 99.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 96.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-21T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2026-05-23T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 88.83333333333333
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 90.57142857142857
+        },
+        {
+          "game_date": "2026-05-30T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 90.75
+        },
+        {
+          "game_date": "2026-06-02T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 89.66666666666667
+        },
+        {
+          "game_date": "2026-06-05T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2026-06-07T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 88.7
+        },
+        {
+          "game_date": "2026-06-10T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 89.8
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 111.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 92.0
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2026-06-27T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2026-07-10T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 89.8
+        },
+        {
+          "game_date": "2026-07-17T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2026-07-19T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 89.8
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 89.7
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 91.2
+        }
+      ]
+    },
+    "8": {
+      "name": "Minnesota Lynx",
+      "rankings": {
+        "efg_pct_L10": 0.571,
+        "oreb_rate_L10": 0.301,
+        "points_L10": 98.0,
+        "tov_pct_L10": 0.122
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 108,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 105,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 79,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 32,
+        "points_L10": 96.1,
+        "rest_days": 3.0,
+        "streak": 19.0,
+        "win_pct_L10": 0.9
+      },
+      "team_id": 8,
+      "trends": [
+        {
+          "game_date": "2026-05-01T00:00:00Z",
+          "points": 73.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-09T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-12T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-14T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-17T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-21T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2026-05-23T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 86.66666666666667
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 86.42857142857143
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 87.625
+        },
+        {
+          "game_date": "2026-06-01T00:00:00Z",
+          "points": 111.0,
+          "points_L10": 86.66666666666667
+        },
+        {
+          "game_date": "2026-06-04T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 90.5
+        },
+        {
+          "game_date": "2026-06-09T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 90.3
+        },
+        {
+          "game_date": "2026-06-13T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 91.5
+        },
+        {
+          "game_date": "2026-06-15T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 92.2
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 95.0
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 94.9
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 94.5
+        },
+        {
+          "game_date": "2026-06-24T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 92.8
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 92.7
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 90.1
+        },
+        {
+          "game_date": "2026-07-06T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2026-07-08T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 90.1
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 88.7
+        },
+        {
+          "game_date": "2026-07-13T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2026-07-15T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 92.0
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 92.8
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 94.3
+        },
+        {
+          "game_date": "2026-08-02T00:00:00Z",
+          "points": 108.0,
+          "points_L10": 96.1
+        }
+      ]
+    },
+    "9": {
+      "name": "New York Liberty",
+      "rankings": {
+        "efg_pct_L10": 0.54,
+        "oreb_rate_L10": 0.27,
+        "points_L10": 95.1,
+        "tov_pct_L10": 0.152
+      },
+      "recent_games": [
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 113,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 1
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 99,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": null,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": null,
+          "points": 88,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 34,
+        "points_L10": 93.6,
+        "rest_days": 2.0,
+        "streak": 7.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 9,
+      "trends": [
+        {
+          "game_date": "2026-05-03T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-08T00:00:00Z",
+          "points": 106.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-10T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-12T00:00:00Z",
+          "points": 96.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-14T00:00:00Z",
+          "points": 100.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2026-05-21T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 95.8
+        },
+        {
+          "game_date": "2026-05-24T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 91.5
+        },
+        {
+          "game_date": "2026-05-25T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 89.28571428571429
+        },
+        {
+          "game_date": "2026-05-27T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 87.375
+        },
+        {
+          "game_date": "2026-05-29T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2026-06-03T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2026-06-06T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2026-06-08T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2026-06-11T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2026-06-14T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2026-06-17T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2026-06-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2026-06-21T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2026-06-23T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2026-06-25T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 89.7
+        },
+        {
+          "game_date": "2026-06-28T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 91.0
+        },
+        {
+          "game_date": "2026-06-30T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2026-07-03T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2026-07-07T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2026-07-11T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 87.3
+        },
+        {
+          "game_date": "2026-07-12T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2026-07-18T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2026-07-20T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2026-07-22T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 87.4
+        },
+        {
+          "game_date": "2026-07-28T00:00:00Z",
+          "points": 113.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2026-07-30T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 90.7
+        },
+        {
+          "game_date": "2026-08-01T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 93.9
+        },
+        {
+          "game_date": "2026-08-03T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 94.0
+        },
+        {
+          "game_date": "2026-08-05T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 93.6
+        }
+      ]
+    }
+  }
+}

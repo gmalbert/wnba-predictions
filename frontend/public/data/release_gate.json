@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "drift_clear": true,
+    "minimum_300_priced_bets": false,
+    "positive_clv": false,
+    "untouched_2025_holdout": true
+  },
+  "drift_suspended": false,
+  "generated_at": "2026-09-28T01:17:05Z",
+  "holdout_rows": 327,
+  "holdout_season": 2025,
+  "league_key": "wnba",
+  "mean_clv": null,
+  "paper_only": true,
+  "passed": false,
+  "priced_bets": 0,
+  "schema_version": 1,
+  "status": "shadow_only"
+}

@@ -1,0 +1,3001 @@
+{
+  "generated_at": "2026-09-28T01:16:57Z",
+  "league_key": "wnba",
+  "schema_version": 1,
+  "season": 2020,
+  "seasons_available": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "teams": {
+    "11": {
+      "name": "Phoenix Mercury",
+      "rankings": {
+        "efg_pct_L10": 0.504,
+        "oreb_rate_L10": 0.216,
+        "points_L10": 85.1,
+        "tov_pct_L10": 0.143
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 60,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 105,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 96,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 24,
+        "points_L10": 86.0,
+        "rest_days": 2.0,
+        "streak": 5.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 11,
+      "trends": [
+        {
+          "game_date": "2020-07-25T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-29T00:00:00Z",
+          "points": 100.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-31T00:00:00Z",
+          "points": 102.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-02T00:00:00Z",
+          "points": 96.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-04T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-06T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 91.0
+        },
+        {
+          "game_date": "2020-08-08T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 91.83333333333333
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 88.42857142857143
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 88.75
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 86.77777777777777
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2020-09-07T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "points": 60.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 86.0
+        }
+      ]
+    },
+    "14": {
+      "name": "Seattle Storm",
+      "rankings": {
+        "efg_pct_L10": 0.555,
+        "oreb_rate_L10": 0.222,
+        "points_L10": 93.5,
+        "tov_pct_L10": 0.12
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-10-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2020-10-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2020-10-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 107,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 103,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 71,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 74,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 28,
+        "points_L10": 93.3,
+        "rest_days": 2.0,
+        "streak": 19.0,
+        "win_pct_L10": 0.9
+      },
+      "team_id": 14,
+      "trends": [
+        {
+          "game_date": "2020-07-25T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-28T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-30T00:00:00Z",
+          "points": 71.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-01T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-04T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-06T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2020-08-08T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 84.83333333333333
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 83.28571428571429
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.77777777777777
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "points": 105.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 87.8
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 87.9
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 90.4
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 89.2
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2020-10-02T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 89.5
+        },
+        {
+          "game_date": "2020-10-04T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2020-10-06T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 93.3
+        }
+      ]
+    },
+    "16": {
+      "name": "Washington Mystics",
+      "rankings": {
+        "efg_pct_L10": 0.504,
+        "oreb_rate_L10": 0.207,
+        "points_L10": 78.5,
+        "tov_pct_L10": 0.116
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 75,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 94,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 64,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 23,
+        "points_L10": 78.8,
+        "rest_days": 2.0,
+        "streak": -4.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 16,
+      "trends": [
+        {
+          "game_date": "2020-07-25T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-28T00:00:00Z",
+          "points": 94.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-30T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-01T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-05T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-07T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2020-08-09T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "points": 48.0,
+          "points_L10": 85.28571428571429
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 80.625
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 78.77777777777777
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 77.7
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 76.1
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 74.7
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 74.5
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 74.0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 78.8
+        }
+      ]
+    },
+    "17": {
+      "name": "Las Vegas Aces",
+      "rankings": {
+        "efg_pct_L10": 0.452,
+        "oreb_rate_L10": 0.224,
+        "points_L10": 76.3,
+        "tov_pct_L10": 0.147
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-10-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 59,
+          "win": 0
+        },
+        {
+          "game_date": "2020-10-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2020-10-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 66,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 85,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 30,
+        "points_L10": 80.8,
+        "rest_days": 2.0,
+        "streak": 13.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 17,
+      "trends": [
+        {
+          "game_date": "2020-07-26T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-29T00:00:00Z",
+          "points": 100.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-31T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-02T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-05T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-07T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2020-08-09T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 88.16666666666667
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 86.71428571428571
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 88.125
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 87.9
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 90.2
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 90.4
+        },
+        {
+          "game_date": "2020-09-20T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2020-09-29T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2020-10-02T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2020-10-04T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2020-10-06T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 80.8
+        }
+      ]
+    },
+    "18": {
+      "name": "Connecticut Sun",
+      "rankings": {
+        "efg_pct_L10": 0.463,
+        "oreb_rate_L10": 0.261,
+        "points_L10": 79.9,
+        "tov_pct_L10": 0.13
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 77,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 73,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 70,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 76,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 29,
+        "points_L10": 83.2,
+        "rest_days": 2.0,
+        "streak": 0.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 18,
+      "trends": [
+        {
+          "game_date": "2020-07-26T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-28T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-30T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-01T00:00:00Z",
+          "points": 69.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-04T00:00:00Z",
+          "points": 74.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-06T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2020-08-08T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 80.14285714285714
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 81.75
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 80.44444444444444
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 81.4
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 80.1
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 76.3
+        },
+        {
+          "game_date": "2020-09-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 79.7
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 81.1
+        },
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2020-09-20T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 82.9
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2020-09-29T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 83.2
+        }
+      ]
+    },
+    "19": {
+      "name": "Chicago Sky",
+      "rankings": {
+        "efg_pct_L10": 0.538,
+        "oreb_rate_L10": 0.234,
+        "points_L10": 85.7,
+        "tov_pct_L10": 0.149
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 69,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 99,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 89,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 23,
+        "points_L10": 87.7,
+        "rest_days": 4.0,
+        "streak": 2.0,
+        "win_pct_L10": 0.4
+      },
+      "team_id": 19,
+      "trends": [
+        {
+          "game_date": "2020-07-26T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-28T00:00:00Z",
+          "points": 96.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-30T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-01T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-04T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-06T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2020-08-08T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 86.83333333333333
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 88.71428571428571
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 86.77777777777777
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 88.3
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 87.1
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 88.3
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2020-09-15T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 87.7
+        }
+      ]
+    },
+    "20": {
+      "name": "Atlanta Dream",
+      "rankings": {
+        "efg_pct_L10": 0.481,
+        "oreb_rate_L10": 0.246,
+        "points_L10": 82.1,
+        "tov_pct_L10": 0.137
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 97,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 62,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 102,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 82,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 22,
+        "points_L10": 83.4,
+        "rest_days": 2.0,
+        "streak": -7.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 20,
+      "trends": [
+        {
+          "game_date": "2020-07-26T00:00:00Z",
+          "points": 105.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-29T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-31T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-02T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-04T00:00:00Z",
+          "points": 74.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-06T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2020-08-08T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 83.66666666666667
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 82.42857142857143
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 82.375
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 80.22222222222223
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 76.4
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 78.5
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 83.4
+        }
+      ]
+    },
+    "3": {
+      "name": "Dallas Wings",
+      "rankings": {
+        "efg_pct_L10": 0.489,
+        "oreb_rate_L10": 0.25,
+        "points_L10": 88.0,
+        "tov_pct_L10": 0.115
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 95,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 65,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 79,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 22,
+        "points_L10": 88.2,
+        "rest_days": 2.0,
+        "streak": -7.0,
+        "win_pct_L10": 0.3
+      },
+      "team_id": 3,
+      "trends": [
+        {
+          "game_date": "2020-07-26T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-29T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-31T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-02T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-04T00:00:00Z",
+          "points": 79.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-06T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 82.6
+        },
+        {
+          "game_date": "2020-08-08T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 80.16666666666667
+        },
+        {
+          "game_date": "2020-08-10T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 80.85714285714286
+        },
+        {
+          "game_date": "2020-08-12T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 80.625
+        },
+        {
+          "game_date": "2020-08-14T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2020-08-16T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 80.3
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2020-09-09T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2020-09-11T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 88.9
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 88.2
+        }
+      ]
+    },
+    "5": {
+      "name": "Indiana Fever",
+      "rankings": {
+        "efg_pct_L10": 0.49,
+        "oreb_rate_L10": 0.251,
+        "points_L10": 81.0,
+        "tov_pct_L10": 0.172
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 90,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 79,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 22,
+        "points_L10": 81.4,
+        "rest_days": 2.0,
+        "streak": -9.0,
+        "win_pct_L10": 0.2
+      },
+      "team_id": 5,
+      "trends": [
+        {
+          "game_date": "2020-07-25T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-29T00:00:00Z",
+          "points": 106.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-31T00:00:00Z",
+          "points": 73.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-02T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-05T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-07T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2020-08-09T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 83.83333333333333
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.85714285714286
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 84.125
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 84.33333333333333
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 80.8
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 78.8
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 79.1
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 81.4
+        }
+      ]
+    },
+    "6": {
+      "name": "Los Angeles Sparks",
+      "rankings": {
+        "efg_pct_L10": 0.514,
+        "oreb_rate_L10": 0.209,
+        "points_L10": 80.5,
+        "tov_pct_L10": 0.154
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 59,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 81,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 23,
+        "points_L10": 83.0,
+        "rest_days": 5.0,
+        "streak": 8.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 6,
+      "trends": [
+        {
+          "game_date": "2020-07-25T00:00:00Z",
+          "points": 99.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-28T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-30T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-01T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-05T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-07T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2020-08-09T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 83.5
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 85.42857142857143
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.375
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 85.77777777777777
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 83.0
+        }
+      ]
+    },
+    "8": {
+      "name": "Minnesota Lynx",
+      "rankings": {
+        "efg_pct_L10": 0.533,
+        "oreb_rate_L10": 0.282,
+        "points_L10": 85.1,
+        "tov_pct_L10": 0.15
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 89,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 90,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 26,
+        "points_L10": 87.6,
+        "rest_days": 3.0,
+        "streak": 5.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 8,
+      "trends": [
+        {
+          "game_date": "2020-07-26T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-28T00:00:00Z",
+          "points": 66.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-30T00:00:00Z",
+          "points": 83.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-01T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-05T00:00:00Z",
+          "points": 92.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-07T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2020-08-09T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 80.57142857142857
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 78.77777777777777
+        },
+        {
+          "game_date": "2020-08-19T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 80.3
+        },
+        {
+          "game_date": "2020-08-21T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 81.7
+        },
+        {
+          "game_date": "2020-08-23T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2020-08-28T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2020-08-30T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2020-08-31T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2020-09-02T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2020-09-04T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2020-09-06T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2020-09-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 87.3
+        },
+        {
+          "game_date": "2020-09-22T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 87.8
+        },
+        {
+          "game_date": "2020-09-24T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 87.6
+        },
+        {
+          "game_date": "2020-09-27T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 87.6
+        }
+      ]
+    },
+    "9": {
+      "name": "New York Liberty",
+      "rankings": {
+        "efg_pct_L10": 0.439,
+        "oreb_rate_L10": 0.184,
+        "points_L10": 69.9,
+        "tov_pct_L10": 0.183
+      },
+      "recent_games": [
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 58,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 70,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 56,
+          "win": 0
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 65,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 63,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 65,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 78,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 22,
+        "points_L10": 70.5,
+        "rest_days": 1.0,
+        "streak": -17.0,
+        "win_pct_L10": 0.1
+      },
+      "team_id": 9,
+      "trends": [
+        {
+          "game_date": "2020-07-25T00:00:00Z",
+          "points": 71.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-29T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-07-31T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-02T00:00:00Z",
+          "points": 67.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-05T00:00:00Z",
+          "points": 66.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2020-08-07T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 72.4
+        },
+        {
+          "game_date": "2020-08-09T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 72.66666666666667
+        },
+        {
+          "game_date": "2020-08-11T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 73.14285714285714
+        },
+        {
+          "game_date": "2020-08-13T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 73.75
+        },
+        {
+          "game_date": "2020-08-15T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 74.33333333333333
+        },
+        {
+          "game_date": "2020-08-18T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 73.3
+        },
+        {
+          "game_date": "2020-08-20T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 72.6
+        },
+        {
+          "game_date": "2020-08-22T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 73.1
+        },
+        {
+          "game_date": "2020-08-25T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 71.8
+        },
+        {
+          "game_date": "2020-08-29T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2020-09-01T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 74.9
+        },
+        {
+          "game_date": "2020-09-03T00:00:00Z",
+          "points": 56.0,
+          "points_L10": 74.0
+        },
+        {
+          "game_date": "2020-09-05T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 72.0
+        },
+        {
+          "game_date": "2020-09-08T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 70.9
+        },
+        {
+          "game_date": "2020-09-10T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 70.0
+        },
+        {
+          "game_date": "2020-09-12T00:00:00Z",
+          "points": 58.0,
+          "points_L10": 71.1
+        },
+        {
+          "game_date": "2020-09-13T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 70.5
+        }
+      ]
+    }
+  }
+}

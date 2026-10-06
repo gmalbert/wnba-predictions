@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-09-28T01:17:05Z",
+  "kelly_enabled": false,
+  "league_key": "wnba",
+  "live_stake_units": 0.0,
+  "paper_stake_units": 1.0,
+  "reason": "Production release gate is closed.",
+  "release_gate_passed": false,
+  "schema_version": 1
+}

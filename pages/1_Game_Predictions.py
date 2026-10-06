@@ -9,6 +9,7 @@ import pandas as pd
 import streamlit as st
 
 from footer import add_betting_oracle_footer, add_sidebar_logo
+from utils.browser_tz import browser_timezone
 from utils.data_fetcher import load_predictions
 from utils.scenario_engine import build_margin_scenarios, summarize_margin_scenarios
 
@@ -54,11 +55,12 @@ def _prob_bar(home_prob: float, home: str, away: str) -> str:
     )
 
 
-def _format_game_time(game: pd.Series) -> str:
+def _format_game_time(game: pd.Series, tz_name: str) -> str:
     stamp = pd.to_datetime(game.get("scheduled_start"), errors="coerce", utc=True)
     if pd.isna(stamp):
         return str(game.get("game_date", ""))
-    return stamp.tz_convert("America/New_York").strftime("%a, %b %d · %I:%M %p ET")
+    local = stamp.tz_convert(tz_name)
+    return f"{local.strftime('%a, %b %d · %I:%M %p')} {local.strftime('%Z')}"
 
 
 def _availability_editor(game: pd.Series, rotation: list[dict]) -> None:
@@ -169,6 +171,9 @@ def _workload_view(context: dict) -> None:
 st.title("🏀 Game Predictions")
 st.caption("Probabilistic projections with as-of availability, minutes, lineup, and workload context.")
 
+# Resolve the visitor's timezone once; the per-game formatter only reads it.
+_TZ = browser_timezone()
+
 predictions = load_predictions()
 if predictions.empty:
     st.info("No stored predictions yet. Run `python scripts/generate_predictions.py --stage pre_tip`.")
@@ -192,7 +197,7 @@ else:
         with st.container(border=True):
             left, right = st.columns([3, 2])
             with left:
-                st.caption(_format_game_time(game))
+                st.caption(_format_game_time(game, _TZ))
                 st.markdown(f"### {away} @ {home}")
                 st.markdown(_prob_bar(home_prob, home, away), unsafe_allow_html=True)
             with right:

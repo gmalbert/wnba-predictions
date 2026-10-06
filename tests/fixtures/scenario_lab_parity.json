@@ -1,0 +1,242 @@
+[
+  {
+    "expected": {
+      "mean": 17.08,
+      "over_probability": 0.4488,
+      "reason": null,
+      "sd": 8.551,
+      "status": "paper_only",
+      "under_probability": 0.5512
+    },
+    "input": {
+      "availability_probability": 0.85,
+      "line": 19.5,
+      "minutes_mean": 31,
+      "minutes_sd": 5,
+      "rate_per_minute": 0.65,
+      "rate_sd": 0.12
+    },
+    "kind": "player_prop",
+    "name": "baseline_prop",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 0.0,
+      "over_probability": 0.0,
+      "reason": null,
+      "sd": 0.0,
+      "status": "paper_only",
+      "under_probability": 1.0
+    },
+    "input": {
+      "availability_probability": 0.0,
+      "line": 12.5,
+      "minutes_mean": 28,
+      "minutes_sd": 4,
+      "rate_per_minute": 0.5,
+      "rate_sd": 0.1
+    },
+    "kind": "player_prop",
+    "name": "availability_zero",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 13.982,
+      "over_probability": 0.6501,
+      "reason": null,
+      "sd": 3.456,
+      "status": "paper_only",
+      "under_probability": 0.3499
+    },
+    "input": {
+      "availability_probability": 1.0,
+      "line": 12.5,
+      "minutes_mean": 28,
+      "minutes_sd": 4,
+      "rate_per_minute": 0.5,
+      "rate_sd": 0.1
+    },
+    "kind": "player_prop",
+    "name": "availability_one",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 8.912,
+      "over_probability": 0.2365,
+      "reason": "Unresolved availability materially affects minutes.",
+      "sd": 9.673,
+      "status": "no_bet",
+      "under_probability": 0.7635
+    },
+    "input": {
+      "availability_probability": 0.5,
+      "line": 18.0,
+      "minutes_mean": 30,
+      "minutes_sd": 4,
+      "rate_per_minute": 0.6,
+      "rate_sd": 0.15
+    },
+    "kind": "player_prop",
+    "name": "availability_questionable",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 1.524,
+      "over_probability": 0.2877,
+      "reason": null,
+      "sd": 0.943,
+      "status": "paper_only",
+      "under_probability": 0.7123
+    },
+    "input": {
+      "availability_probability": 0.95,
+      "line": 2.0,
+      "minutes_mean": 4,
+      "minutes_sd": 2,
+      "rate_per_minute": 0.4,
+      "rate_sd": 0.1
+    },
+    "kind": "player_prop",
+    "name": "very_low_minutes",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 14.187,
+      "over_probability": 0.4261,
+      "reason": "Minutes uncertainty is too wide for a prop decision.",
+      "sd": 8.647,
+      "status": "no_bet",
+      "under_probability": 0.5739
+    },
+    "input": {
+      "availability_probability": 0.95,
+      "line": 15.0,
+      "minutes_mean": 30,
+      "minutes_sd": 11,
+      "rate_per_minute": 0.5,
+      "rate_sd": 0.2
+    },
+    "kind": "player_prop",
+    "name": "high_uncertainty",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 18.243,
+      "over_probability": 0.0063,
+      "reason": null,
+      "sd": 5.712,
+      "status": "paper_only",
+      "under_probability": 0.9937
+    },
+    "input": {
+      "availability_probability": 0.95,
+      "line": 30.0,
+      "minutes_mean": 32,
+      "minutes_sd": 4,
+      "rate_per_minute": 0.6,
+      "rate_sd": 0.1
+    },
+    "kind": "player_prop",
+    "name": "high_line",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "mean": 14.252,
+      "over_probability": 0.9331,
+      "reason": null,
+      "sd": 4.8,
+      "status": "paper_only",
+      "under_probability": 0.0669
+    },
+    "input": {
+      "availability_probability": 0.95,
+      "line": 8.0,
+      "minutes_mean": 30,
+      "minutes_sd": 4,
+      "rate_per_minute": 0.5,
+      "rate_sd": 0.1
+    },
+    "kind": "player_prop",
+    "name": "low_line",
+    "tolerance": 1e-06
+  },
+  {
+    "expected": {
+      "dependence_lift": 0.06472,
+      "independent_probability": 0.17539,
+      "joint_probability": 0.24011
+    },
+    "input": {
+      "correlation": 0.25,
+      "leg_probabilities": [
+        0.58,
+        0.56,
+        0.54
+      ]
+    },
+    "kind": "parlay",
+    "name": "three_leg_positive",
+    "tolerance": 0.01
+  },
+  {
+    "expected": {
+      "dependence_lift": 0.00149,
+      "independent_probability": 0.165,
+      "joint_probability": 0.16649
+    },
+    "input": {
+      "correlation": 0.0,
+      "leg_probabilities": [
+        0.6,
+        0.55,
+        0.5
+      ]
+    },
+    "kind": "parlay",
+    "name": "zero_correlation",
+    "tolerance": 0.01
+  },
+  {
+    "expected": {
+      "dependence_lift": -0.11259,
+      "independent_probability": 0.165,
+      "joint_probability": 0.05241
+    },
+    "input": {
+      "correlation": -0.4,
+      "leg_probabilities": [
+        0.6,
+        0.55,
+        0.5
+      ]
+    },
+    "kind": "parlay",
+    "name": "negative_correlation",
+    "tolerance": 0.01
+  },
+  {
+    "expected": {
+      "dependence_lift": 0.29823,
+      "independent_probability": 0.165,
+      "joint_probability": 0.46323
+    },
+    "input": {
+      "correlation": 0.95,
+      "leg_probabilities": [
+        0.6,
+        0.55,
+        0.5
+      ]
+    },
+    "kind": "parlay",
+    "name": "near_singular_correlation",
+    "tolerance": 0.01
+  }
+]

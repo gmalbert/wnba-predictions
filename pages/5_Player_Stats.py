@@ -62,7 +62,19 @@ c4.metric("Ast/40 (L10)", f"{recent['assists_per40'].mean():.1f}" if "assists_pe
 
 st.subheader("Recent Game Log")
 show_cols = [c for c in ["game_date", "points", "rebounds", "assists", "minutes", "points_per40"] if c in player_df.columns]
-st.dataframe(player_df[show_cols].tail(15).iloc[::-1], width="stretch")
+log = player_df[show_cols].tail(15).iloc[::-1].copy()
+log["game_date"] = log["game_date"].dt.strftime("%Y-%m-%d")
+log = log.rename(
+    columns={
+        "game_date": "Game Date",
+        "points": "Points",
+        "rebounds": "Rebounds",
+        "assists": "Assists",
+        "minutes": "Minutes",
+        "points_per40": "Points Per 40",
+    }
+)
+st.dataframe(log, width="stretch")
 
 if "points" in player_df.columns and len(player_df) >= 3:
     st.subheader("Points Per Game")

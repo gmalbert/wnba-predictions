@@ -1,0 +1,3797 @@
+{
+  "generated_at": "2026-09-28T01:16:57Z",
+  "league_key": "wnba",
+  "schema_version": 1,
+  "season": 2018,
+  "seasons_available": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "teams": {
+    "11": {
+      "name": "Phoenix Mercury",
+      "rankings": {
+        "efg_pct_L10": 0.572,
+        "oreb_rate_L10": 0.218,
+        "points_L10": 91.3,
+        "tov_pct_L10": 0.131
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 98,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 91,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 41,
+        "points_L10": 92.3,
+        "rest_days": 2.0,
+        "streak": 8.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 11,
+      "trends": [
+        {
+          "game_date": "2018-05-18T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-23T00:00:00Z",
+          "points": 71.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-27T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-30T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-01T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 84.33333333333333
+        },
+        {
+          "game_date": "2018-06-05T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 83.42857142857143
+        },
+        {
+          "game_date": "2018-06-08T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 84.44444444444444
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2018-06-16T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2018-06-17T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.3
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2018-06-30T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2018-07-08T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 82.9
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2018-07-21T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2018-07-25T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 83.3
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 87.2
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 89.4
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 89.6
+        },
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 91.0
+        },
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 93.6
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 94.5
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 94.1
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 92.4
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 93.5
+        },
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 92.3
+        }
+      ]
+    },
+    "111719": {
+      "name": "Team 111719",
+      "rankings": {
+        "efg_pct_L10": 0.554,
+        "oreb_rate_L10": 0.209,
+        "points_L10": 112.0,
+        "tov_pct_L10": 0.098
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-07-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 111720,
+          "points": 112,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 111719,
+      "trends": [
+        {
+          "game_date": "2018-07-28T00:00:00Z",
+          "points": 112.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "111720": {
+      "name": "Team 111720",
+      "rankings": {
+        "efg_pct_L10": 0.527,
+        "oreb_rate_L10": 0.383,
+        "points_L10": 119.0,
+        "tov_pct_L10": 0.095
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-07-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 111719,
+          "points": 119,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 1,
+        "points_L10": null,
+        "rest_days": 3.0,
+        "streak": 0.0,
+        "win_pct_L10": null
+      },
+      "team_id": 111720,
+      "trends": [
+        {
+          "game_date": "2018-07-28T00:00:00Z",
+          "points": 119.0,
+          "points_L10": null
+        }
+      ]
+    },
+    "14": {
+      "name": "Seattle Storm",
+      "rankings": {
+        "efg_pct_L10": 0.524,
+        "oreb_rate_L10": 0.252,
+        "points_L10": 85.7,
+        "tov_pct_L10": 0.133
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-09-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2018-09-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 75,
+          "win": 1
+        },
+        {
+          "game_date": "2018-09-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 81,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-06T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 85,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 42,
+        "points_L10": 84.0,
+        "rest_days": 3.0,
+        "streak": 21.0,
+        "win_pct_L10": 0.8
+      },
+      "team_id": 14,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-23T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-25T00:00:00Z",
+          "points": 95.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-27T00:00:00Z",
+          "points": 105.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-29T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-31T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2018-06-02T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 91.83333333333333
+        },
+        {
+          "game_date": "2018-06-07T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 91.57142857142857
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 91.125
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 88.11111111111111
+        },
+        {
+          "game_date": "2018-06-15T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 88.9
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 91.0
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2018-06-28T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2018-07-06T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2018-07-08T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2018-07-14T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 87.7
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2018-08-06T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 89.0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 88.7
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2018-09-07T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2018-09-09T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2018-09-12T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 84.0
+        }
+      ]
+    },
+    "16": {
+      "name": "Washington Mystics",
+      "rankings": {
+        "efg_pct_L10": 0.493,
+        "oreb_rate_L10": 0.264,
+        "points_L10": 83.1,
+        "tov_pct_L10": 0.113
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-09-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2018-09-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2018-09-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 97,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 87,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 69,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 76,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 100,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 103,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 42,
+        "points_L10": 81.8,
+        "rest_days": 3.0,
+        "streak": 9.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 16,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-22T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-24T00:00:00Z",
+          "points": 93.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-27T00:00:00Z",
+          "points": 90.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-29T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-30T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-06-01T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 86.66666666666667
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 84.71428571428571
+        },
+        {
+          "game_date": "2018-06-07T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 82.125
+        },
+        {
+          "game_date": "2018-06-13T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 81.88888888888889
+        },
+        {
+          "game_date": "2018-06-15T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 83.6
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2018-06-28T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 85.1
+        },
+        {
+          "game_date": "2018-06-30T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2018-07-08T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2018-07-21T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 84.1
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 84.9
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2018-09-07T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2018-09-09T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2018-09-12T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 81.8
+        }
+      ]
+    },
+    "17": {
+      "name": "Las Vegas Aces",
+      "rankings": {
+        "efg_pct_L10": 0.485,
+        "oreb_rate_L10": 0.263,
+        "points_L10": 88.4,
+        "tov_pct_L10": 0.115
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 102,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 100,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 93,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 98,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 84,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 33,
+        "points_L10": 88.4,
+        "rest_days": 2.0,
+        "streak": -4.0,
+        "win_pct_L10": 0.4
+      },
+      "team_id": 17,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 65.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-22T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-27T00:00:00Z",
+          "points": 98.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-31T00:00:00Z",
+          "points": 74.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-01T00:00:00Z",
+          "points": 85.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2018-06-08T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 80.33333333333333
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 80.71428571428571
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 78.875
+        },
+        {
+          "game_date": "2018-06-13T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 81.33333333333333
+        },
+        {
+          "game_date": "2018-06-15T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2018-06-17T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 82.2
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 81.3
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2018-06-27T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 83.2
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 86.8
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 87.0
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 100.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 89.3
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 88.2
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 88.0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 102.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 88.4
+        }
+      ]
+    },
+    "18": {
+      "name": "Connecticut Sun",
+      "rankings": {
+        "efg_pct_L10": 0.562,
+        "oreb_rate_L10": 0.258,
+        "points_L10": 93.1,
+        "tov_pct_L10": 0.123
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 96,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 109,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 94,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 65,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 83,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 91,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 35,
+        "points_L10": 93.7,
+        "rest_days": 4.0,
+        "streak": 8.0,
+        "win_pct_L10": 0.9
+      },
+      "team_id": 18,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-24T00:00:00Z",
+          "points": 102.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-26T00:00:00Z",
+          "points": 86.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-01T00:00:00Z",
+          "points": 110.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 88.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-05T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 97.4
+        },
+        {
+          "game_date": "2018-06-07T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 94.0
+        },
+        {
+          "game_date": "2018-06-09T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 93.14285714285714
+        },
+        {
+          "game_date": "2018-06-13T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 92.625
+        },
+        {
+          "game_date": "2018-06-15T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 92.44444444444444
+        },
+        {
+          "game_date": "2018-06-16T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 92.4
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 89.5
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 86.3
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.4
+        },
+        {
+          "game_date": "2018-06-27T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 70.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 81.3
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 81.2
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 80.9
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 82.4
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 84.3
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 88.6
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 89.6
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 88.7
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 91.3
+        },
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 93.7
+        }
+      ]
+    },
+    "19": {
+      "name": "Chicago Sky",
+      "rankings": {
+        "efg_pct_L10": 0.529,
+        "oreb_rate_L10": 0.222,
+        "points_L10": 87.7,
+        "tov_pct_L10": 0.151
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 115,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 91,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 97,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-25T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 101,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 114,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 74,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 34,
+        "points_L10": 89.9,
+        "rest_days": 1.0,
+        "streak": -7.0,
+        "win_pct_L10": 0.6
+      },
+      "team_id": 19,
+      "trends": [
+        {
+          "game_date": "2018-05-19T00:00:00Z",
+          "points": 82.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-23T00:00:00Z",
+          "points": 63.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-25T00:00:00Z",
+          "points": 91.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-01T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2018-06-08T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 80.28571428571429
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 77.625
+        },
+        {
+          "game_date": "2018-06-17T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 78.44444444444444
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 60.0,
+          "points_L10": 77.8
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 75.6
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 75.3
+        },
+        {
+          "game_date": "2018-06-27T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 103.0,
+          "points_L10": 78.9
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 82.0
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 81.9
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 82.5
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 83.8
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "points": 114.0,
+          "points_L10": 84.5
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2018-07-25T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 83.9
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 84.6
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 84.7
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 85.7
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 86.0
+        },
+        {
+          "game_date": "2018-08-18T00:00:00Z",
+          "points": 115.0,
+          "points_L10": 86.7
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 89.9
+        }
+      ]
+    },
+    "20": {
+      "name": "Atlanta Dream",
+      "rankings": {
+        "efg_pct_L10": 0.497,
+        "oreb_rate_L10": 0.261,
+        "points_L10": 84.5,
+        "tov_pct_L10": 0.123
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 81,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 84,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 95,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 92,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 109,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 86,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 81,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 39,
+        "points_L10": 87.3,
+        "rest_days": 2.0,
+        "streak": 12.0,
+        "win_pct_L10": 0.7
+      },
+      "team_id": 20,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-23T00:00:00Z",
+          "points": 81.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-26T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-29T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 71.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-05T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 75.2
+        },
+        {
+          "game_date": "2018-06-08T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 76.33333333333333
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 77.85714285714286
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2018-06-14T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 75.11111111111111
+        },
+        {
+          "game_date": "2018-06-16T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 74.8
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 73.4
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 72.5
+        },
+        {
+          "game_date": "2018-06-27T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 73.0
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 73.4
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 73.7
+        },
+        {
+          "game_date": "2018-07-06T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 74.2
+        },
+        {
+          "game_date": "2018-07-08T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 74.1
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 75.0
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 98.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 81.8
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 83.4
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 84.8
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 85.5
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 85.3
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 85.6
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 109.0,
+          "points_L10": 86.6
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 85.0
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 95.0,
+          "points_L10": 86.2
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 87.5
+        },
+        {
+          "game_date": "2018-08-26T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 88.1
+        },
+        {
+          "game_date": "2018-08-28T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2018-08-31T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 89.1
+        },
+        {
+          "game_date": "2018-09-02T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 88.3
+        },
+        {
+          "game_date": "2018-09-04T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 87.3
+        }
+      ]
+    },
+    "3": {
+      "name": "Dallas Wings",
+      "rankings": {
+        "efg_pct_L10": 0.47,
+        "oreb_rate_L10": 0.378,
+        "points_L10": 83.1,
+        "tov_pct_L10": 0.139
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 83,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 107,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 92,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 5,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 91,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 99,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 90,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 104,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 84,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 35,
+        "points_L10": 82.3,
+        "rest_days": 2.0,
+        "streak": -4.0,
+        "win_pct_L10": 0.1
+      },
+      "team_id": 3,
+      "trends": [
+        {
+          "game_date": "2018-05-18T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 101.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-23T00:00:00Z",
+          "points": 68.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-26T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-29T00:00:00Z",
+          "points": 89.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-02T00:00:00Z",
+          "points": 94.0,
+          "points_L10": 82.8
+        },
+        {
+          "game_date": "2018-06-08T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 84.66666666666667
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 85.28571428571429
+        },
+        {
+          "game_date": "2018-06-15T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 83.625
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.88888888888889
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 82.9
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 85.2
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.7
+        },
+        {
+          "game_date": "2018-06-27T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 84.2
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 86.1
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 108.0,
+          "points_L10": 84.4
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 85.8
+        },
+        {
+          "game_date": "2018-07-08T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 85.9
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "points": 101.0,
+          "points_L10": 88.4
+        },
+        {
+          "game_date": "2018-07-12T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 90.8
+        },
+        {
+          "game_date": "2018-07-14T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 91.7
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "points": 104.0,
+          "points_L10": 90.0
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "points": 90.0,
+          "points_L10": 92.8
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 93.5
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 93.7
+        },
+        {
+          "game_date": "2018-07-31T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 94.0
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 92.3
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 91.1
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 88.8
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 87.9
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 86.9
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 86.5
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 83.7
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 85.4
+        },
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.3
+        }
+      ]
+    },
+    "5": {
+      "name": "Indiana Fever",
+      "rankings": {
+        "efg_pct_L10": 0.439,
+        "oreb_rate_L10": 0.289,
+        "points_L10": 79.0,
+        "tov_pct_L10": 0.104
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 97,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 106,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 62,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-04T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 68,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 84,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 65,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 74,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 65,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 34,
+        "points_L10": 77.1,
+        "rest_days": 1.0,
+        "streak": -23.0,
+        "win_pct_L10": 0.3
+      },
+      "team_id": 5,
+      "trends": [
+        {
+          "game_date": "2018-05-19T00:00:00Z",
+          "points": 64.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 75.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-22T00:00:00Z",
+          "points": 70.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-24T00:00:00Z",
+          "points": 84.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-26T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-02T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 74.0
+        },
+        {
+          "game_date": "2018-06-08T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 75.16666666666667
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 76.28571428571429
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 92.0,
+          "points_L10": 76.125
+        },
+        {
+          "game_date": "2018-06-14T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 77.88888888888889
+        },
+        {
+          "game_date": "2018-06-16T00:00:00Z",
+          "points": 96.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 55.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2018-06-27T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 77.9
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 74.2
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 74.0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 71.8
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "points": 65.0,
+          "points_L10": 74.5
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 74.7
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 74.7
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 73.2
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "points": 84.0,
+          "points_L10": 72.7
+        },
+        {
+          "game_date": "2018-08-04T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 72.8
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 72.5
+        },
+        {
+          "game_date": "2018-08-10T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 74.1
+        },
+        {
+          "game_date": "2018-08-11T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 75.0
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 75.0
+        },
+        {
+          "game_date": "2018-08-18T00:00:00Z",
+          "points": 106.0,
+          "points_L10": 73.0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 77.1
+        }
+      ]
+    },
+    "6": {
+      "name": "Los Angeles Sparks",
+      "rankings": {
+        "efg_pct_L10": 0.465,
+        "oreb_rate_L10": 0.257,
+        "points_L10": 75.6,
+        "tov_pct_L10": 0.113
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 75,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 86,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 16,
+          "points": 67,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 74,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 73,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 9,
+          "points": 82,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 11,
+          "points": 78,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 8,
+          "points": 79,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 71,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 93,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 76,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 99,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 3,
+          "points": 77,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 36,
+        "points_L10": 76.3,
+        "rest_days": 2.0,
+        "streak": 5.0,
+        "win_pct_L10": 0.5
+      },
+      "team_id": 6,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-22T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-24T00:00:00Z",
+          "points": 94.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-27T00:00:00Z",
+          "points": 80.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 77.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-07T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.66666666666667
+        },
+        {
+          "game_date": "2018-06-12T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 79.28571428571429
+        },
+        {
+          "game_date": "2018-06-15T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 78.375
+        },
+        {
+          "game_date": "2018-06-17T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.44444444444444
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.2
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2018-06-28T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 77.5
+        },
+        {
+          "game_date": "2018-07-10T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 76.8
+        },
+        {
+          "game_date": "2018-07-12T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2018-07-20T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 79.5
+        },
+        {
+          "game_date": "2018-07-22T00:00:00Z",
+          "points": 93.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 79.0
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 79.6
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "points": 73.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 80.5
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "points": 74.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 80.3
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 77.1
+        },
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 78.1
+        },
+        {
+          "game_date": "2018-08-23T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 76.3
+        }
+      ]
+    },
+    "8": {
+      "name": "Minnesota Lynx",
+      "rankings": {
+        "efg_pct_L10": 0.508,
+        "oreb_rate_L10": 0.261,
+        "points_L10": 76.7,
+        "tov_pct_L10": 0.163
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 88,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 79,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 88,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 19,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 75,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 57,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 9,
+          "points": 85,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-21T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 80,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 89,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 18,
+          "points": 64,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 17,
+          "points": 77,
+          "win": 0
+        }
+      ],
+      "summary": {
+        "games": 35,
+        "points_L10": 78.4,
+        "rest_days": 2.0,
+        "streak": 2.0,
+        "win_pct_L10": 0.4
+      },
+      "team_id": 8,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-23T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-25T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-27T00:00:00Z",
+          "points": 78.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-29T00:00:00Z",
+          "points": 74.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-01T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 76.4
+        },
+        {
+          "game_date": "2018-06-03T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 77.83333333333333
+        },
+        {
+          "game_date": "2018-06-07T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 76.57142857142857
+        },
+        {
+          "game_date": "2018-06-09T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2018-06-16T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 77.66666666666667
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 78.4
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 79.9
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 91.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 82.9
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 76.0,
+          "points_L10": 84.0
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 59.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 83.0,
+          "points_L10": 82.1
+        },
+        {
+          "game_date": "2018-07-07T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 81.6
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 80.4
+        },
+        {
+          "game_date": "2018-07-13T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 64.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2018-07-18T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 77.3
+        },
+        {
+          "game_date": "2018-07-21T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 77.4
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 76.3
+        },
+        {
+          "game_date": "2018-08-02T00:00:00Z",
+          "points": 57.0,
+          "points_L10": 76.3
+        },
+        {
+          "game_date": "2018-08-03T00:00:00Z",
+          "points": 75.0,
+          "points_L10": 74.4
+        },
+        {
+          "game_date": "2018-08-05T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 76.0
+        },
+        {
+          "game_date": "2018-08-07T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 74.3
+        },
+        {
+          "game_date": "2018-08-09T00:00:00Z",
+          "points": 89.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 76.7
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 76.2
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 78.6
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 88.0,
+          "points_L10": 77.6
+        },
+        {
+          "game_date": "2018-08-21T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 78.4
+        }
+      ]
+    },
+    "9": {
+      "name": "New York Liberty",
+      "rankings": {
+        "efg_pct_L10": 0.476,
+        "oreb_rate_L10": 0.234,
+        "points_L10": 75.2,
+        "tov_pct_L10": 0.169
+      },
+      "recent_games": [
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 11,
+          "points": 85,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 14,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 17,
+          "points": 72,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 6,
+          "points": 66,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 20,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 6,
+          "points": 81,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-06T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 14,
+          "points": 80,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-04T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 5,
+          "points": 55,
+          "win": 0
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 77,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 8,
+          "points": 82,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-21T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 16,
+          "points": 78,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 20,
+          "points": 68,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 3,
+          "points": 87,
+          "win": 0
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "is_home": 1,
+          "opponent_team_id": 19,
+          "points": 107,
+          "win": 1
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "is_home": 0,
+          "opponent_team_id": 18,
+          "points": 79,
+          "win": 1
+        }
+      ],
+      "summary": {
+        "games": 34,
+        "points_L10": 74.5,
+        "rest_days": 2.0,
+        "streak": -19.0,
+        "win_pct_L10": 0.0
+      },
+      "team_id": 9,
+      "trends": [
+        {
+          "game_date": "2018-05-20T00:00:00Z",
+          "points": 76.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-25T00:00:00Z",
+          "points": 72.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-05-29T00:00:00Z",
+          "points": 94.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-02T00:00:00Z",
+          "points": 87.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-05T00:00:00Z",
+          "points": 74.0,
+          "points_L10": null
+        },
+        {
+          "game_date": "2018-06-07T00:00:00Z",
+          "points": 86.0,
+          "points_L10": 80.6
+        },
+        {
+          "game_date": "2018-06-10T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 81.5
+        },
+        {
+          "game_date": "2018-06-13T00:00:00Z",
+          "points": 63.0,
+          "points_L10": 81.0
+        },
+        {
+          "game_date": "2018-06-16T00:00:00Z",
+          "points": 71.0,
+          "points_L10": 78.75
+        },
+        {
+          "game_date": "2018-06-19T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 77.88888888888889
+        },
+        {
+          "game_date": "2018-06-22T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 78.0
+        },
+        {
+          "game_date": "2018-06-24T00:00:00Z",
+          "points": 54.0,
+          "points_L10": 78.2
+        },
+        {
+          "game_date": "2018-06-26T00:00:00Z",
+          "points": 69.0,
+          "points_L10": 76.4
+        },
+        {
+          "game_date": "2018-06-28T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 73.9
+        },
+        {
+          "game_date": "2018-06-29T00:00:00Z",
+          "points": 99.0,
+          "points_L10": 72.9
+        },
+        {
+          "game_date": "2018-07-01T00:00:00Z",
+          "points": 97.0,
+          "points_L10": 75.4
+        },
+        {
+          "game_date": "2018-07-03T00:00:00Z",
+          "points": 62.0,
+          "points_L10": 76.5
+        },
+        {
+          "game_date": "2018-07-05T00:00:00Z",
+          "points": 67.0,
+          "points_L10": 74.9
+        },
+        {
+          "game_date": "2018-07-08T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 75.3
+        },
+        {
+          "game_date": "2018-07-11T00:00:00Z",
+          "points": 79.0,
+          "points_L10": 76.9
+        },
+        {
+          "game_date": "2018-07-15T00:00:00Z",
+          "points": 107.0,
+          "points_L10": 76.9
+        },
+        {
+          "game_date": "2018-07-17T00:00:00Z",
+          "points": 87.0,
+          "points_L10": 79.8
+        },
+        {
+          "game_date": "2018-07-19T00:00:00Z",
+          "points": 68.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2018-07-21T00:00:00Z",
+          "points": 78.0,
+          "points_L10": 83.0
+        },
+        {
+          "game_date": "2018-07-24T00:00:00Z",
+          "points": 82.0,
+          "points_L10": 83.1
+        },
+        {
+          "game_date": "2018-08-01T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 81.4
+        },
+        {
+          "game_date": "2018-08-04T00:00:00Z",
+          "points": 55.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2018-08-06T00:00:00Z",
+          "points": 80.0,
+          "points_L10": 78.7
+        },
+        {
+          "game_date": "2018-08-08T00:00:00Z",
+          "points": 81.0,
+          "points_L10": 80.0
+        },
+        {
+          "game_date": "2018-08-12T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 79.4
+        },
+        {
+          "game_date": "2018-08-14T00:00:00Z",
+          "points": 66.0,
+          "points_L10": 79.2
+        },
+        {
+          "game_date": "2018-08-15T00:00:00Z",
+          "points": 72.0,
+          "points_L10": 75.1
+        },
+        {
+          "game_date": "2018-08-17T00:00:00Z",
+          "points": 77.0,
+          "points_L10": 73.6
+        },
+        {
+          "game_date": "2018-08-19T00:00:00Z",
+          "points": 85.0,
+          "points_L10": 74.5
+        }
+      ]
+    }
+  }
+}

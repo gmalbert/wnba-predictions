@@ -1,0 +1,29 @@
+{
+  "name": "wnba-predictions-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "React + TypeScript port of the WNBA Predictions Streamlit app.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc -b --noEmit",
+    "parity:py": "python ../tests/build_scenario_fixtures.py && tsx tests/test_scenario_parity.ts",
+    "parity:react": "python ../scripts/test_react_parity.py"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

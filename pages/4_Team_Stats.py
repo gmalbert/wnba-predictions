@@ -58,11 +58,15 @@ cols[3].metric("Streak", f"{recent['streak'].iloc[0]:+.0f}" if "streak" in recen
 
 # ── Game log ──────────────────────────────────────────────────────────────────
 st.subheader("Game Log")
-log_cols = ["game_date", "opponent_team_id", "is_home", "points", "win"]
+log_cols = ["game_date", "is_home", "points", "win"]
 log_cols = [c for c in log_cols if c in team_df.columns]
 display = team_df[log_cols].copy()
+display["game_date"] = display["game_date"].dt.strftime("%Y-%m-%d")
 display["is_home"] = display["is_home"].map({1: "Home", 0: "Away"})
 display["win"] = display["win"].map({1: "W", 0: "L"})
+display = display.rename(
+    columns={"game_date": "Game Date", "is_home": "Is Home", "points": "Points", "win": "Win"}
+)
 st.dataframe(display.tail(15).iloc[::-1], width="stretch")
 
 # ── Rolling points chart ──────────────────────────────────────────────────────
