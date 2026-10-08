@@ -128,17 +128,17 @@
   {
     "source": "odds_api_io",
     "data_type": "odds",
-    "ok": false,
-    "last_attempt": "2026-10-08T05:59:14+00:00",
-    "last_success": "2026-10-08T00:11:31+00:00",
-    "error": "Odds-API.io request failed: 503 Server Error: Service Unavailable for url: https://api.odds-api.io/v3/odds/multi?apiKey=61c77d3da19faa6523c52ccf080cf62571e672d5aff8dd70f4c24a7e66175cbd&eventIds=75182784%2C75243944&bookmakers=DraftKings%2CBet365",
-    "records": 0
+    "ok": true,
+    "last_attempt": "2026-10-08T15:19:03+00:00",
+    "last_success": "2026-10-08T15:19:03+00:00",
+    "error": null,
+    "records": 326
   },
   {
     "source": "therundown",
     "data_type": "odds",
     "ok": false,
-    "last_attempt": "2026-10-08T05:59:14+00:00",
+    "last_attempt": "2026-10-08T15:19:03+00:00",
     "last_success": null,
     "error": "TheRundown rate limit reached; stopped without retrying.",
     "records": 0
