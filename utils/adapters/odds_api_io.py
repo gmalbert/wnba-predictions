@@ -98,7 +98,8 @@ class OddsApiIoAdapter:
         except SourceUnavailableError:
             raise
         except Exception as exc:
-            raise SourceUnavailableError(f"Odds-API.io request failed: {exc}") from exc
+            from utils.redaction import redact_error
+            raise SourceUnavailableError(f"Odds-API.io request failed: {redact_error(exc)}") from None
 
     def fetch_odds(self) -> pd.DataFrame:
         self._request_count = 0

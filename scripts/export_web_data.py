@@ -214,6 +214,22 @@ def export_predictions(output: Path) -> int:
         # can render its "no upcoming games" empty state instead of crashing.
         pass
     payload = _envelope({"games": games})
+    # Publishing the web bundle must not make old forecasts appear current.
+    # Empty successful runs have their own receipt instead of reusing August's
+    # last non-empty snapshot indefinitely.
+    receipt_path = _predictions_dir() / "latest_run.json"
+    receipt = json.loads(receipt_path.read_text(encoding="utf-8")) if receipt_path.exists() else {}
+    if path is not None and receipt.get("artifact") == path.name and receipt.get("rows") == len(games):
+        payload["generated_at"] = receipt["generated_at"]
+        payload["status"] = receipt["status"]
+    elif games:
+        stamps = [game.get("generated_at") for game in games if game.get("generated_at")]
+        if stamps:
+            payload["generated_at"] = min(stamps)
+    elif path is not None:
+        match = __import__("re").search(r"predictions_(\d{4}-\d{2}-\d{2})", path.name)
+        if match:
+            payload["generated_at"] = match.group(1) + "T00:00:00Z"
     return _json_dump(output / "predictions.json", payload)
 
 
