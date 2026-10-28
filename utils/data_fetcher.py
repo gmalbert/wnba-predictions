@@ -42,6 +42,7 @@ from utils.data_contracts import (
 from utils.league_config import get_league_config
 from utils.scenario_engine import status_probability
 from utils.source_registry import priority_for
+from utils.redaction import redact_error
 
 _ET = dt.timezone(dt.timedelta(hours=-5))  # America/New_York (EST, no DST adjustment for paths)
 
@@ -112,11 +113,13 @@ def _record_health(source: str, data_type: str, ok: bool, error: str | None = No
         "ok": ok,
         "last_attempt": stamp,
         "last_success": stamp if ok else previous.get("last_success"),
-        "error": error,
+        "error": redact_error(error),
         "records": records,
     }
     records_all = [r for r in records_all if not (r.get("source") == source and r.get("data_type") == data_type)]
     records_all.append(entry)
+    for record in records_all:
+        record["error"] = redact_error(record.get("error"))
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(records_all, indent=2), encoding="utf-8")
 

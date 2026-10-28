@@ -269,10 +269,16 @@ def predict_season_games(
 
     schedule = get_schedule(season)
     if schedule.empty:
+        raise RuntimeError("WNBA schedule is unavailable; no-games status cannot be established")
+    schedule_dates = pd.to_datetime(schedule["game_date"], errors="coerce", utc=True)
+    if schedule_dates.isna().all():
+        raise RuntimeError("WNBA schedule has no valid dates")
+    cutoff_date = pd.Timestamp(as_of).date()
+    if not (schedule_dates.dt.date >= cutoff_date).any():
         return pd.DataFrame(columns=PREDICTION_COLUMNS)
     team_stats, player_stats, feature_season, player_season = _latest_feature_data(season)
     if team_stats.empty:
-        return pd.DataFrame(columns=PREDICTION_COLUMNS)
+        raise RuntimeError("WNBA team statistics are unavailable for scheduled games")
 
     # Historical replays must only see games completed before the horizon.
     cutoff_ts = pd.to_datetime(as_of, errors="coerce", utc=True)
@@ -483,6 +489,8 @@ def predict_season_games(
             "generated_at": generated_at,
             "stage": stage,
         })
+    if not results and not upcoming.empty:
+        raise RuntimeError("Upcoming WNBA games could not be scored")
     return pd.DataFrame(results, columns=PREDICTION_COLUMNS)
 
 
@@ -496,13 +504,19 @@ def generate_and_store_predictions(
     season = season or _CFG.current_season
     odds = get_odds(snapshot_horizon=stage)
     frame = predict_season_games(season, odds_df=odds, as_of=as_of, stage=stage)
-    if frame.empty:
-        return frame
+    frame = frame.reindex(columns=PREDICTION_COLUMNS)
     date_str = pd.to_datetime(as_of, errors="coerce", utc=True).date().isoformat() if as_of else dt.date.today().isoformat()
     out = predictions_dir()
     out.mkdir(parents=True, exist_ok=True)
     frame.to_parquet(out / f"predictions_{date_str}_{stage}.parquet", index=False)
     # The latest alias keeps the Streamlit read path backwards-compatible.
     frame.to_parquet(out / f"predictions_{date_str}.parquet", index=False)
-    freeze_prediction_ledger(frame, horizon=stage, frozen_at=as_of)
+    import json
+    receipt = {"generated_at": _now(), "artifact": f"predictions_{date_str}_{stage}.parquet",
+               "rows": len(frame), "status": "ok" if not frame.empty else "no_picks"}
+    temp = out / "latest_run.json.tmp"
+    temp.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
+    temp.replace(out / "latest_run.json")
+    if not frame.empty:
+        freeze_prediction_ledger(frame, horizon=stage, frozen_at=as_of)
     return frame

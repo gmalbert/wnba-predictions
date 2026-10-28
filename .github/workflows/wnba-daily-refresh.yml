@@ -39,17 +39,20 @@ jobs:
 
       - name: Generate predictions
         run: |
-          python scripts/generate_predictions.py --stage morning
+          python scripts/daily_update.py --stage morning
           python scripts/generate_predictions.py --stage injury_report
           python scripts/generate_predictions.py --stage pre_tip
 
       - name: Publish data health
         run: python scripts/publish_data_health.py
 
+      - name: Rebuild published web artifacts
+        run: python scripts/export_web_data.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data_files/ || true
+          git add data_files/ frontend/public/data/
           git commit -m "chore: nightly WNBA data refresh" || echo "No changes to commit"
           git push
